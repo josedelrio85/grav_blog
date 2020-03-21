@@ -8,10 +8,22 @@
 composer install
 ```
 
+* Run grav install to install plugins and other stuff
+
+```bash
+php bin/grav install
+```
+
 * Install npm dependencies. You need to execute it in the folder where the `package.json` file is located.
 
 ```bash
 npm install
+```
+
+## Run PHP built-in web server
+
+```
+php -S localhost:8000 system/router.php  
 ```
 
 ## Webpack instructions
