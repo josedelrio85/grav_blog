@@ -23,12 +23,10 @@ user/data/*
 !user/data/.*
 user/plugins/*
 !user/plugins/.*
-# user/themes/*
-# !user/themes/mytheme
-# user/themes/mytheme/node_modules
+# Themes
 !user/themes/.*
 !user/themes/mytheme
-user/themes/mytheme/node_modules
+#user/themes/mytheme/node_modules
 
 user/localhost/config/security.yaml
 user/config/security.yaml
