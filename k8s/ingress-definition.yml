@@ -14,3 +14,17 @@ spec:
         backend:
           serviceName: virgin-blog-pre
           servicePort: http
+  # - host: www.ofertasvirgin.es
+  #   http:
+  #     paths:
+  #     - path: /
+  #       backend:
+  #         serviceName: virgin-blog-pre
+  #         servicePort: http
+  tls:
+    - hosts:
+      - virgin-pre.bysidecar.me
+      secretName: tls-virgin-pre-bysidecar-me
+    #- hosts:
+    #  - www.ofertasvirgin.es
+    #  secretName: tls-www-ofertasvirgin-es  # create a secret with cert for this domain
