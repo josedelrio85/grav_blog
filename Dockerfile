@@ -57,15 +57,13 @@ RUN pecl install apcu \
 
 ADD . /var/www/html
 
-RUN chown -R www-data:www-data /var/www/html
-
 WORKDIR /var/www/html
 
-RUN composer install
+RUN composer install \
+    && php bin/grav install \
+    && cd user/themes/mytheme && npm install -y
 
-RUN php bin/grav install
-
-RUN cd user/themes/mytheme && npm install -y
+RUN chown -R www-data:www-data /var/www/html
 
 USER root
 # Create cron job for Grav maintenance scripts
