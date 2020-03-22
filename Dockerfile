@@ -31,9 +31,11 @@ RUN apt-get -y install curl
 RUN curl -sL https://deb.nodesource.com/setup_10.x  | bash -
 RUN apt-get -y install nodejs
 RUN npm install
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 RUN node -v
 RUN npm -v
+RUN composer --version
 
 # set recommended PHP.ini settings
 # see https://secure.php.net/manual/en/opcache.installation.php
@@ -56,6 +58,14 @@ RUN pecl install apcu \
 ADD . /var/www/html
 
 RUN chown -R www-data:www-data /var/www/html
+
+WORKDIR /var/www/html
+
+RUN composer install
+
+RUN php bin/grav install
+
+RUN cd user/themes/mytheme && npm install -y
 
 USER root
 # Create cron job for Grav maintenance scripts
