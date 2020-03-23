@@ -61,7 +61,8 @@ WORKDIR /var/www/html
 
 RUN composer install \
     && php bin/grav install \
-    && cd user/themes/mytheme && npm install -y
+    && cd user/themes/mytheme && npm install -y \
+    && npm run build
 
 RUN chown -R www-data:www-data /var/www/html
 

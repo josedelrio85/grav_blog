@@ -17,6 +17,8 @@
         {% do assets.addCss('theme://css/custom.css', 100) %}
         {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
         {% do assets.addCss('theme://css/slidebars.min.css') %}
+        {# TODO load this if PROD environment true #}
+        {% do assets.addCss('theme://assets/main.css') %}
 
         {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
             {% do assets.addCss('theme://css/nucleus-ie10.css') %}
