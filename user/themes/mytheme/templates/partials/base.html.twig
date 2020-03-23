@@ -48,7 +48,7 @@
         {% block header %}
         <header id="header">
             <div id="logo">
-                <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>
+                <a href="{{ base_url == '' ? '/' : base_url }}"><img src="{{ url('theme://img/logo.png') }}"></a>
             </div>
             <div id="navbar">
                 {% block header_extra %}{% endblock %}

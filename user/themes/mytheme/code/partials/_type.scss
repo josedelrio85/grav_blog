@@ -1,8 +1,20 @@
+@import "../variables";
+
 //
 // Links
 //
 a {
+    color: $color-brand !important;
+
     &:hover {
+        color: $color-brand !important;
         text-decoration: none !important;
     }
+}
+
+//
+// General
+//
+h1, h2, h3, h4, h5, h6 {
+    text-align: left !important;
 }

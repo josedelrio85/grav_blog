@@ -1,0 +1,30 @@
+@import "../variables";
+
+#header {
+    background-color: $color-dar-mid;
+
+    #logo {
+        max-width: 70px;
+        width: 70px;
+
+        img {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+
+    &.scrolled {
+
+        #logo {
+            max-width: 30px;
+            width: 30px;
+        }
+    }
+
+}
+
+#navbar {
+    .panel-activation {
+        display: none !important;
+    }
+}

@@ -16,6 +16,8 @@ languages:
   include_default_lang: true
   pages_fallback_only: false
   translations: true
+  supported:
+    - es
   translations_fallback: true
   session_store_active: false
   http_accept_language: false
