@@ -1,9 +1,0 @@
-enabled: true
-streams:
- schemes:
-   theme:
-     type: ReadOnlyStream
-     prefixes:
-       '':
-         - user/themes/mytheme
-         - user/themes/antimatter
