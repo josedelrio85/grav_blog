@@ -5,8 +5,23 @@ body {
     background-image: url('theme://images/logo.png');
 }
 
+html,
+body {
+    height: 100% !important;
+}
 
+#body {
+    height: 100% !important;
+    background-repeat: repeat !important;
+    background-size: 25px !important;
+    background-color: transparent !important;
+}
 
+#sb-site {
+    background-repeat: repeat !important;
+    background-size: 25px !important;
+    background-image: url('http://localhost:8000/user/themes/mytheme/img/bg-main.png') !important;
+}
 
 //
 // Blog grid

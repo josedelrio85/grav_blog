@@ -18,3 +18,12 @@ a {
 h1, h2, h3, h4, h5, h6 {
     text-align: left !important;
 }
+
+//
+// Blog content
+//
+.blog-content-list {
+    .p-name {
+        font-weight: 600;
+    }
+}
