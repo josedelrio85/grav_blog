@@ -42,12 +42,20 @@
 
 {% endblock head %}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+
+{% if page.header.has_background == true %}
+    <body id="top" class="{{ page.header.body_classes }}" style="background-image: url('{{ url('theme://img/bg-main.png') }}');">
+{% else %}
+    <body id="top" class="{{ page.header.body_classes }}">
+{% endif %}
+
+{# <body id="top" class="{{ page.header.body_classes }}"> #}
+
     <div id="sb-site">
         {% block header %}
         <header id="header">
             <div id="logo">
-                <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>
+                <a href="{{ base_url == '' ? '/' : base_url }}"><img src="{{ url('theme://img/logo.png') }}"></a>
             </div>
             <div id="navbar">
                 {% block header_extra %}{% endblock %}
@@ -72,10 +80,7 @@
 
         {% block footer %}
         <footer id="footer">
-            <div class="totop">
-                <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>
-            </div>
-            <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>
+            <p>&copy; Virgin 2020</p>
         </footer>
         {% endblock %}
     </div>

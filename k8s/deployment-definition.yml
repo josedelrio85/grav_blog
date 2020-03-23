@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: bysidecar-pre
+  name: virgin-blog-pre
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: virgin-blog-pre
+  template:
+    metadata:
+      labels:
+        app: virgin-blog-pre
+    spec:
+      containers:
+      - name: virgin-blog
+        image: 952729869933.dkr.ecr.eu-west-1.amazonaws.com/virgin_blog
+        ports:
+          - containerPort: 80
+      # - name: virgin-web
+      #   image: 952729869933.dkr.ecr.eu-west-1.amazonaws.com/virgin_web
+      #   ports:
+      #     - containerPort: 80

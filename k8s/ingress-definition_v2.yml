@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  namespace: bysidecar-pre
+  name: virgin-pre
+  annotations:
+    ingress.kubernetes.io/enable-cors: "true"
+spec:
+  rules:
+  - host: virgin-pre.bysidecar.me
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: virgin-web-pre
+          servicePort: http
+      - path: /blog
+        backend:
+          serviceName: virgin-blog-pre
+          servicePort: http
