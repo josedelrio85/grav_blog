@@ -1,0 +1,15 @@
+//
+// Blog item
+//
+.blog-content-item {
+    max-width: 960px;
+    margin: 1rem auto;
+    
+    #sidebar {
+        display: none;
+    }
+    
+    .list-blog-header {
+        display: none;
+    }
+}

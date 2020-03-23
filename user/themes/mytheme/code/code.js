@@ -1,8 +1,6 @@
 import styles from './styles.scss'
 
 document.addEventListener('DOMContentLoaded', (e) => {
-  // const c2c = new landcom.landingCommander();
-  // console.log(c2c);
 
   // const forms = document.forms;
   // for(let i=0; i < forms.length; i++){
