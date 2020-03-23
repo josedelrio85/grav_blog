@@ -27,7 +27,6 @@ user/plugins/*
 !user/themes/.*
 !user/themes/mytheme
 #user/themes/mytheme/node_modules
-
 user/localhost/config/security.yaml
 user/config/security.yaml
 

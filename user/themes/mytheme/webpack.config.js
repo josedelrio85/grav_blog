@@ -75,7 +75,7 @@ module.exports = (env, argv) => {
       new webpack.ProvidePlugin({
         $: 'jquery',
         jQuery: 'jquery',
-        landcom: path.resolve(__dirname, './node_modules/@bysidecar/landing_commander/dist/main.js'),
+        // landcom: path.resolve(__dirname, './node_modules/@bysidecar/landing_commander/dist/main.js'),
       }),
       // Extract imported CSS into own file
       new MiniCssExtractPlugin({
