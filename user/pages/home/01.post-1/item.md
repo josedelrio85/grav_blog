@@ -6,7 +6,13 @@ title: Virgin Mobile - el nuevo servicio de fibra y móvil en España
 
 La oferta de servicios de fibra óptica y móvil en España es amplia y variada. Pero las opciones se ampliarán próximamente con la llegada de Virgin Mobile España, una nueva ramificación del proveedor británico de telefonía (que a su vez pertenece al holding Virgin Group) que llegará a nuestro país con la intención de posicionarse como uno de los principales operadores en el mercado.
 
-<span style="color:red">-Tabla de contenido-</span>
+<div class="table-gen"></div>
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 
 1.	¿Quién es Virgin Mobile?
 2.	Virgin Mobile y España: una relación que comenzará en 2020
@@ -14,11 +20,15 @@ La oferta de servicios de fibra óptica y móvil en España es amplia y variada.
 4.	¿En qué territorios estará disponible Virgin Mobile?
 5.	¿Tendrá Virgin Mobile paquetes de fibra, móvil y TV?
 
+<div class="mb-5"></div>
+
 ## ¿Quién es Virgin Mobile?
 
 Virgin Mobile fue el primer OMV (operador móvil virtual) del mundo. En 1999 se cerró el acuerdo entre One2One (posteriormente T-Mobile) y Virgin Group para la prestación de servicios de telefonía móvil del segundo, bajo el nombre de Virgin Mobile, en UK.
 
 A partir de aquí, la marca de telecomunicaciones se expandió más allá de territorio británico; Estados Unidos, Australia o gran parte de los países latinoamericanos ya tienen disponibles las tarifas y ofertas de fibra óptica y móvil del operador fundado por la multinacional Virgin Group, propiedad de Richard Branson.
+
+<div class="mb-5"></div>
 
 ## Virgin Mobile y España: una relación que comenzará en 2020
 
@@ -28,9 +38,15 @@ El fondo de capital riesgo Zegona ha sido en parte el responsable de este acuerd
 
 No es la primera vez que la empresa británica intenta introducirse en España; en el año 2015 el acercamiento con el operador Yoigo estuvo a punto de llegar a buen puerto, pero la noticia, que corrió como la pólvora entre los distintos medios de comunicación españoles, se quedó simplemente en anécdota.
 
-<span style="color:red">-Cuadro de texto destacado-</span>
+<div class="mb-5"></div>
+
+<span class="featured-text">-Cuadro de texto destacado-</span>
+
+<div class="mb-5"></div>
 
 Si todo transcurre según lo acordado Abril de 2020 será la fecha donde Virgin Mobile esté operativo y disponible en toda España. 
+
+<div class="mb-5"></div>
 
 ## ¿Qué cobertura de fibra y móvil utilizará Virgin Mobile?
 
@@ -40,18 +56,25 @@ Por un lado, la cobertura de fibra óptica mantendría en Euskadi, Galicia y Ast
 
 En cuanto a la cobertura de móvil, Virgin colaborará con Orange en la totalidad del territorio español. En este campo se expande el acuerdo del que se benefician Euskaltel y R (Telecable utiliza actualmente cobertura Movistar), con el uso de sus infraestructuras, instaladas en el 100% de las regiones españolas.
 
+<div class="mb-5"></div>
+
 ## ¿En qué territorios estará disponible Virgin Mobile?
 
 ¿Estará disponible en mi ciudad o provincia? Esto se corresponde siempre a una de las mayores dudas de los usuarios con respecto a la aparición de nuevos operadores. Con Virgin Mobile la respuesta es muy sencilla: si. 
 
 Todas las regiones de España, independientemente de su localización, podrán disfrutar de todos los servicios disponibles. Gracias a los acuerdos con Euskaltel (y sus filiales) y Orange, sea cual sea tu provincia, podrás contratar tanto fibra como móvil o TV online con Virgin Mobile, a excepción de aquellas donde prevalezca el operador regional.
 
-<span style="color:red">-Mapa con la disponibilidad de Virgin en España, diferenciando de las comunidades con operadores regionales-</span>
+<div class="post-image"></div>
+![my image](img/map.png)
+
+<div class="mb-5"></div>
 
 ## ¿Tendrá Virgin Mobile paquetes de fibra, TV y móvil?
 
 Al igual que el resto de las operadoras se prevé que Virgin Mobile ofrezca a sus clientes una gran variedad de paquetes de fibra, TV y móvil, con el fin de que cada usuario pueda elegir lo que más se adapte a sus necesidades en cada momento.
 
 Por ahora Virgin Mobile no ha hecho pública su política de tarifas, cosa que se espera estén disponibles una vez el servicio esté activo, en Marzo o Abril de 2020, pero no cabe duda que contará con un amplio abanico de posibilidades.
+
+<div class="mb-5"></div>
 
 <span style="color:red">-Crear un enlace interno a otro post más específico de los posibles paquetes disponibles (aunque ahora mismo no tengamos datos exactos ni confirmados)</span>
