@@ -55,12 +55,12 @@
         {% elseif truncate and page.summary != page.content %}
             <div class="p-summary e-content">
                 {{ page.summary }}
-                <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
+                <span><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></span>
             </div>
         {% elseif truncate %}
             <div class="p-summary e-content">
                 {{ page.content }}
-                <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
+                <span><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></span>
             </div>
         {% else %}
             <div class="e-content">
@@ -78,11 +78,11 @@
 
             <p class="prev-next">
                 {% if not page.isFirst %}
-                    <a class="button" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> {{ 'BLOG.ITEM.NEXT_POST'|t }}</a>
+                    <a class="button" href="{{ page.nextSibling.url }}">{{ 'BLOG.ITEM.NEXT_POST'|t }} <i class="fa fa-chevron-right"></i></a>
                 {% endif %}
 
                 {% if not page.isLast %}
-                    <a class="button" href="{{ page.prevSibling.url }}">{{ 'BLOG.ITEM.PREV_POST'|t }} <i class="fa fa-chevron-right"></i></a>
+                    <a class="button" href="{{ page.prevSibling.url }}"><i class="fa fa-chevron-left"></i> {{ 'BLOG.ITEM.PREV_POST'|t }}</a>
                 {% endif %}
             </p>
         {% endif %}
