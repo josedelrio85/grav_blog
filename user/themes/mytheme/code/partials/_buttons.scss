@@ -6,6 +6,7 @@
     color: #ffffff !important;
     border: 1px solid #E10A0A;
     border-radius: 8px;
+    transition: all ease-out .2s;
     
     &:hover {
         background: darken(#E10A0A, 10);

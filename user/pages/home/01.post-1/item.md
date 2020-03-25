@@ -1,5 +1,14 @@
 ---
 title: Virgin Mobile - el nuevo servicio de fibra y móvil en España
+content:
+    items:
+        - @self.siblings
+    limit: 5
+    order:
+        by: date
+        dir: desc
+    pagination: false
+has_related: true
 ---
 
 # Virgin Mobile - el nuevo servicio de fibra y móvil en España
@@ -76,5 +85,3 @@ Al igual que el resto de las operadoras se prevé que Virgin Mobile ofrezca a su
 Por ahora Virgin Mobile no ha hecho pública su política de tarifas, cosa que se espera estén disponibles una vez el servicio esté activo, en Marzo o Abril de 2020, pero no cabe duda que contará con un amplio abanico de posibilidades.
 
 <div class="mb-5"></div>
-
-<span style="color:red">-Crear un enlace interno a otro post más específico de los posibles paquetes disponibles (aunque ahora mismo no tengamos datos exactos ni confirmados)</span>

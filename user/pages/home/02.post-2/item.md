@@ -1,5 +1,14 @@
 ---
 title: Virgin Mobile España - todo lo que tienes que saber sobre su oferta (fibra, móvil y TV)
+content:
+    items:
+        - @self.siblings
+    limit: 5
+    order:
+        by: date
+        dir: desc
+    pagination: false
+has_related: true
 ---
 
 ## ¿Qué tarifas de Internet (fibra óptica y ADSL) tendrá disponibles Virgin Mobile España?
@@ -51,3 +60,5 @@ Virgin Mobile posee un servicio de gran calidad de televisión en streaming en e
 ¿Y qué hay del fútbol? Pues si tenemos en cuenta que es sin ninguna duda el argumento estrella de los operadores para realizar portabilidades (con la consiguiente lucha por conseguir sus derechos), y que ni Euskaltel ni R ni Telecable se lo ofrecen a sus clientes, parece complicado que Virgin Mobile lo contemple en su oferta inicial.
 
 Habrá que esperar hasta el próximo mes de Abril de 2020 para averiguar cual es la información exacta en relación a la oferta televisiva de Virgin Mobile
+
+<div class="mb-5"></div>
