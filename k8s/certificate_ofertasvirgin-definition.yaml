@@ -1,0 +1,19 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: www-ofertasvirgin-es
+  namespace: bysidecar
+spec:
+  secretName: tls-www-ofertasvirgin-es
+  issuerRef:
+    name: letsencrypt
+    kind: ClusterIssuer
+  commonName: www.ofertasvirgin.es
+  dnsNames:
+  - www.ofertasvirgin.es
+  acme:
+    config:
+    - dns01:
+        provider: aws-route53
+      domains:
+      - www.ofertasvirgin.es
