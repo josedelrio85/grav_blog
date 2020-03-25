@@ -46,3 +46,5 @@ tests/_support/_generated/*
 tests/cache/*
 tests/error.log
 system/templates/testing/*
+
+*.txt
