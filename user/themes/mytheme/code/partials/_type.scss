@@ -12,11 +12,28 @@ a {
     }
 }
 
+.links-list {
+    & + ul {
+        list-style-type: none;
+        padding-inline-start: 0;
+        padding-left: 0;
+        
+        a {
+            display: inline-block;
+            background: $color-light;
+            padding: .75rem;
+            box-shadow: $box-shadow-gen;
+            color: $color-dark !important;
+        }
+    }
+}
+
 //
 // General
 //
 h1, h2, h3, h4, h5, h6 {
     text-align: left !important;
+    margin-bottom: 1rem !important;
 }
 
 //

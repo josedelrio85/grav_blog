@@ -1,0 +1,11 @@
+state: enabled
+email: innovacion@bysidecar.com
+fullname: Admin
+title: Admin
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$ayCcW26d9mrtWicvayNHyetofK7RBuiI62NUFHo34mzSzXPJF3tLS

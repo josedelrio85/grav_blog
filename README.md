@@ -31,7 +31,7 @@ php -S localhost:8000 system/router.php
 ## Execute webpack
 
   ```bash
-  npm run dev | build
+  cd user/themes/mytheme && npm run dev | build
   ```
 
 ## Add landing_commader
