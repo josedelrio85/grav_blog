@@ -136,10 +136,10 @@
         }
         
         .related-post-container-inner {
-            background: #ffffff;
+            background: $color-light;
             padding: 1.3rem;
-            border: 3px solid #121212;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            border: $border-gen;
+            box-shadow: $box-shadow-gen;
             transition: all linear .2s;
             height: 100%;
             display: flex;

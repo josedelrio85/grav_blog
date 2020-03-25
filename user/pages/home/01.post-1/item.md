@@ -22,16 +22,19 @@ La oferta de servicios de fibra óptica y móvil en España es amplia y variada.
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+<div class="mb-5"></div>
 
-1.	¿Quién es Virgin Mobile?
-2.	Virgin Mobile y España: una relación que comenzará en 2020
-3.	¿Qué cobertura de fibra y móvil utilizará Virgin Mobile?
-4.	¿En qué territorios estará disponible Virgin Mobile?
-5.	¿Tendrá Virgin Mobile paquetes de fibra, móvil y TV?
+<div class="links-list"></div>
+
+* ######  <span class="magnet-link">[¿Quién es Virgin Mobile?](#quien)</span>
+* ######  <span class="magnet-link">[Virgin Mobile y España: una relación que comenzará en 2020](#relacion)</span>
+* ######  <span class="magnet-link">[¿Qué cobertura de fibra y móvil utilizará Virgin Mobile?](#cobertura)</span>
+* ######  <span class="magnet-link">[¿En qué territorios estará disponible Virgin Mobile?](#territorios)</span>
+* ######  <span class="magnet-link">[¿Tendrá Virgin Mobile paquetes de fibra, móvil y TV?](#paquetes)</span>
 
 <div class="mb-5"></div>
 
-## ¿Quién es Virgin Mobile?
+## <span id="quien">¿Quién es Virgin Mobile?<span>
 
 Virgin Mobile fue el primer OMV (operador móvil virtual) del mundo. En 1999 se cerró el acuerdo entre One2One (posteriormente T-Mobile) y Virgin Group para la prestación de servicios de telefonía móvil del segundo, bajo el nombre de Virgin Mobile, en UK.
 
@@ -39,7 +42,7 @@ A partir de aquí, la marca de telecomunicaciones se expandió más allá de ter
 
 <div class="mb-5"></div>
 
-## Virgin Mobile y España: una relación que comenzará en 2020
+## <span id="relacion">Virgin Mobile y España: una relación que comenzará en 2020</span>
 
 La llegada de Virgin Mobile a España se hará realidad en la primera mitad del año 2020. El acuerdo del gigante anglosajón con la compañía Euskaltel es el desencadenante del nacimiento de una nueva opción de servicios de fibra y móvil dentro del territorio nacional. 
 
@@ -57,7 +60,7 @@ Si todo transcurre según lo acordado Abril de 2020 será la fecha donde Virgin 
 
 <div class="mb-5"></div>
 
-## ¿Qué cobertura de fibra y móvil utilizará Virgin Mobile?
+## <span id="cobertura">¿Qué cobertura de fibra y móvil utilizará Virgin Mobile?</span>
 
 Al venir de la mano de Euskaltel, con casi toda seguridad la cobertura de fibra y móvil de Virgin Mobile tenga características similares a la del grupo vasco, al igual que las de sus filiales: R en Galicia y Telecable en Asturias. 
 
@@ -67,7 +70,7 @@ En cuanto a la cobertura de móvil, Virgin colaborará con Orange en la totalida
 
 <div class="mb-5"></div>
 
-## ¿En qué territorios estará disponible Virgin Mobile?
+## <span id="territorios">¿En qué territorios estará disponible Virgin Mobile?</span>
 
 ¿Estará disponible en mi ciudad o provincia? Esto se corresponde siempre a una de las mayores dudas de los usuarios con respecto a la aparición de nuevos operadores. Con Virgin Mobile la respuesta es muy sencilla: si. 
 
@@ -78,7 +81,7 @@ Todas las regiones de España, independientemente de su localización, podrán d
 
 <div class="mb-5"></div>
 
-## ¿Tendrá Virgin Mobile paquetes de fibra, TV y móvil?
+## <span id="paquetes">¿Tendrá Virgin Mobile paquetes de fibra, TV y móvil?</span>
 
 Al igual que el resto de las operadoras se prevé que Virgin Mobile ofrezca a sus clientes una gran variedad de paquetes de fibra, TV y móvil, con el fin de que cada usuario pueda elegir lo que más se adapte a sus necesidades en cada momento.
 

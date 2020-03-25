@@ -12,6 +12,22 @@ a {
     }
 }
 
+.links-list {
+    & + ul {
+        list-style-type: none;
+        padding-inline-start: 0;
+        padding-left: 0;
+        
+        a {
+            display: inline-block;
+            background: $color-light;
+            padding: .75rem;
+            box-shadow: $box-shadow-gen;
+            color: $color-dark !important;
+        }
+    }
+}
+
 //
 // General
 //
