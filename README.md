@@ -26,6 +26,12 @@ npm install
 php -S localhost:8000 system/router.php  
 ```
 
+## Add a new user
+
+```
+php -f bin/plugin login newuser
+```
+
 ## Webpack instructions
 
 ## Execute webpack
