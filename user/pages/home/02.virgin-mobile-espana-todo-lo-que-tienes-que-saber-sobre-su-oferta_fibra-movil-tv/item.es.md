@@ -9,6 +9,8 @@ content:
         dir: desc
     pagination: false
 has_related: true
+metadata:
+    robots: 'noindex, nofollow'
 ---
 
 # Virgin Mobile España: todo lo que tienes que saber sobre su oferta (fibra, móvil y TV)

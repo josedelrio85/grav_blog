@@ -11,6 +11,8 @@ content:
     url_taxonomy_filters: true
 has_background: true
 background: bg-main.png
+metadata:
+    robots: 'noindex, nofollow'
 ---
 
 # Bienvenidos al blog 

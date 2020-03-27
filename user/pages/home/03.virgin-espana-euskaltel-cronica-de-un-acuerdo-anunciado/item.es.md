@@ -9,6 +9,8 @@ content:
         dir: desc
     pagination: false
 has_related: false
+metadata:
+    robots: 'noindex, nofollow'
 ---
 
 # Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado

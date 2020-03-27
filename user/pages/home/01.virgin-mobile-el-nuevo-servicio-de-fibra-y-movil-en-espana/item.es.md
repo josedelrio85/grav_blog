@@ -9,6 +9,8 @@ content:
         dir: desc
     pagination: false
 has_related: true
+metadata:
+    robots: 'noindex, nofollow'
 ---
 # Virgin Mobile: el nuevo servicio de fibra y móvil en España
 
