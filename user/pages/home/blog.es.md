@@ -15,6 +15,6 @@ metadata:
     robots: 'noindex, nofollow'
 ---
 
-# Bienvenidos al blog 
+# Blog Ofertas Virgin
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non metus interdum, iaculis nisl eu, suscipit lectus.
+Todas las noticias y novedades relacionadas con Virgin Mobile España
