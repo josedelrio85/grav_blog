@@ -1,9 +1,11 @@
 ---
 title: Virgin Mobile - el nuevo servicio de fibra y móvil en España
 excerpt: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+=======
+title: 'Virgin Mobile: el nuevo servicio de fibra y móvil en España'
 content:
     items:
-        - @self.siblings
+        - '@self.siblings'
     limit: 5
     order:
         by: date
@@ -13,6 +15,7 @@ has_related: true
 metadata:
     robots: 'noindex, nofollow'
 ---
+
 # Virgin Mobile: el nuevo servicio de fibra y móvil en España
 
 <div class="mb-5"></div>
@@ -39,7 +42,7 @@ A partir de aquí, la marca de telecomunicaciones se expandió más allá de ter
 
 ## <span id="relacion">Virgin Mobile y España: una relación que comenzará en 2020</span>
 
-La llegada de Virgin Mobile a España se hará realidad en la primera mitad del año 2020. El acuerdo del gigante anglosajón con la compañía Euskaltel es el desencadenante del nacimiento de una nueva opción de servicios de fibra y móvil dentro del territorio nacional. 
+La llegada de Virgin Mobile a España se hará realidad en la primera mitad del año 2020. [El acuerdo del gigante anglosajón con la compañía Euskaltel](https://virgin-pre.bysidecar.me/es/home/virgin-espana-euskaltel-cronica-de-un-acuerdo-anunciado) es el desencadenante del nacimiento de una nueva opción de servicios de fibra y móvil dentro del territorio nacional. 
 
 El fondo de capital riesgo Zegona ha sido en parte el responsable de este acuerdo. Su OPA amistosa, con una inversión de casi 200 millones de euros, duplicará sus acciones en la empresa alcanzando casi un 30% del total. El crecimiento de Euskaltel ha sido el detonante para que Virgin Mobile haya elegido al operador vasco para acceder a nuestro país.
 

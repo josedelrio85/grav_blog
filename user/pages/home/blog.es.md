@@ -16,6 +16,6 @@ has_background: true
 background: bg-main.png
 ---
 
-# Bienvenidos al blog hola
+# Blog Ofertas Virgin
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non metus interdum, iaculis nisl eu, suscipit lectus.
+Todas las noticias y novedades relacionadas con Virgin Mobile España

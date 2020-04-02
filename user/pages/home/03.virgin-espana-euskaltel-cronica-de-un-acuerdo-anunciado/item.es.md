@@ -1,9 +1,11 @@
 ---
 title: 'Virgin España - Euskaltel: crónica de un acuerdo anunciado'
 excerpt: It is a long established fact that a reader will be distracted by the readable content.
+=======
+title: 'Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado'
 content:
     items:
-        - @self.siblings
+        - '@self.siblings'
     limit: 5
     order:
         by: date
@@ -44,7 +46,7 @@ La marca Virgin buscará llegar al 85% del mercado español que todavía no ten�
     
 ## <span id="tarifas">¿Cuándo se conocerán las tarifas de Virgin en España?</span>
 
-El pasado 10 de Marzo fue la fecha elegida por los máximos responsables de las operadoras para hacer públicas su nuevo plan de negocio con vigencia hasta 2025. Las tarifas todavía no se han dado a conocer, pero sin duda se puede afirmar que, teniendo en cuenta las declaraciones Xabier Iturbe (presidente de Euskaltel) y José Miguel García, con ellas intentarán situarse como una alternativa de peso a las actuales ofertas disponibles propuestas por Vodafone o Movistar.
+El pasado 10 de Marzo fue la fecha elegida por los máximos responsables de las operadoras para hacer públicas [su nuevo plan de negocio con vigencia hasta 2025](https://virgin-pre.bysidecar.me/es/home/virgin-mobile-el-plan-de-negocio-2020-2025-de-euskaltel). Las tarifas todavía no se han dado a conocer, pero sin duda se puede afirmar que, teniendo en cuenta las declaraciones Xabier Iturbe (presidente de Euskaltel) y José Miguel García, con ellas intentarán situarse como una alternativa de peso a las actuales ofertas disponibles propuestas por Vodafone o Movistar.
 
 La oferta de Virgin buscará, a priori, entrar de manera ágil al mercado con unos precios accesibles, diferenciándose de esta manera de la línea seguida por la operadora en los últimos tiempos. 
 

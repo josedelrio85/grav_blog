@@ -1,7 +1,13 @@
 state: enabled
 email: alejandrocarbia@bysidecar.com
-groups: 
+groups:
   - editors
 fullname: 'Alejandro Carbia'
 title: SEO
 hashed_password: $2y$10$VWGNPpY/NRLnTGzFPscJF.XaWSRZpqyVsYZm0I39hHJEVJRVnl1mG
+password: null
+language: es
+twofa_enabled: false
+twofa_secret: TMGQTCVKBGRZSJTQEIWW5FZLTBTGUZXS
+avatar: {  }
+info: null

@@ -62,6 +62,7 @@ WORKDIR /var/www/html
 RUN composer install \
     && php bin/grav install \
     && php bin/gpm install admin \
+    && php bin/gpm install tinyseo \
     && cd user/themes/mytheme && npm install -y \
     && npm run build
 
