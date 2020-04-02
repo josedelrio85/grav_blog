@@ -17,11 +17,11 @@ profiles:
     exclude_paths: null
     exclude_files: .git
     schedule: true
-    schedule_at: '* 3 * * *'
+    schedule_at: '0 3 * * *'
   -
     name: 'Accounts Backup'
     root: 'account://'
     exclude_paths: null
     exclude_files: .git
     schedule: true
-    schedule_at: '* 3 * * *'
+    schedule_at: '2 3 * * *'
