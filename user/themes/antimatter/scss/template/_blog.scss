@@ -81,9 +81,12 @@
 
 // Bigger first para
 .blog-content-item {
+    display: none;
+
     .list-blog-padding > p:nth-child(2) {
         font-size: $core-font-size + 0.2rem;
     }
+
 }
 
 // Tags

@@ -1,5 +1,6 @@
 ---
 title: Virgin Mobile España - todo lo que tienes que saber sobre su oferta (fibra, móvil y TV)
+excerpt: It is a long established fact that a reader will be distracted by the readable content.
 content:
     items:
         - @self.siblings

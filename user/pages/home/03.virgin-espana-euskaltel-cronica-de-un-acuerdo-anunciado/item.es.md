@@ -1,5 +1,6 @@
 ---
 title: 'Virgin España - Euskaltel: crónica de un acuerdo anunciado'
+excerpt: It is a long established fact that a reader will be distracted by the readable content.
 content:
     items:
         - @self.siblings

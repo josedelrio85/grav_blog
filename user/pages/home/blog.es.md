@@ -1,5 +1,8 @@
 ---
 title: Blog
+media_order: 'hero-test.jpg,hero-test-2.jpg'
+metadata:
+    robots: 'noindex, nofollow'
 content:
     items:
         - '@self.children'
@@ -11,10 +14,8 @@ content:
     url_taxonomy_filters: true
 has_background: true
 background: bg-main.png
-metadata:
-    robots: 'noindex, nofollow'
 ---
 
-# Bienvenidos al blog 
+# Bienvenidos al blog hola
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non metus interdum, iaculis nisl eu, suscipit lectus.
