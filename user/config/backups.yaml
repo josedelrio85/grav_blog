@@ -1,0 +1,27 @@
+purge:
+  trigger: space
+  max_backups_count: 10
+  max_backups_space: 1
+  max_backups_time: 15
+profiles:
+  -
+    name: 'Default Site Backup'
+    root: /
+    exclude_paths: "/backup\r\n/cache\r\n/images\r\n/logs\r\n/tmp"
+    exclude_files: ".DS_Store\r\n.git\r\n.svn\r\n.hg\r\n.idea\r\n.vscode\r\nnode_modules"
+    schedule: false
+    schedule_at: '0 3 * * *'
+  -
+    name: 'Pages Backup'
+    root: 'page://'
+    exclude_paths: null
+    exclude_files: .git
+    schedule: true
+    schedule_at: '* 3 * * *'
+  -
+    name: 'Accounts Backup'
+    root: 'account://'
+    exclude_paths: null
+    exclude_files: .git
+    schedule: true
+    schedule_at: '* 3 * * *'

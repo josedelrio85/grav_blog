@@ -1,0 +1,15 @@
+enabled: true
+meta_robots:
+  index: true
+  follow: true
+  noindex: false
+  nofollow: false
+  noimageindex: false
+description_length: 200
+truncate_break: world
+twitter_card_type: summary_large_image
+backup_image: null
+site_title: Virgin
+twitterid: null
+facebookid: null
+images: {  }
