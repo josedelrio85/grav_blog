@@ -14,6 +14,7 @@ content:
     url_taxonomy_filters: true
 has_background: true
 background: bg-main.png
+body_classes: "hero-page"
 ---
 
 # Blog Ofertas Virgin

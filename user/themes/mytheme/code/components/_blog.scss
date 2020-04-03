@@ -1,7 +1,7 @@
 @import "../variables";
 
 .blog-header {
-    min-height: 300px;
+    min-height: 350px;
     margin-bottom: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -39,6 +39,10 @@
 
     .list-blog-header {
         margin-bottom: 1.5rem;
+
+        img  {
+            display: none;
+        }
     }
 
     .p-summary {
@@ -159,6 +163,8 @@
 }
 
 .blog-content-item {
+    margin: 3rem auto !important;
+
     .blog-item-reading {
         display: none !important;
     }

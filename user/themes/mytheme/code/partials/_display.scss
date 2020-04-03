@@ -15,9 +15,9 @@ body {
     background-repeat: repeat !important;
     background-size: 25px !important;
     background-color: transparent !important;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 80px;
+    // padding-left: 0;
+    // padding-right: 0;
+    // padding-top: 80px;
 }
 
 #sb-site {
@@ -42,5 +42,16 @@ body {
         &.block.size-1-3.pure-u-1-3 {
             display: none;
         }
+    }
+}
+
+//
+// Hero page
+//
+.hero-page {
+    #body {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
     }
 }
