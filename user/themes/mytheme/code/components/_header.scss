@@ -1,7 +1,9 @@
 @import "../variables";
 
 #header {
-    background-color: $color-dark-mid;
+    // background-color: $color-dark-mid;
+    background-color: transparent;
+    box-shadow: none;
 
     #logo {
         max-width: 70px;

@@ -12,6 +12,7 @@ content:
 has_related: false
 metadata:
     robots: 'noindex, nofollow'
+body_classes: "hero-page"
 ---
 
 # Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado

@@ -1,6 +1,9 @@
 ---
-title: Virgin Mobile - el nuevo servicio de fibra y móvil en España
-excerpt: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+title: 'Virgin Mobile - el nuevo servicio de fibra y móvil en España'
+media_order: hero-test-2.jpg
+metadata:
+    robots: 'noindex, nofollow'
+excerpt: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.'
 content:
     items:
         - '@self.siblings'
@@ -10,8 +13,7 @@ content:
         dir: desc
     pagination: false
 has_related: true
-metadata:
-    robots: 'noindex, nofollow'
+body_classes: "hero-page"
 ---
 
 # Virgin Mobile: el nuevo servicio de fibra y móvil en España
