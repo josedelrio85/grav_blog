@@ -1,9 +1,12 @@
 ---
-title: 'Virgin Mobile - el nuevo servicio de fibra y móvil en España'
+title: 'Virgin Mobile: el nuevo servicio de fibra y móvil en España'
 media_order: hero-test-2.jpg
 metadata:
     robots: 'noindex, nofollow'
-excerpt: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.'
+body_classes: hero-page
+override_default_title: 'Virgin Mobile: el nuevo servicio de fibra y móvil en España'
+override_default_desc: 'La llegada del operador británico a nuestro país en 2020 es una gran noticia para el sector telefónico. ¿Quieres conocer la propuesta de Virgin Mobile o en qué territorios estará disponible? Descubre más aquí.'
+excerpt: 'La oferta de servicios de fibra óptica y móvil en España es amplia y variada. Pero las opciones se incrementarán próximamente con la llegada de Virgin Mobile España…'
 content:
     items:
         - '@self.siblings'
@@ -13,7 +16,6 @@ content:
         dir: desc
     pagination: false
 has_related: true
-body_classes: "hero-page"
 ---
 
 # Virgin Mobile: el nuevo servicio de fibra y móvil en España
@@ -69,9 +71,6 @@ En cuanto a la cobertura de móvil, Virgin colaborará con Orange en la totalida
 ¿Estará disponible en mi ciudad o provincia? Esto se corresponde siempre a una de las mayores dudas de los usuarios con respecto a la aparición de nuevos operadores. Con Virgin Mobile la respuesta es muy sencilla: si. 
 
 Todas las regiones de España, independientemente de su localización, podrán disfrutar de todos los servicios disponibles. Gracias a los acuerdos con Euskaltel (y sus filiales) y Orange, sea cual sea tu provincia, podrás contratar tanto fibra como móvil o TV online con Virgin Mobile, a excepción de aquellas donde prevalezca el operador regional.
-
-<div class="post-image"></div>
-![my image](img/map.png)
 
 <div class="mb-5"></div>
 

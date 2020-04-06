@@ -1,7 +1,9 @@
 ---
 title: 'Virgin Mobile: el plan de negocio 2020-2025 de Euskaltel'
-excerpt: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
-body_classes: "hero-page"
+body_classes: hero-page
+override_default_title: 'Virgin Mobile: el plan de negocio 2020-2025 de Euskaltel'
+override_default_desc: 'Ya se conocen todos los detalles del nuevo plan de negocio de Euskaltel para el ejercicio 2020-2025. Como no podía ser de otra manera, el acuerdo con Virgin para su plan de expansión en España es uno de los grandes protagonistas.'
+excerpt: 'Después de la multitud de rumores que protagonizaron las noticias una vez sabido el acuerdo entre la multinacional Virgin y la operadora Euskaltel, por fin llegan noticias....'
 ---
 
 # Virgin Mobile: el plan de negocio 2020-2025 de Euskaltel
