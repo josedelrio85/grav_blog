@@ -1,5 +1,6 @@
 ---
-title: 'Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado'
+title: 'Virgin España - Euskaltel: crónica de un acuerdo anunciado'
+excerpt: It is a long established fact that a reader will be distracted by the readable content.
 content:
     items:
         - '@self.siblings'
@@ -11,6 +12,7 @@ content:
 has_related: false
 metadata:
     robots: 'noindex, nofollow'
+body_classes: "hero-page"
 ---
 
 # Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado

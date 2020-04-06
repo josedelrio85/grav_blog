@@ -1,5 +1,8 @@
 ---
 title: Blog
+media_order: 'hero-test.jpg,hero-test-2.jpg'
+metadata:
+    robots: 'noindex, nofollow'
 content:
     items:
         - '@self.children'
@@ -11,8 +14,7 @@ content:
     url_taxonomy_filters: true
 has_background: true
 background: bg-main.png
-metadata:
-    robots: 'noindex, nofollow'
+body_classes: "hero-page"
 ---
 
 # Blog Ofertas Virgin
