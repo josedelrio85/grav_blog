@@ -1,6 +1,6 @@
 ---
-title: Blog
-media_order: 'hero-test.jpg,hero-test-2.jpg'
+title: 'Blog Ofertas Virgin'
+media_order: 'portada ofertas virgin.jpg'
 metadata:
     robots: 'noindex, nofollow'
 body_classes: hero-page

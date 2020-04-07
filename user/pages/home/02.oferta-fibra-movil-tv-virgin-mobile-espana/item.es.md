@@ -1,9 +1,10 @@
 ---
-title: 'Virgin Mobile España: todo lo que tienes que saber sobre su oferta (fibra, móvil y TV)'
+title: '¿Cuál será la oferta (fibra, móvil y TV) de Virgin Mobile en España?'
+media_order: 'portada ofertas virgin.jpg'
 metadata:
     robots: 'noindex, nofollow'
 body_classes: hero-page
-override_default_title: 'Virgin Mobile España: todo lo que tienes que saber sobre su oferta'
+override_default_title: '¿Conoces toda la oferta (fibra, móvil y TV) de Virgin Mobile España?'
 override_default_desc: 'Entra y descubre todos los planes de Virgin Mobile en España acerca de sus nuevas tarifas y ofertas de fibra, móvil y TV. ¡No esperes más!'
 excerpt: 'Por el momento, la compañía Virgin todavía no ha desvelado ninguna información concreta acerca de sus tarifas de fibra óptica. Habrá que esperar un tiempo para poder…'
 content:
@@ -17,7 +18,7 @@ content:
 has_related: true
 ---
 
-# Virgin Mobile España: todo lo que tienes que saber sobre su oferta (fibra, móvil y TV)
+# ¿Cuál será la oferta (fibra, móvil y TV) de Virgin Mobile en España?
 
 <div class="mb-5"></div>
 

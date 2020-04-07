@@ -1,10 +1,11 @@
 ---
-title: 'Virgin España - Euskaltel: crónica de un acuerdo anunciado'
+title: 'Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado'
+media_order: 'portada ofertas virgin.jpg'
 metadata:
     robots: 'noindex, nofollow'
 body_classes: hero-page
 override_default_title: 'Virgin España - Euskaltel: crónica de un acuerdo anunciado'
-override_default_desc: 'Las negociaciones entre el operador británico y la firma vasca ya han alcanzado buen puerto y a partir del segundo semestre de 2020 empezará la andadura de Virgin Mobile en España. ¡Descubre los detalles del acuerdo! '
+override_default_desc: 'Las negociaciones entre el operador británico y la firma vasca ya han alcanzado buen puerto y a partir del segundo semestre de 2020 empezará la andadura de Virgin Mobile en España. ¡Descubre los detalles del acuerdo!'
 excerpt: 'Febrero ha sido el mes donde se ha confirmado el acuerdo entre los dos operadores de telefonía. Virgin y Euskaltel unen sus fuerzas en España para poder promover su...'
 content:
     items:
