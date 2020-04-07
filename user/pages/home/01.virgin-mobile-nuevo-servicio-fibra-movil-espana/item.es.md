@@ -1,10 +1,10 @@
 ---
-title: 'Virgin Mobile: el nuevo servicio de fibra y móvil en España'
-media_order: hero-test-2.jpg
+title: 'Virgin Mobile llega a España con su nuevo servicio de fibra y móvil'
+media_order: 'portada ofertas virgin.jpg,certbot2.png'
 metadata:
     robots: 'noindex, nofollow'
 body_classes: hero-page
-override_default_title: 'Virgin Mobile: el nuevo servicio de fibra y móvil en España'
+override_default_title: 'Virgin Mobile llega a España con su nuevo servicio de fibra y móvil'
 override_default_desc: 'La llegada del operador británico a nuestro país en 2020 es una gran noticia para el sector telefónico. ¿Quieres conocer la propuesta de Virgin Mobile o en qué territorios estará disponible? Descubre más aquí.'
 excerpt: 'La oferta de servicios de fibra óptica y móvil en España es amplia y variada. Pero las opciones se incrementarán próximamente con la llegada de Virgin Mobile España…'
 content:
@@ -18,7 +18,7 @@ content:
 has_related: true
 ---
 
-# Virgin Mobile: el nuevo servicio de fibra y móvil en España
+# Virgin Mobile llega a España con su nuevo servicio de fibra y móvil
 
 <div class="mb-5"></div>
 #### Tabla de Contenidos

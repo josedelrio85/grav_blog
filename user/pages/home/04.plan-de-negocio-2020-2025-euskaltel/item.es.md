@@ -1,5 +1,6 @@
 ---
 title: 'Virgin Mobile: el plan de negocio 2020-2025 de Euskaltel'
+media_order: 'portada ofertas virgin.jpg'
 body_classes: hero-page
 override_default_title: 'Virgin Mobile: el plan de negocio 2020-2025 de Euskaltel'
 override_default_desc: 'Ya se conocen todos los detalles del nuevo plan de negocio de Euskaltel para el ejercicio 2020-2025. Como no podía ser de otra manera, el acuerdo con Virgin para su plan de expansión en España es uno de los grandes protagonistas.'
