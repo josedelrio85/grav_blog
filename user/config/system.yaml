@@ -13,7 +13,7 @@ intl_enabled: true
 languages:
   supported: null
   default_lang: null
-  include_default_lang: true
+  include_default_lang: false
   pages_fallback_only: false
   translations: true
   supported:
