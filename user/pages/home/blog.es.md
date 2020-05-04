@@ -1,8 +1,8 @@
 ---
-title: 'Blog Ofertas Virgin'
+title: 'Blog Ofertas'
 media_order: 'portada ofertas virgin.jpg'
 metadata:
-    robots: 'noindex, nofollow'
+    robots: 'index, follow'
 body_classes: hero-page
 content:
     items:
@@ -13,6 +13,12 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
+meta_robots:
+    index: true
+    follow: true
+    noindex: false
+    nofollow: false
+    noimageindex: false
 override_default_title: 'Ofertas Virgin | Blog'
 override_default_desc: 'Entérate de todas las novedades relacionadas con la llegada de Virgin Mobile a España: ofertas, tarifas, comparativas, etc. Todo lo que necesitas saber sobre la nueva opción de fibra, móvil y TV.'
 has_background: true
@@ -21,4 +27,6 @@ background: bg-main.png
 
 # Blog Ofertas Virgin
 
-Todas las noticias y novedades relacionadas con Virgin Mobile España
+Entérate de todas las novedades relacionadas con Virgin Mobile España
+
+La nueva oferta de fibra, móvil y TV hecha a tu medida
