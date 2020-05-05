@@ -1,0 +1,6 @@
+enabled: true
+route: '/sitemap'
+ignores:
+  - /typography
+  # - /ignore-this-route
+  # - /ignore-children-of-this-route/.*
