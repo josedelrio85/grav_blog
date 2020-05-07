@@ -67,3 +67,9 @@ php -f bin/plugin login newuser
 * In `eslintrc.json` file slint rules are setted.
 
 * Don't forget to run `npm install` when the project is started. You need to execute it in the folder where the `package.json` file is located.
+
+## Steps after deploying in prod environment
+
+* These are some steps to consider after deploying the project in prod environment
+  
+In admin panel, go to `Configuration > Security` and add to `Whitelist Permissions` the value `admin.pages`

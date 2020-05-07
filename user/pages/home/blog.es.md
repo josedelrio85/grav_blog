@@ -27,6 +27,6 @@ background: bg-main.png
 
 # Blog Ofertas Virgin
 
-Entérate de todas las novedades relacionadas con Virgin Mobile España
+Entérate de todas las novedades relacionadas con Virgin Telco España
 
 La nueva oferta de fibra, móvil y TV hecha a tu medida
