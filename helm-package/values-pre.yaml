@@ -45,7 +45,7 @@ ingress:
   hosts:
     - host: virgin-pre.bysidecar.me
       paths:
-        - /
+        - /blog
   tls:
     - secretName: tls-virgin-pre-bysidecar-me
       hosts:
