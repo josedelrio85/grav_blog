@@ -1,6 +1,6 @@
 apiVersion: v2
-name: virgin
-description: Virgin project
+name: virgin-blog
+description: Virgin blog project
 
 # A chart can be either an 'application' or a 'library' chart.
 #
