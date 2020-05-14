@@ -14,8 +14,7 @@ summary:
   format: short
   size: 300
   delimiter: '==='
-redirects:
-  /blog: /
+redirects: null
 routes: null
 blog:
   route: /blog

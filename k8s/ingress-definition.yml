@@ -12,5 +12,21 @@ spec:
       paths:
       - path: /
         backend:
+          serviceName: virgin-web-test
+          servicePort: 80
+      - path: /pepe
+        backend:
           serviceName: virgin-blog-test
           servicePort: 80
+    # - host: symfony.virgin-test.bysidecar.me
+    #   http:
+    #     paths:
+    #       - backend:
+    #           serviceName: virgin-web-test
+    #           servicePort: 80
+    # - host: grav.virgin-test.bysidecar.me
+    #   http:
+    #     paths:
+    #       - backend:
+    #           serviceName: virgin-blog-test
+    #           servicePort: 80

@@ -55,13 +55,9 @@ RUN pecl install apcu \
     && pecl install yaml-2.0.4 \
     && docker-php-ext-enable apcu yaml
 
-# ADD . /var/www/html/blog
+ADD . /var/www/html/pepe
 
-# WORKDIR /var/www/html/blog
-
-ADD . /var/www/html
-
-WORKDIR /var/www/html
+WORKDIR /var/www/html/pepe
 
 RUN composer install \
     && php bin/grav install \
@@ -71,9 +67,8 @@ RUN composer install \
     && cd user/themes/mytheme && npm install -y \
     && npm run build
 
-# RUN chown -R www-data:www-data /var/www/html/blog
-RUN chown -R www-data:www-data /var/www/html
+RUN chown -R www-data:www-data /var/www/html/pepe
 
 USER root
 # Create cron job for Grav maintenance scripts
-RUN (crontab -l; echo "* * * * * cd /var/www/html;/usr/local/bin/php bin/grav scheduler 1>> /dev/null 2>&1") | crontab -
+RUN (crontab -l; echo "* * * * * cd /var/www/html/pepe;/usr/local/bin/php bin/grav scheduler 1>> /dev/null 2>&1") | crontab -
