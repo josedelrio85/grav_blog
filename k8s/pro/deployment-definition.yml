@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: virgin
+  name: virgin-blog
+  labels:
+    app: virgin-blog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: virgin-blog
+  template:
+    metadata:
+      labels:
+        app: virgin-blog
+    spec:
+      containers:
+        - name: virgin-blog
+          image: 952729869933.dkr.ecr.eu-west-1.amazonaws.com/virgin_blog:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80

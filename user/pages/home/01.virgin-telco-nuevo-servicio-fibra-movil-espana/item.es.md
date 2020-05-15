@@ -56,7 +56,7 @@ A partir de aquí, la marca de telecomunicaciones se expandió más allá de ter
 
 ## <span id="relacion">Virgin y España: una relación que comenzará en 2020</span>
 
-La llegada de Virgin Telco a España se hará realidad en la primera mitad del año 2020. [El acuerdo del gigante anglosajón con la compañía Euskaltel](https://www.ofertasvirgin.es/home/virgin-mobile-euskaltel-cronica-acuerdo-anunciado) es el desencadenante del nacimiento de una nueva opción de servicios de fibra y móvil dentro del territorio nacional. 
+La llegada de Virgin Telco a España se hará realidad en la primera mitad del año 2020. [El acuerdo del gigante anglosajón con la compañía Euskaltel](https://www.ofertasvirgin.es/home/virgin-mobile-euskaltel-cronica-acuerdo-anunciado) es el desencadenante del nacimiento de una **nueva opción de servicios de fibra y móvil dentro del territorio nacional**. 
 
 El fondo de capital riesgo Zegona ha sido en parte el responsable de este acuerdo. Su OPA amistosa, con una inversión de casi 200 millones de euros, duplicará sus acciones en la empresa alcanzando casi un 30% del total. El crecimiento de Euskaltel ha sido el detonante para que Virgin haya elegido al operador vasco para acceder a nuestro país.
 
@@ -64,7 +64,7 @@ No es la primera vez que la empresa británica intenta introducirse en España; 
 
 <div class="mb-5"></div>
 
-<span class="featured-text">-**Si todo transcurre según lo acordado Junio de 2020 será la fecha donde Virgin Telco esté operativo y disponible en toda España**-</span>
+<span class="featured-text">-**Si todo transcurre según lo acordado Mayo de 2020 será la fecha donde Virgin Telco esté operativo y disponible en toda España**-</span>
 
 <div class="mb-5"></div>
 
@@ -72,9 +72,9 @@ No es la primera vez que la empresa británica intenta introducirse en España; 
 
 Al venir de la mano de Euskaltel, con casi toda seguridad la cobertura de fibra y móvil de Virgin Telco tenga características similares a la del grupo vasco, al igual que las de sus filiales: R en Galicia y Telecable en Asturias. 
 
-Por un lado, la cobertura de fibra óptica mantendría en Euskadi, Galicia y Asturias los modelos de los operadores actuales, mientras que en el resto del territorio el encargado de llevar la máxima velocidad de navegación a viviendas y establecimientos será Orange, después de un acuerdo con la filial española del grupo francés.
+Por un lado, la** cobertura de fibra óptica **mantendría en Euskadi, Galicia y Asturias los modelos de los operadores actuales, mientras que en el resto del territorio el encargado de llevar la máxima velocidad de navegación a viviendas y establecimientos será Orange, después de un acuerdo con la filial española del grupo francés.
 
-En cuanto a la cobertura de móvil, Virgin colaborará con Orange en la totalidad del territorio español. En este campo se expande el acuerdo del que se benefician Euskaltel y R (Telecable utiliza actualmente cobertura Movistar), con el uso de sus infraestructuras, instaladas en el 100% de las regiones españolas.
+En cuanto a la **cobertura de móvil**, Virgin colaborará con Orange en la totalidad del territorio español. En este campo se expande el acuerdo del que se benefician Euskaltel y R (Telecable utiliza actualmente cobertura Movistar) con el uso de sus infraestructuras, instaladas en el 100% de las regiones españolas.
 
 <div class="mb-5"></div>
 
@@ -82,7 +82,7 @@ En cuanto a la cobertura de móvil, Virgin colaborará con Orange en la totalida
 
 ¿Estará disponible en mi ciudad o provincia? Esto se corresponde siempre a una de las mayores dudas de los usuarios con respecto a la aparición de nuevos operadores. Con Virgin Telco la respuesta es muy sencilla: si. 
 
-Todas las regiones de España, independientemente de su localización, podrán disfrutar de todos los servicios disponibles. Gracias a los acuerdos con Euskaltel (y sus filiales) y Orange, sea cual sea tu provincia, podrás contratar tanto fibra como móvil o TV online con Virgin Telco, a excepción de aquellas donde prevalezca el operador regional.
+Todas las regiones de España, independientemente de su localización, podrán disfrutar de todos los servicios disponibles. Gracias a los acuerdos con Euskaltel (y sus filiales) y Orange, sea cual sea tu provincia podrás contratar tanto fibra como móvil o TV online con Virgin Telco, a excepción de aquellas donde prevalezca el operador regional.
 
 <div class="mb-5"></div>
 
@@ -90,6 +90,6 @@ Todas las regiones de España, independientemente de su localización, podrán d
 
 Al igual que el resto de las operadoras se prevé que Virgin Telco ofrezca a sus clientes una gran variedad de paquetes de fibra, TV y móvil, con el fin de que cada usuario pueda elegir lo que más se adapte a sus necesidades en cada momento.
 
-Por ahora Virgin Telco no ha hecho pública su política de tarifas, cosa que se espera estén disponibles una vez el servicio esté activo, en el segundo trimestre de 2020, pero no cabe duda que contará con un amplio abanico de posibilidades.
+Por ahora Virgin Telco **no ha hecho pública su política de tarifas**, cosa que se espera estén disponibles una vez el servicio esté activo, en el segundo trimestre de 2020, pero no cabe duda que contará con un amplio abanico de posibilidades.
 
 <div class="mb-5"></div>

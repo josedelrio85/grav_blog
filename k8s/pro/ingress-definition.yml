@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  namespace: virgin
+  name: virgin
+  annotations:
+    ingress.kubernetes.io/enable-cors: "true"
+spec:
+  rules:
+  - host: www.ofertasvirgin.es
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: virgin-web
+          servicePort: 80
+      - path: /blog
+        backend:
+          serviceName: virgin-blog
+          servicePort: 80
+  tls:
+  - hosts:
+      - www.ofertasvirgin.es
+    secretName: tls-www-ofertasvirgin-es  

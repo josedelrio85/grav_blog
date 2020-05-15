@@ -7,7 +7,7 @@ body_classes: hero-page
 content:
     items:
         - '@self.children'
-    limit: 5
+    limit: 6
     order:
         by: date
         dir: desc

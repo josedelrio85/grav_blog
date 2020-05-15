@@ -45,7 +45,7 @@ ingress:
   hosts:
     - host: www.ofertasvirgin.es
       paths:
-        - /
+        - /blog
   tls:
     - secretName: tls-www-ofertasvirgin-es
       hosts:
