@@ -52,5 +52,5 @@ Ya en parcela económica, los principales datos que se dejaron caer en la presen
 <div class="mb-5"></div>
 
 ## <span id="tarifas">¿Cuándo se conocerán las tarifas?</span>
-
 De lo que no se ha dado ninguna cifra real es de las tarifas con las que saldrán al mercado en los próximos meses de 2020. Las especulaciones en la red son cada vez mayores y, sin embargo, únicamente se puede confirmar que existirá una [oferta convergente](https://www.ofertasvirgin.es/home/oferta-fibra-movil-tv-virgin-telco-espana) de fibra óptica de alta velocidad, telefonía móvil adaptada a las necesidades de llamadas y datos de los clientes, así como una plataforma de televisión en alta definición (4K).con los contenidos más actuales. Solo queda esperar un poco más para conocer los detalles; con toda seguridad **la incertidumbre no se prologará mas allá de Mayo de 2020.**
+
