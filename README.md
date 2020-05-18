@@ -70,6 +70,6 @@ php -f bin/plugin login newuser
 
 ## Steps after deploying in prod environment
 
-* These are some steps to consider after deploying the project in prod environment
+There are some steps to consider after deploying the project in prod environment
   
-In admin panel, go to `Configuration > Security` and add to `Whitelist Permissions` the value `admin.pages`
+* In admin panel, go to `Configuration > Security` and add to `Whitelist Permissions` the value `admin.pages`
