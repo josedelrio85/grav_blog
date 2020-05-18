@@ -1,0 +1,241 @@
+.click-to-call,
+.click-to-call-btn,
+.click-to-call-mobile {
+    transition: all ease .6s;
+}
+
+.click-to-call {
+    position: fixed;
+    z-index: 8;
+    background: white;
+
+    .close-c2c {
+        cursor: pointer;
+    }
+
+    .form-check-input {
+        margin-top: 0.1rem;
+    }
+
+    .label-in-block {
+        label {
+            display: inline-block;
+            background-color: $white;
+            color: $primary;
+            font-size: .7rem;
+            margin-left: .5rem;
+            padding: 0 .5rem;
+            cursor: text;
+        }
+
+        input {
+            // margin-top: -1.1rem;
+            height: 50px;
+            border-color: $primary;
+            border-radius: 8px;
+        }
+
+    }
+
+    .icon-phone-container {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        border-radius: 99px;
+        margin-right: 1rem;
+        background: white;
+
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .img-call {
+        width: 80px;
+    }
+}
+
+.click-to-call-desktop {
+    top: 50%;
+    right: 0;
+    width: 285px;
+    transform: translateY(calc(-49.9% + 0px));
+    border-radius: 10px 0 0 10px;
+    box-shadow: $box-shadow-gen;
+
+    &.c2c-collapsed {
+        transform: translate(100%, -50%);
+    }
+
+    .click-to-call--header {
+        border-radius: 10px 0 0 0;
+    }
+}
+
+.click-to-call-mobile {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(calc(100% - 67px));
+
+    &.c2c-mobile-open {
+        transform: translateY(0);
+        z-index: 9999999999999999999;
+    }
+
+    .click-to-call--body {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .click-to-call--header {
+        cursor: pointer;
+    }
+}
+
+.click-to-call-btn {
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 7;
+    transform: translate(100%, -50%);
+    border-top-left-radius: $border-radius-gen;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: $border-radius-gen;
+    box-shadow: $box-shadow-gen;
+
+    &.c2c-size-open {
+        transform: translate(0, -50%);
+    }
+}
+
+#call-me-later-pop-up {
+    position: fixed;
+    display: none !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+
+    &.call-me-now-popup--opened {
+        display: block !important;
+    }
+
+    .call-me-now-popup__overlay {
+        background-color: rgba(0, 0, 0, .5);
+        width: 100%;
+        height: 100%;
+    }
+
+    .call-me-now-popup__contents {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        width: 90%;
+        border-radius: 10px !important;
+        box-shadow: $box-shadow-gen;
+
+        // @include media-breakpoint-up(md) {
+        //     width: 600px;
+        // }
+    }
+
+    .call-me-now-popup__header,
+    .call-me-now-popup__body {
+        padding: 1rem 3rem;
+    }
+
+    .call-me-now-popup__header {
+        border-radius: 10px 10px 0 0 !important;
+        background: $primary;
+        color: white;
+    }
+
+    .call-me-now-popup__body {
+        text-align: center;
+
+    }
+
+    svg {
+        width: 20px;
+    }
+
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid $primary;
+    border-color: $primary transparent $primary transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.label-in-block {
+    position: relative;
+    margin-top: 1.25rem;
+
+    label {
+        position: absolute;
+        top: 0;
+        font-size: 1rem !important;
+        left: 0;
+        transform: translateY(12px);
+        transition: .2s all linear;
+    }
+
+    input {
+        transition: .2s all linear;
+
+        &:focus {
+            box-shadow: none !important;
+
+            &+label {
+                // top: -12px;
+                transform: translateY(-9px);
+                font-size: .7rem !important;
+            }
+        }
+
+        &:not(:placeholder-shown) {
+            &+label {
+                // top: -12px;
+                transform: translateY(-9px);
+                font-size: .7rem !important;
+            }
+        }
+
+    }
+}
