@@ -105,13 +105,13 @@ GRAV:
     CTA:
       TEXT: 'Llamadme'
       PATH: ''
-    STATE_CALLE:
+    STATE_CALL:
       TITLE: 'Bienvenido al servicio de contratación de Virgin Telco'
       SUBTITLE: 'uno de nuestros asesores comerciales se pondrá en contacto contigo'
       FORM_ERROR: 'por favor, intenta introducir de nuevo tu número de teléfono más tarde.'
       HELPER_MES1: '¿en qué podemos ayudarte?'
       HELPER_MES2: 'fuera de horario'
-      HELPER_MES3: ''
+      HELPER_MES3: ' '
       HELPER_MES4: 'Uno de nuestros agentes se pondrá en contacto contigo lo antes posible.'
     PRIVACY:
       TITLE_DETAIL: 'Política de Privacidad'
