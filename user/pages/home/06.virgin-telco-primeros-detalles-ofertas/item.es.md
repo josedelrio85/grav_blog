@@ -1,6 +1,6 @@
 ---
 title: 'Virgin Telco hace públicas sus primeras ofertas  | Fibra, móvil y TV'
-media_order: 'portada ofertas virgin.jpg,Virgin.jpg'
+media_order: 'portada ofertas virgin.jpg,Virgin1.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page
@@ -10,7 +10,7 @@ meta_robots:
     noindex: false
     nofollow: false
     noimageindex: false
-override_default_title: 'Virgin Telco hace públicas sus primeras ofertas | Fibra, móvil y TV'
+override_default_title: '▷ Virgin Telco hace públicas sus primeras ofertas | Fibra, móvil y TV'
 override_default_desc: '¿Quieres descubrir los detalles de las primeras ofertas de Virgin Telco? Averigua los servicios disponibles y precio de la nueva oferta convergente de fibra, móvil y TV.'
 excerpt: 'Como ya avanzamos, el operador Virgin Telco será una realidad en España más pronto que tarde, manteniendo así los plazos previstos (pese al Covid-19) por Euskaltel, una vez cerrados...'
 content:
@@ -28,7 +28,7 @@ has_related: true
 
 <div class="mb-5"></div>
 
-![](Virgin.jpg)
+![](Virgin1.jpg)
 
 <div class="mb-5"></div>
 ### Tabla de Contenido

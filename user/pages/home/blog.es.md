@@ -7,7 +7,7 @@ body_classes: hero-page
 content:
     items:
         - '@self.children'
-    limit: 6
+    limit: 8
     order:
         by: date
         dir: desc
@@ -19,7 +19,7 @@ meta_robots:
     noindex: false
     nofollow: false
     noimageindex: false
-override_default_title: 'Ofertas Virgin | Blog'
+override_default_title: '✅ Ofertas Virgin | Blog'
 override_default_desc: 'Entérate de todas las novedades relacionadas con la llegada de Virgin Mobile a España: ofertas, tarifas, comparativas, etc. Todo lo que necesitas saber sobre la nueva opción de fibra, móvil y TV.'
 has_background: true
 background: bg-main.png

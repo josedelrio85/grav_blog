@@ -54,7 +54,6 @@ Pero si tenemos en cuenta los servicios que ofrece en el resto de los países do
 
 ## <span id="movil">¿Qué tarifas de móvil oferta Virgin Telco en España?<span>
 
-
 Al igual que en el apartado del servicio de conexión a internet de fibra y ADSL, las tarifas de móvil también son una incógnita. Podemos sacar conclusiones si ponemos como referencia aquellas zonas donde Virgin Telco ya interviene desde hace un tiempo: **el abanico de ofertas atractivas y sus precios asequibles siempre ha sido uno de los referentes del operador**, principalmente en Latinoamérica.
 
 También ofrece en estos lugares **paquetes con datos y minutos de llamada** (en muchos de ellos con llamadas ilimitadas) para elegir entre todas sus tarifas de contrato y prepago. En el caso de optar por la segunda opción sólo será necesario facilitar tus datos (ya no existen las tarjetas SIM desechables) al operador para conseguir la tarjeta SIM. Una vez en tu poder realizar la recarga en Virgin Telco será muy fácil: la propia web tiene un apartado para realizar dichas labores.
@@ -92,6 +91,5 @@ Virgin Telco posee un servicio de gran calidad de televisión en streaming en el
 ¿Y qué hay del fútbol? Pues si tenemos en cuenta que es sin ninguna duda el argumento estrella de los operadores para realizar portabilidades (con la consiguiente lucha por conseguir sus derechos), y que ni Euskaltel ni R ni Telecable se lo ofrecen a sus clientes, parece complicado que Virgin Telco lo contemple en su oferta inicial.
 
 Habrá que esperar hasta el mes de** Mayo de 2020 **para averiguar cual es la información exacta en relación a la oferta televisiva de Virgin Telco.
-
 
 <div class="mb-5"></div>
