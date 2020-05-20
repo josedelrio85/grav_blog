@@ -48,3 +48,20 @@
     border-left: 3px solid $color-brand;
     box-shadow: 0 2px 10px rgba($color-dark-mid, 0.2);
 }
+
+.blog-grid .row.blog-item {
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.post-loop-number {
+    color: $primary;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.plus-column .icon {
+    color: $primary;
+    font-size: 2.5rem;
+    transform: rotate(45deg);
+}
