@@ -103,6 +103,10 @@ document.addEventListener('DOMContentLoaded', (e) => {
         smartcenter: smartcenter,
       };
       bsc.launchC2C(dataLead, dataLayer);
+      if(C2cMobile.classList.contains('c2c-mobile-open')) {
+        C2cMobile.classList.remove('c2c-mobile-open');
+        document.querySelector('.click-to-call-mobile .close-c2c').classList.add('d-none');
+      }
     }
   }
 
@@ -122,6 +126,16 @@ document.addEventListener('DOMContentLoaded', (e) => {
   //   }
   // }
 
+  // let ddi = document.querySelector('.ddi-desktop');
+  // ddi.addEventListener('click', (e) => {
+    // $('#click-to-call-popup').modal('show');
+    
+    // let C2cDeskop = document.querySelector('.click-to-call-desktop');
+    // let C2cSide = document.querySelector('.click-to-call-btn');
+
+    // C2cDeskop.classList.add('c2c-collapsed');
+    // C2cSide.classList.add('c2c-size-open');
+  // });
 
   function validationFields(parent) {
     let text = document.querySelector(parent +' .call-me-now-validation-error');
