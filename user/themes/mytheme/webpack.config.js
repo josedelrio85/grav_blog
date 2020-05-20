@@ -1,16 +1,19 @@
-const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const webpack = require('webpack');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
+const webpack = require('webpack');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require('path');
+
+
 
 module.exports = (env, argv) => {
 
   const isDevelopment = argv.mode === 'development';
 
   return {
-    entry: './code/code.js',
+    entry: './src/code.js',
     output: {
       path: path.resolve(__dirname, 'js'),
       filename: 'bysidecar.js',
@@ -75,7 +78,6 @@ module.exports = (env, argv) => {
       new webpack.ProvidePlugin({
         $: 'jquery',
         jQuery: 'jquery',
-        // landcom: path.resolve(__dirname, './node_modules/@bysidecar/landing_commander/dist/main.js'),
       }),
       // Extract imported CSS into own file
       new MiniCssExtractPlugin({
@@ -91,6 +93,12 @@ module.exports = (env, argv) => {
       }),
       new CleanWebpackPlugin({
         cleanOnceBeforeBuildPatterns: ['**/*', '!index*'],
+      }),
+      new webpack.DefinePlugin({
+        // PRODUCTION: JSON.stringify(false),
+        PRODUCTION: JSON.stringify(isDevelopment),
+        SOU_ID: 15,
+        LEADS_URL: isDevelopment ? JSON.stringify('https://leads-pre.bysidecar.me/lead/store/') : JSON.stringify('https://leads.bysidecar.me/lead/store/'),
       }),
     ],
     optimization: {
