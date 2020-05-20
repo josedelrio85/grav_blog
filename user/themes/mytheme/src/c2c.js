@@ -70,56 +70,59 @@ export class c2c {
     const paramsUrl = this.landcom.getParametersURL();
     const urlEndPoint = LEADS_URL;
     
-    // sou_id value must be set in obj param
     const lead = {
       sou_id: null,
       lea_type: 1,
 
       url: window.location.href,
+      // ip: document.getElementById('hiddenip').value,
       utm_source: paramsUrl.utm_source,
       sub_source: paramsUrl.sub_source,
       gclid: paramsUrl.gclid,
       domain: window.location.hostname,
       phone: '',
       smartcenter: false,
-      // ga_client_id: this.getGaClientId(),
+      observations: '',
+      ga_client_id: this.getGaClientId(),
       virgin: null,
     };    
     this.compareObjects(obj, lead);
     
     lead.sou_id = 15;
     lead.smartcenter = false;
+    console.log(lead);
 
-    this.response.showPopup(false);
+    // TODO until smartcenter is not active
+    // this.response.showPopup(false);
 
     landingCommander.makePostRequest(lead, urlEndPoint)
       .then((result) => {
-        console.log(result);
-          this.landcom.isOnTime(lead.sou_id)
-            .then((onTime) => {
-              
-              if (!onTime) {
-                // We are not on time, let's get the campaign timetable
-                this.landcom.getWeekByCampaign(lead.sou_id)
-                  .then((bsnHours) => {
-                    const bh = this.landcom.printBusinessHours(bsnHours);
-                    this.response.handleBusinessHoursInfo(bh);
-                  })
-                  .catch(e => this.throwError(e));
-              }
+        this.response.showPopup(true);
+        // this.landcom.isOnTime(lead.sou_id)
+        //   .then((onTime) => {
+            
+        //     if (!onTime) {
+        //       // We are not on time, let's get the campaign timetable
+        //       this.landcom.getWeekByCampaign(lead.sou_id)
+        //         .then((bsnHours) => {
+        //           const bh = this.landcom.printBusinessHours(bsnHours);
+        //           this.response.handleBusinessHoursInfo(bh);
+        //         })
+        //         .catch(e => this.throwError(e));
+        //     }
 
-              // we are on time, let's show info about the call phone to the user or other stuff
-              if (onTime && result.smartcenter) {
-                this.response.showPopup(false);
-                this.landcom.callStateTracking(lead.phone, (state) => {
-                  const message = this.landcom.getMessageStateCall(state);
-                  this.response.handleStateCallMessage(state, message);
-                });
-              } else {
-                this.response.responseWeWontCall();
-              }
-            })
-            .catch(e => this.throwError(e));
+        //     // we are on time, let's show info about the call phone to the user or other stuff
+        //     if (onTime && result.smartcenter) {
+        //       this.response.showPopup(false);
+        //       this.landcom.callStateTracking(lead.phone, (state) => {
+        //         const message = this.landcom.getMessageStateCall(state);
+        //         this.response.handleStateCallMessage(state, message);
+        //       });
+        //     } else {
+        //       this.response.responseWeWontCall();
+        //     }
+        //   })
+        //   .catch(e => this.throwError(e));
 
           // dataLayer.phoneHash = window.md5(lead.phone);
           dataLayer.idLead = result.message;
