@@ -56,7 +56,9 @@
     
     <div id="sb-site">
       {% block header %}
-        {% include 'components/header/header.html.twig' %}
+        {% include 'components/header/header.html.twig' with {
+          header: site.header
+        } %}
       {% endblock %}
 
       {% block c2c %}
@@ -72,7 +74,10 @@
       {% endblock %}
 
       {% block footer %}
-        {% include 'components/footer/footer.html.twig' %}
+        {{ site.footer.legal.text }}
+        {% include 'components/footer/footer.html.twig' with {
+          footer: site.footer
+        } %}
       {% endblock %}
     </div>
 

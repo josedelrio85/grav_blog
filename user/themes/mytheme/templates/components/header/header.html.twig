@@ -13,11 +13,11 @@
             <div class="left-block d-flex align-items-center">
                 <div class="navigation nav-desktop d-none d-lg-block">
                     <ul class="d-flex p-0 m-0 mr-4 align-items-center">
-                        {% for menu in header.menu %}
-                            {% if menu.active %}
-                                <li><a {{ custom_routes(menu.path) }} {% if menu.target %} target="_blank" {% endif %}>{{ menu.text }}</a></li>                              
-                            {% endif %}
-                        {% endfor %}
+                      {% for menu in header.menu %}
+                        {% if menu.active %}
+                          <li><a href="{{ menu.path }}" {% if menu.target %} target="_blank" {% endif %}>{{ menu.text|t|raw }}</a></li>
+                        {% endif %}
+                      {% endfor %}
                     </ul>
                 </div>
                 <a role="button" class="ddi-button ddi-desktop btn btn-primary font-weight-bold d-none d-md-block" href="#">
@@ -52,7 +52,7 @@
         <ul class="d-flex flex-column w-100">
             {% for menu in header.menu %}
                 {% if menu.active %}
-                    <li><a class="text-header h3 text-decoration-none text-primary text-header" {{ custom_routes(menu.path) }} {% if menu.target %} target="_blank" {% endif %}>{{ menu.text }}</a></li>                              
+                    <li><a class="text-header h3 text-decoration-none text-primary text-header" href="{{ menu.path }}" {% if menu.target %} target="_blank" {% endif %}>{{ menu.text|t|raw }}</a></li>                              
                 {% endif %}
             {% endfor %}
         </ul>

@@ -18,3 +18,25 @@ redirects: null
 routes: null
 blog:
   route: /blog
+header:
+  menu:
+    menu1:
+      text: GRAV.HEADER.MENU.MENU1.TEXT
+      path: '/'
+      active: true
+      target: false
+    menu2:
+      text: GRAV.HEADER.MENU.MENU2.TEXT
+      path: '/movil'
+      active: false
+      target: false
+    menu3:
+      text: GRAV.HEADER.MENU.MENU3.TEXT
+      path: '/internet'
+      active: false
+      target: false
+    menu4:
+      text: GRAV.HEADER.MENU.MENU4.TEXT
+      path: '/blog'
+      active: true
+      target: true

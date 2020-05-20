@@ -9,10 +9,10 @@
   transition: all linear .2s;
 
   a {
-      color: $secondary;
+      color: $white!important;
 
       &:hover {
-          text-decoration: none;
+        text-decoration: none;
       }
   }
 
@@ -26,7 +26,7 @@
                       font-family: 'icomoon' !important;
                       content: "\eb33";
                       margin-right: .5rem;
-                      color: $primary;
+                      color: $white;
                   }
               }
           }
