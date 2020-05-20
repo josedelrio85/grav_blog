@@ -1,0 +1,105 @@
+.footer {
+  position: relative;
+  margin-top: 8rem !important;
+
+  .footer-main {
+      padding: 2rem .5rem 6rem 0.5rem;
+      background: $secondary;
+
+      @include media-breakpoint-up(md) {
+          padding: 2rem .5rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+          padding: 0 .5rem;
+      }
+  }
+
+  a {
+      color: $white;
+
+      &:hover {
+          text-decoration: none;
+          color: $white;
+      }
+  }
+
+  // .footer-logo {
+  //     max-width: 70px;
+  // }
+
+  .footer-logo-square {
+      background-color: $primary;
+      max-width: 90px;
+      padding: 1.5rem;
+      // margin-bottom: -1rem;
+      transform: scale(1.5);
+      transform-origin: bottom left;
+  }
+
+  .footer-logo-gi {
+      max-width: 140px;
+  }
+
+  .footer-links {
+      list-style: none;
+
+      a {
+          &:after {
+              content: '|';
+              display: inline-block;
+              padding: 0 .5rem;
+              color: $gray-700;
+          }
+          &:last-child {
+              &:after {
+                  display: none !important;
+              }
+          }
+      }
+
+      li {
+          padding: .5rem 0;
+          font-weight: bold;
+
+          @include media-breakpoint-up(md) {
+              padding: 0 1.25rem;
+          }
+
+
+          &:last-child {
+              @include media-breakpoint-up(md) {
+                  border-left: 1px solid #979797;
+              }
+
+              a {
+                  &:before {
+                      font-family: 'icomoon' !important;
+                      content: "\eb33";
+                      margin-right: .5rem;
+                      color: $primary;
+                  }
+              }
+          }
+      }
+  }
+
+  .link {
+      display: inline-block;
+      // margin: 5px;
+  }
+
+  .footer-divider {
+      display: block;
+      clear: both;
+      width: 100%;
+      max-width: 300px;
+      margin: 1.5rem auto;
+      height: 1px;
+      background: rgba($white, 0.2);
+
+      @include media-breakpoint-up(md) {
+          max-width: 100%;
+      }
+  }
+}
