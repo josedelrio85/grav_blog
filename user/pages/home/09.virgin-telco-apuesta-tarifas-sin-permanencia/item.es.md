@@ -24,9 +24,9 @@ content:
 has_related: true
 ---
 
-# Virgin telco apuesta por tarifas sin permanencia en sus servicios
-![](VirginTelco.png)
-<div class="mb-5"></div>
+<!-- # Virgin telco apuesta por tarifas sin permanencia en sus servicios -->
+<!-- ![](VirginTelco.png) -->
+<!-- <div class="mb-5"></div> -->
 
 ### TABLA DE CONTENIDO
 

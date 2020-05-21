@@ -15,13 +15,13 @@ override_default_desc: 'Ya se conocen todos los detalles del nuevo plan de negoc
 excerpt: 'Después de la multitud de rumores que protagonizaron las noticias una vez sabido el acuerdo entre la multinacional Virgin y la operadora Euskaltel, por fin llegan noticias....'
 ---
 
-# Virgin Telco: el plan de negocio 2020-2025 de Euskaltel
+<!-- # Virgin Telco: el plan de negocio 2020-2025 de Euskaltel -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 
-![](euskaltel-plan-negocio.jpg)
+<!-- ![](euskaltel-plan-negocio.jpg) -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 
 ### Tabla de Contenido
 

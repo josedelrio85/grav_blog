@@ -8,17 +8,13 @@
 		{% set blog_image = page.media.images|first.contrast(20).brightness(-100).colorize(-35,81,122) %}
 
 		{# {% if blog_image %} #}
-		<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
-		</div>
+		{# <div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
+		</div> #}
 		{# {% endif %} #}
 
-		<div class="blog-content-item grid pure-g-r pl-4 pr-4">
-			<div id="item" class="block pure-u-2-3 h-entry">
-			    {% include 'partials/blog_item.html.twig' with {'blog':page.parent, 'truncate':false} %}
-			</div>
-		</div>
+		{% include 'partials/blog_item_single.html.twig' with {'blog':page.parent, 'truncate':false} %}
 
-		{% if page.header.has_related == true %}
+		{# {% if page.header.has_related == true %}
 			<div class="container related-posts-container pl-4 pr-4">
 				<div class="row">
 					<h2>{{ 'SIDEBAR.RELATED_POSTS.HEADLINE'|t }}</h2>
@@ -36,7 +32,7 @@
 					</div>
 					</div>
 				</div>
-		{% endif %}
+		{% endif %} #}
 
 	{% endblock %}
 

@@ -24,13 +24,13 @@ content:
 has_related: false
 ---
 
-# Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado
+<!-- # Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 
-![](virgin-euskaltel.jpg)
+<!-- ![](virgin-euskaltel.jpg) -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 
 #### Tabla de Contenidos
 <div class="links-list"></div>
