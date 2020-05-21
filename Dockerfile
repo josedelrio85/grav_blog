@@ -57,6 +57,18 @@ RUN pecl install apcu \
 
 ADD . /var/www/html/blog
 
+RUN rm -r .github/ \
+    && .vscode/ \
+    && backup_pre/ \
+    && helm-package/ \ 
+    && k8s/ \
+    && tests/ \ 
+    && webserver-configs/ \
+    && .editorconfig \
+    && docker-compose.yml \
+    && LICENSE.txt \
+    && notas.txt 
+
 WORKDIR /var/www/html/blog
 
 RUN composer install \
