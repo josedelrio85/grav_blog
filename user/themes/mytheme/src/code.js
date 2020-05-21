@@ -101,6 +101,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
         smartcenter: smartcenter,
       };
       bsc.launchC2C(dataLead, dataLayer);
+      
       if(C2cMobile.classList.contains('c2c-mobile-open')) {
         C2cMobile.classList.remove('c2c-mobile-open');
         document.querySelector('.click-to-call-mobile .close-c2c').classList.add('d-none');

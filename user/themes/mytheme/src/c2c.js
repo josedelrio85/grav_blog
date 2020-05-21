@@ -70,7 +70,6 @@ export class c2c {
     const paramsUrl = this.landcom.getParametersURL();
     const urlEndPoint = LEADS_URL;
     
-    // sou_id value must be set in obj param
     const lead = {
       sou_id: null,
       lea_type: 1,
@@ -82,17 +81,20 @@ export class c2c {
       domain: window.location.hostname,
       phone: '',
       smartcenter: false,
-      // ga_client_id: this.getGaClientId(),
+      observations: '',
+      ga_client_id: this.getGaClientId(),
       virgin: null,
     };    
     this.compareObjects(obj, lead);
     
     lead.sou_id = 15;
     lead.smartcenter = false;
-    
+
+    // TODO until smartcenter is not active
+    // this.response.showPopup(false);
+
     landingCommander.makePostRequest(lead, urlEndPoint)
       .then((result) => {
-        console.log(result);
         this.response.showPopup(true);
 
         // this.landcom.isOnTime(lead.sou_id)

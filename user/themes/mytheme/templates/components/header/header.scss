@@ -1,0 +1,211 @@
+.header {
+  height: 90px;
+  background-color: $secondary;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: all linear .2s;
+
+  a {
+      color: $white!important;
+
+      &:hover {
+        text-decoration: none;
+      }
+  }
+
+  .navigation {
+      li {
+          &:last-child {
+              border-left: 1px solid #979797;
+
+              a {
+                  &:before {
+                      font-family: 'icomoon' !important;
+                      content: "\eb33";
+                      margin-right: .5rem;
+                      color: $white;
+                  }
+              }
+          }
+      }
+  }
+
+  .container,
+  .inner {
+      height: 100%;
+  }
+
+  svg {
+      .st0  {
+          fill: $primary;
+      }
+  }
+
+  .logo-mobile {
+      svg {
+
+          @include media-breakpoint-up(md) {
+              display: none !important;
+          }
+      }
+  }
+
+  .logo-desktop {
+      max-width: 70px;
+
+      svg {
+          display: none !important;
+
+          @include media-breakpoint-up(md) {
+              display: block !important;
+          }
+      }
+  }
+
+
+  a {
+      font-family: $font-family-sans-serif;
+  }
+
+  .ddi-button {
+      span:not([class*="border-radius"]) {
+          font-family: $font-family-sans-serif;
+          color: #ffffff;
+      }
+
+      .icon {
+          margin-right: .25rem;
+      }
+  }
+
+  // .left-block {
+  //     position: absolute;
+  //     right: 50%;
+  //     transform: translateX(50%);
+  //     @include media-breakpoint-up(md) {
+  //         position:initial;
+  //         transform: none;
+  //         left: initial;
+  //         right: initial;
+  //     }
+  // }
+
+  .logo-container {
+      width: 65px;
+
+      @include media-breakpoint-up(sm) {
+          width: 85px;
+      }
+
+      @include media-breakpoint-up(md) {
+          width: 170px;
+      }
+
+      img {
+          max-width: 120px;
+      }
+  }
+
+  .inner {
+      display: flex;
+  }
+
+  .nav-desktop {
+      ul {
+          list-style: none;
+
+          li {
+              padding: 0 1.25rem;
+              font-weight: bold;
+          }
+      }
+  }
+
+  .nav-mobile {
+      cursor: pointer;
+  }
+
+  // &.shadow {
+  //     box-shadow: $box-shadow-header;
+  // }
+  .subheader {
+      background-color: $primary;
+      span {
+          font-family: $font-family-sans-serif;
+          color: $white;
+          height: initial;
+      }
+      a:hover {
+          text-decoration:none;
+      }
+  }
+  .ddi-text {
+      font-size: 0.7rem;
+      @include media-breakpoint-up(sm) {
+          font-size: 1rem;
+      }
+  }
+
+  .icon-menu_burguer {
+      &:before {
+          font-size: 1rem;
+      }
+  }
+}
+
+.fullscreen-navigation {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 9;
+
+  .inner {
+      height: 100%;
+  }
+
+  .close-menu {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+  }
+
+  ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+          margin: 1rem 0;
+      }
+  }
+
+  .fullscreen-navigation-footer {
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      width: 100%;
+      transform: translateX(-50%);
+  }
+
+  li {
+      &:last-child {
+          &:before {
+              content:'';
+              display: block;
+              width: 100%;
+              height: 1px;
+              background: $primary;
+              margin-bottom: 2rem;
+          }
+      }
+  }
+
+
+}

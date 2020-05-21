@@ -2,7 +2,6 @@
 // General
 //
 body {
-    background-image: url('theme://images/logo.png');
 }
 
 html,
@@ -12,18 +11,14 @@ body {
 
 #body {
     height: 100% !important;
-    background-repeat: repeat !important;
-    background-size: 25px !important;
-    background-color: transparent !important;
+    background-color: $secondary !important;
     // padding-left: 0;
     // padding-right: 0;
     // padding-top: 80px;
 }
 
 #sb-site {
-    background-repeat: repeat !important;
-    background-size: 25px !important;
-    background-image: url('http://localhost:8000/user/themes/mytheme/img/bg-main.png') !important;
+    background-color: $secondary !important;
 }
 
 //
