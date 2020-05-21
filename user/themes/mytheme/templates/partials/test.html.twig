@@ -1,0 +1,9 @@
+<h2>Kevin Smith's Posts</h2>
+<ul>
+{# {% for post in taxonomy.findTaxonomy({'author':'ksmith'}) %} #}
+{% for post in taxonomy.findTaxonomy({'tag':['animal','cat']}) %}
+    <li>{{ post.title }}</li>
+    {# {{dump(post)}} #}
+    {# check debugger #}
+{% endfor %}
+</ul>

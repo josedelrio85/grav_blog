@@ -4,9 +4,7 @@ author:
   name: Bysidecar
   email: innovacion@bysidecar.com
   logo: ../../img/logo.png
-taxonomies:
-  - category
-  - tag
+taxonomies: [category, tag, author]
 metadata:
   description: 'Virgin description'
 summary:
