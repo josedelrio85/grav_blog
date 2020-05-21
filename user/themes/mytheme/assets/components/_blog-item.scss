@@ -54,14 +54,30 @@
     margin-bottom: 65px;
 }
 
-.post-loop-number {
-    color: $primary;
-    font-size: 3.5rem;
-    font-weight: bold;
+.blog-item {
+    .post-loop-number {
+        color: $primary;
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+
+    .post-date-container {
+        font-size: .8rem;
+    }
+    
+    .plus-column .icon {
+        color: $primary;
+        font-size: 2.5rem;
+        transform: rotate(45deg);
+    }
+
+    .p-name a {
+        color: $white!important;
+        font-weight: bold;
+    }
+
+    .e-content {
+        color: #1D1F2C;
+    }
 }
 
-.plus-column .icon {
-    color: $primary;
-    font-size: 2.5rem;
-    transform: rotate(45deg);
-}
