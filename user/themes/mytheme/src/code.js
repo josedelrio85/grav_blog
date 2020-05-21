@@ -27,7 +27,6 @@ $(document).ready(function () {
 // });
 
 document.addEventListener('DOMContentLoaded', (e) => {
-  console.log("hola2!");
   let bsc = new c2c();
 
   let C2cDeskop = document.querySelector('.click-to-call-desktop');
@@ -46,7 +45,6 @@ document.addEventListener('DOMContentLoaded', (e) => {
   });
 
   C2cSide.addEventListener('click', (event) => {
-    console.log("hola!");
     C2cDeskop.classList.remove('c2c-collapsed');
     C2cSide.classList.remove('c2c-size-open');
   });

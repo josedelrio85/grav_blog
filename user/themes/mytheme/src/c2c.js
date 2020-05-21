@@ -5,7 +5,7 @@
 /* eslint-disable import/prefer-default-export */
 
 import { landingCommander } from '@bysidecar/landing_commander/dist/main';
-// import { md5 } from './md5'
+import { md5 } from './md5'
 import { responseC2C } from './response_c2c';
 
 export class c2c {
@@ -74,7 +74,7 @@ export class c2c {
     const lead = {
       sou_id: null,
       lea_type: 1,
-
+      ip: null, // TODO use twig custom function
       url: window.location.href,
       utm_source: paramsUrl.utm_source,
       sub_source: paramsUrl.sub_source,
@@ -89,46 +89,46 @@ export class c2c {
     
     lead.sou_id = 15;
     lead.smartcenter = false;
-
-    this.response.showPopup(false);
-
+    
     landingCommander.makePostRequest(lead, urlEndPoint)
       .then((result) => {
         console.log(result);
-          this.landcom.isOnTime(lead.sou_id)
-            .then((onTime) => {
-              
-              if (!onTime) {
-                // We are not on time, let's get the campaign timetable
-                this.landcom.getWeekByCampaign(lead.sou_id)
-                  .then((bsnHours) => {
-                    const bh = this.landcom.printBusinessHours(bsnHours);
-                    this.response.handleBusinessHoursInfo(bh);
-                  })
-                  .catch(e => this.throwError(e));
-              }
+        this.response.showPopup(true);
 
-              // we are on time, let's show info about the call phone to the user or other stuff
-              if (onTime && result.smartcenter) {
-                this.response.showPopup(false);
-                this.landcom.callStateTracking(lead.phone, (state) => {
-                  const message = this.landcom.getMessageStateCall(state);
-                  this.response.handleStateCallMessage(state, message);
-                });
-              } else {
-                this.response.responseWeWontCall();
-              }
-            })
-            .catch(e => this.throwError(e));
+        // this.landcom.isOnTime(lead.sou_id)
+        //   .then((onTime) => {
+            
+        //     if (!onTime) {
+        //       // We are not on time, let's get the campaign timetable
+        //       this.landcom.getWeekByCampaign(lead.sou_id)
+        //         .then((bsnHours) => {
+        //           const bh = this.landcom.printBusinessHours(bsnHours);
+        //           this.response.handleBusinessHoursInfo(bh);
+        //         })
+        //         .catch(e => this.throwError(e));
+        //     }
 
-          // dataLayer.phoneHash = window.md5(lead.phone);
-          dataLayer.idLead = result.message;
-          this.printOut(dataLayer);
-          this.populateDatalayer(dataLayer);
+        //     // we are on time, let's show info about the call phone to the user or other stuff
+        //     if (onTime && result.smartcenter) {
+        //       this.response.showPopup(false);
+        //       this.landcom.callStateTracking(lead.phone, (state) => {
+        //         const message = this.landcom.getMessageStateCall(state);
+        //         this.response.handleStateCallMessage(state, message);
+        //       });
+        //     } else {
+        //       this.response.responseWeWontCall();
+        //     }
+        //   })
+        //   .catch(e => this.throwError(e));
+
+        dataLayer.phoneHash = window.md5(lead.phone);
+        dataLayer.idLead = result.message;
+        this.printOut(dataLayer);
+        this.populateDatalayer(dataLayer);
       })
       .catch(e => {
         this.response.responseWeWontCall();
-        this.throwError(e)
+        this.throwError(e);
        });
   }
 
