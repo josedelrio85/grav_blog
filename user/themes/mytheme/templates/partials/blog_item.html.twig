@@ -9,33 +9,39 @@
   </div>
   <div class="col-9 blog-item-right py-3 px-0">
     <div class="row">
-      <div class="col-4">
+      <div class="col-3">
         {% if header_image %}
           {% if header_image_file %}
             {% set header_image_media = page.media.images[header_image_file] %}
           {% else %}
             {% set header_image_media = page.media.images|first %}
           {% endif %}
+          <div class="post-image-background" style="background-image:url('{{ header_image_file }}');">
+          </div>
           {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
         {% endif %}
+        
       </div>
-      <div class="col-4">
-        <div>
+      <div class="col-6">
+        <div class="post-date-container text-primary mb-4">
           <time class="dt-published" datetime="{{ page.date|date("c") }}">
-            <span>{{ page.date|date("d") }}</span>
-            <em>{{ page.date|date("M") }}</em>
+            <span>{{ page.date|date("Y") }}</span><br/>
+            / <span>{{ page.date|date("d") }}</span>
+            de <span>{{ page.date|date("F")|t }}</span>
           </time>
         </div>
-        {% if page.header.link %}
-          <h4 class="p-name">
-            {% if page.header.continue_link is not sameas(false) %}
-              <a href="{{ page.url }}"><i class="fa fa-angle-double-right u-url"></i></a>
-            {% endif %}
-              <a href="{{ page.header.link }}" class="u-url">{{ page.title }}</a>
-          </h4>
-        {% else %}
-          <span class="p-name h5"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></span>
-        {% endif %}
+        <div class="post-name-container mb-4">
+          {% if page.header.link %}
+            <h4 class="p-name text-header font-weight-bold h3">
+              {% if page.header.continue_link is not sameas(false) %}
+                <a href="{{ page.url }}"><i class="fa fa-angle-double-right u-url"></i></a>
+              {% endif %}
+                <a href="{{ page.header.link }}" class="u-url">{{ page.title }}</a>
+            </h4>
+          {% else %}
+            <span class="p-name text-header font-weight-bold h3"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></span>
+          {% endif %}
+        </div>
 
         {% if page.header.continue_link is sameas(false) %}
           <div class="e-content">        
@@ -74,7 +80,7 @@
           </span>
         {% endif %}
       </div>
-      <div class="col-4 d-flex justify-content-center align-items-center plus-column">
+      <div class="col-3 d-flex justify-content-center align-items-center plus-column">
         <span class="icon icon-icon_close_thin"></span>
       </div>
     </div>
