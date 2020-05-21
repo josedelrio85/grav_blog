@@ -14,14 +14,16 @@ class ExamplePlugin extends Plugin {
   }
 
   /** 
-   * Use it in twig file with {{example()}} 
+   * Use it in twig file with {{example()}} {{custom_routes(route)}}
    * Use it in md file with:
    * process:
    *   twig: true
   */
   public function onTwigExtensions(){
     require_once(__DIR__.'/twig/ExampleTwigExtension.php');
+    require_once(__DIR__.'/twig/CustomRoutesExtension.php');
     $this->grav['twig']->twig->addExtension(new ExampleTwigExtension());
+    $this->grav['twig']->twig->addExtension(new CustomRoutesExtension());
   }
 
   /** 
