@@ -22,6 +22,9 @@ content:
         dir: desc
     pagination: false
 has_related: true
+taxonomy:
+    tag: [animal, dog]
+    author: ksmith
 ---
 
 <!-- # Virgin telco llega a España con su nuevo servicio de fibra y móvil -->
