@@ -84,7 +84,7 @@ pages:
       - form
   markdown_extra: false
 cache:
-  enabled: false
+  enabled: true
   check:
     method: file
   driver: auto
@@ -138,7 +138,7 @@ log:
   syslog:
     facility: local6
 debugger:
-  enabled: true
+  enabled: false
   shutdown:
     close_connection: true
   twig: true
