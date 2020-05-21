@@ -5,7 +5,7 @@
 /* eslint-disable import/prefer-default-export */
 
 import { landingCommander } from '@bysidecar/landing_commander/dist/main';
-// import { md5 } from './md5'
+import { md5 } from './md5'
 import { responseC2C } from './response_c2c';
 
 export class c2c {
@@ -73,9 +73,8 @@ export class c2c {
     const lead = {
       sou_id: null,
       lea_type: 1,
-
+      ip: null, // TODO use twig custom function
       url: window.location.href,
-      // ip: document.getElementById('hiddenip').value,
       utm_source: paramsUrl.utm_source,
       sub_source: paramsUrl.sub_source,
       gclid: paramsUrl.gclid,
@@ -90,7 +89,6 @@ export class c2c {
     
     lead.sou_id = 15;
     lead.smartcenter = false;
-    console.log(lead);
 
     // TODO until smartcenter is not active
     // this.response.showPopup(false);
@@ -98,6 +96,7 @@ export class c2c {
     landingCommander.makePostRequest(lead, urlEndPoint)
       .then((result) => {
         this.response.showPopup(true);
+
         // this.landcom.isOnTime(lead.sou_id)
         //   .then((onTime) => {
             
@@ -124,14 +123,14 @@ export class c2c {
         //   })
         //   .catch(e => this.throwError(e));
 
-          // dataLayer.phoneHash = window.md5(lead.phone);
-          dataLayer.idLead = result.message;
-          this.printOut(dataLayer);
-          this.populateDatalayer(dataLayer);
+        dataLayer.phoneHash = window.md5(lead.phone);
+        dataLayer.idLead = result.message;
+        this.printOut(dataLayer);
+        this.populateDatalayer(dataLayer);
       })
       .catch(e => {
         this.response.responseWeWontCall();
-        this.throwError(e)
+        this.throwError(e);
        });
   }
 
