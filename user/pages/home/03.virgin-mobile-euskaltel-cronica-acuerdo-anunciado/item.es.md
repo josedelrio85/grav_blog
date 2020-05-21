@@ -1,6 +1,6 @@
 ---
 title: 'Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado'
-media_order: 'portada ofertas virgin.jpg,virgin-euskaltel.jpg'
+media_order: 'portada ofertas virgin.jpg,virgin-euskaltel.jpg,featured-loop.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page

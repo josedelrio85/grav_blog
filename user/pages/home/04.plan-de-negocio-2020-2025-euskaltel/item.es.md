@@ -1,6 +1,6 @@
 ---
 title: 'Virgin Telco: el plan de negocio 2020-2025 de Euskaltel'
-media_order: 'portada ofertas virgin.jpg,euskaltel-plan-negocio.jpg'
+media_order: 'portada ofertas virgin.jpg,euskaltel-plan-negocio.jpg,featured-loop.jpg'
 metadata:
     - 'index, follow'
 body_classes: hero-page

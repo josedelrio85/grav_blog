@@ -1,6 +1,6 @@
 ---
 title: 'Tarifas personalizadas: Diseña tu pack perfecto'
-media_order: 'portada ofertas virgin.jpg,Virgin1.jpg'
+media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page

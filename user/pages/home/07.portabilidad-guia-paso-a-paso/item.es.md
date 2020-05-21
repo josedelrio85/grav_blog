@@ -1,6 +1,6 @@
 ---
 title: '¿Cómo se hace la portabilidad? Guía paso a paso'
-media_order: 'portada ofertas virgin.jpg,Virgin2.jpg'
+media_order: 'portada ofertas virgin.jpg,Virgin2.jpg,featured-loop.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page

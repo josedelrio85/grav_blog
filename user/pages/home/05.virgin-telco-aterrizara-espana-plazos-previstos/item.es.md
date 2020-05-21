@@ -1,6 +1,6 @@
 ---
 title: 'Virgin Telco aterrizará en España en los plazos previstos'
-media_order: 'portada ofertas virgin.jpg,plazos-previstos.jpg'
+media_order: 'portada ofertas virgin.jpg,plazos-previstos.jpg,featured-loop.jpg'
 metadata:
     - 'index, follow'
 body_classes: hero-page

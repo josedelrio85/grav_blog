@@ -4,25 +4,24 @@
 {% set header_image_file = page.header.header_image_file %}
 
 <div class="row blog-item">
-  <div class="col-3 d-flex justify-content-center align-items-center blog-item-left">
+  <div class="col-2 d-flex justify-content-start align-items-center blog-item-left">
     <div class="post-loop-number">{{ "%02d"|format(loop.index) }}</div>
   </div>
-  <div class="col-9 blog-item-right py-3 px-0">
+  <div class="col-10 blog-item-right py-6 px-0">
     <div class="row">
-      <div class="col-3">
+      <div class="col-4">
         {% if header_image %}
           {% if header_image_file %}
             {% set header_image_media = page.media.images[header_image_file] %}
           {% else %}
             {% set header_image_media = page.media.images|first %}
           {% endif %}
-          <div class="post-image-background" style="background-image:url('{{ header_image_file }}');">
+          <div class="post-image-background" style="background-image:url('{{ page.media['featured-loop.jpg'].url }}');">
           </div>
-          {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
         {% endif %}
         
       </div>
-      <div class="col-6">
+      <div class="col-6 p-5">
         <div class="post-date-container text-primary mb-4">
           <time class="dt-published" datetime="{{ page.date|date("c") }}">
             <span>{{ page.date|date("Y") }}</span><br/>
@@ -80,7 +79,7 @@
           </span>
         {% endif %}
       </div>
-      <div class="col-3 d-flex justify-content-center align-items-center plus-column">
+      <div class="col-2 d-flex justify-content-end align-items-center plus-column">
         <span class="icon icon-icon_close_thin"></span>
       </div>
     </div>

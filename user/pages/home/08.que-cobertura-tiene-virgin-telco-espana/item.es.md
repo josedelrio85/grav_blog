@@ -1,6 +1,6 @@
 ---
 title: '¿Qué cobertura tiene Virgin telco en España?'
-media_order: 'portada ofertas virgin.jpg,VirginTelco.png'
+media_order: 'portada ofertas virgin.jpg,VirginTelco.png,featured-loop.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page
