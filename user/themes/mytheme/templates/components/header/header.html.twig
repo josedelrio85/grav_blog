@@ -1,0 +1,65 @@
+<div class="header">
+    <div class="container py-1">
+        <div class="inner d-flex justify-content-between align-items-center">
+            <div class="logo-container">
+                <a href="https://www.ofertasvirgin.es">
+                  <div class="img d-block mx-auto">
+                      <div class="logo-desktop">
+                        <img class="w-100" srcset="{{ url('theme://img/logo_virgin_telco.png') }}">
+                      </div>
+                  </div>
+                </a>
+            </div>
+            <div class="left-block d-flex align-items-center">
+                <div class="navigation nav-desktop d-none d-lg-block">
+                    <ul class="d-flex p-0 m-0 mr-4 align-items-center">
+                      {% for menu in header.menu %}
+                        {% if menu.active %}
+                          <li><a href="{{ menu.path }}" {% if menu.target %} target="_blank" {% endif %}>{{ menu.text|t|raw }}</a></li>
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+                </div>
+                <a role="button" class="ddi-button ddi-desktop btn btn-primary font-weight-bold d-none d-md-block" href="#">
+                    <span class="icon icon-virgin_icon_call font-weight-bold"></span> <span class="phone ddi"></span>
+                </a>
+                <a role="button" class="ddi-button ddi-mobile btn btn-primary font-weight-bold d-md-none" href="">
+                    <span class="icon icon-virgin_icon_call font-weight-bold"></span> <span class="phone ddi"></span>
+                </a>
+                <div class="navigation nav-mobile d-lg-none ml-4">
+                    <span class="h3 icon icon-menu text-primary"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-0 subheader d-none">
+        <div class="row">
+            <div class="col-12 text-center m-0 py-2 d-md-none">
+                <a href="tel:+34915645454"><span class="ddi-text align-middle">Atención al cliente y autorizaciones</span> <span class="icon icon-phone"></span> <span class="phone support font-weight-bold">91 564 54 54</span></a>
+            </div>
+            <div class="col-12 text-center m-0 py-2 d-none d-md-block">
+                <span class="ddi-text align-middle">Atención al cliente y autorizaciones</span> <span class="icon icon-phone"></span> <span class="phone support font-weight-bold">91 564 54 54</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fullscreen-navigation bg-secondary">
+    <div class="inner d-flex align-items-center justify-content-center container">
+        {# <div class="close-menu p-2">
+            <span class="icon icon-adeslas_icon_close text-white"></span>
+        </div> #}
+        <ul class="d-flex flex-column w-100">
+            {% for menu in header.menu %}
+                {% if menu.active %}
+                    <li><a class="text-header h3 text-decoration-none text-primary text-header" href="{{ menu.path }}" {% if menu.target %} target="_blank" {% endif %}>{{ menu.text|t|raw }}</a></li>                              
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="fullscreen-navigation-footer container">
+        <div class="container">
+            <span class="text-white small">{{ "header.legal" | trans }}</span>
+        </div>
+    </div>
+</div>
