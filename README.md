@@ -68,6 +68,8 @@ php -f bin/plugin login newuser
 
 * Don't forget to run `npm install` when the project is started. You need to execute it in the folder where the `package.json` file is located.
 
+* Now there is a folder under `/user` called `/localhost`. Inside this folder there is configuration for development environment. You should use `http://localhost:port` as route to can use its parameters.
+
 ## Steps after deploying in prod environment
 
 There are some steps to consider after deploying the project in prod environment
