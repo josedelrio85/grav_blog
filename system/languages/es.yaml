@@ -130,18 +130,12 @@ GRAV:
   FOOTER:
     LEGAL:
       TEXT: 'Aviso legal'
-      PATH: '/legal'
+      PATH: 'https://www.ofertasvirgin.es/legal'
     PRIVACY:
       TEXT: 'Política de privacidad'
-      PATH: '/privacidad'
+      PATH: ''
     COOKIES:
       TEXT: 'Política de Cookies'
-      PATH: '/cookies'
-    CONDITIONS:
-      TEXT: 'Condiciones de la promoción'
-      PATH: '/condiciones'
+      PATH: 'https://www.ofertasvirgin.es/cookies'
     OTHER:
       FIELD1: '©2020 Todos los derechos reservados'
-      FIELD2: ''
-      FIELD3: ''
-      FIELD4: ''

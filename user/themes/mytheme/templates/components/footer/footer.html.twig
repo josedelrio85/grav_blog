@@ -14,9 +14,9 @@
           <img class="w-100" srcset="{{ url('theme://img/logo_virgin_telco_white.png') }}">
         </div>
         <div class="footer-links d-flex flex-wrap mb-0 flex-md-row align-items-start align-items-md-center pl-0 pb-4 pb-md-0 pb-md-0 text-white">
-          <a class="link" {{ custom_routes("grav.FOOTER.LEGAL.PATH"|t) }}>{{ "GRAV.FOOTER.LEGAL.TEXT" | t | raw }}</a> 
+          <a class="link" href={{"GRAV.FOOTER.LEGAL.PATH"|t}} target="_blank">{{ "GRAV.FOOTER.LEGAL.TEXT" | t | raw }}</a> 
           <a class="link" data-toggle="modal" data-target="#c2cTermsModal" style="cursor:pointer;">{{ "GRAV.FOOTER.PRIVACY.TEXT" | t | raw }}</a>
-          <a class="link" {{ custom_routes(FOOTER.cookies.path) }}>{{ "GRAV.FOOTER.COOKIES.TEXT" | t | raw }}</a> 
+          <a class="link" href={{"GRAV.FOOTER.COOKIES.PATH"|t}} target="_blank">{{ "GRAV.FOOTER.COOKIES.TEXT" | t | raw }}</a> 
         </div>
         <span class="copyright text-left text-md-right text-gray small text-white">
           {{ "GRAV.FOOTER.OTHER.FIELD1" | t | raw }}
