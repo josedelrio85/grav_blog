@@ -71,12 +71,18 @@
           {% set show_prev_next = true %}
         {% endif %}
 
+        {% if page.taxonomy.category %}
+          <div class="cat-container mb-3">
+            <a href="{{ blog.url|rtrim('/') }}/category{{ config.system.param_sep }}{{ page.taxonomy.category[0] }}" class="single-cat font-weight-bold px-2 py-1 mr-1">{{ page.taxonomy.category[0] }}</a href="{{ blog.url|rtrim('/') }}/category{{ config.system.param_sep }}{{ page.taxonomy.category[0] }}">
+          </div>
+        {% endif %}
+        
         {% if page.taxonomy.tag %}
-          <span class="tags">
+          <div class="tags-container mb-3">
             {% for tag in page.taxonomy.tag %}
-            <a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}" class="p-category">{{ tag }}</a>
+              <a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}" class="single-tag font-weight-bold px-2 py-1 mr-1">{{ tag }}</a>
             {% endfor %}
-          </span>
+          </div>
         {% endif %}
       </div>
       <div class="col-2 d-none d-lg-flex justify-content-end align-items-center plus-column">

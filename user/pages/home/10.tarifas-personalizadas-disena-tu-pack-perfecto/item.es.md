@@ -1,5 +1,11 @@
 ---
 title: 'Tarifas personalizadas: Diseña tu pack perfecto'
+taxonomy:
+    category:
+        - una categoría
+    tag:
+        - tag1
+        - tag2
 media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg,featured.jpg'
 metadata:
     robots: 'index, follow'
