@@ -1,0 +1,40 @@
+{% set pagination = pagination|default(page.collection.params.pagination) %}
+{% set base_url = base_url|default(page.url) %}
+
+{% if pagination|length > 1 %}
+
+<div class="container px-md-0">
+  <div class="row">
+    <div class="col-12 text-left">
+      <ul class="pagination justify-content-end">
+          {% if pagination.hasPrev %}
+              {% set url =  (base_url ~ pagination.params ~ pagination.prevUrl)|replace({'//':'/'}) %}
+              <li><a rel="prev" href="{{ url }}"><i class="icon icon-menu_mob_arrow_left"></i></a></li>
+          {% else %}
+              <li><span><i class="icon icon-menu_mob_arrow_left"></i></span></li>
+          {% endif %}
+
+          {% for paginate in pagination %}
+
+              {% if paginate.isCurrent %}
+                  <li><span class="active ">{{ paginate.number }}</span></li>
+              {% elseif paginate.isInDelta %}
+                  {% set url = (base_url ~ pagination.params ~ paginate.url)|replace({'//':'/'}) %}
+                  <li><a href="{{ url }}" class="">{{ paginate.number }}</a></li>
+              {% elseif paginate.isDeltaBorder %}
+                  <li class="gap"><span>&hellip;</span></li>
+              {% endif %}
+
+          {% endfor %}
+          {% if pagination.hasNext %}
+              {% set url = (base_url ~ pagination.params ~ pagination.nextUrl)|replace({'//':'/'}) %}
+              <li><a rel="next" href="{{ url }}" class=""><i class="icon icon-menu_mob_arrow_right"></i></a></li>
+          {% else %}
+              <li><span class=""><i class="icon icon-menu_mob_arrow_right"></i></span></li>
+          {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% endif %}
