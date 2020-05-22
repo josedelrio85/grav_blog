@@ -41,13 +41,18 @@
 
 		{% include 'components/tags-cloud/tags-cloud.html.twig' with {} %}
 
-		<div class="container blog-grid">
+		<div class="container blog-grid mb-5 mb-md-8">
 			{% for child in collection %}
 				{% include 'partials/blog_item_loop.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
 			{% endfor %}
 		</div>
 
-		{% include 'components/pre-footer-article/pre-footer-article.html.twig' with {} %}
+		{% if config.plugins.pagination.enabled and collection.params.pagination %}
+			{% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+		{% endif %}
+    
+    {% include 'components/pre-footer-article/pre-footer-article.html.twig' %}
+
 	{% endblock %}
 
 {% endembed %}

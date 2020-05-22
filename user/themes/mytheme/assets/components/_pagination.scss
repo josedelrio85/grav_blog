@@ -1,0 +1,38 @@
+.pagination {
+  li {
+    border: none;
+    span {
+      color: $primary;
+      height: 100%;
+      &.active {
+        color: $secondary;
+        background-color: $primary;
+        border: 1px solid $primary;
+      }
+    }
+    a {
+      
+      height: 100%;
+      &:hover {
+        color: $secondary!important;
+        background-color: $primary;
+        border: 1px solid $primary;
+      }
+    }
+    a, span {
+      border: 1px solid #919191;
+      padding: 15px 20px;
+      font-weight: bold;
+    }
+    .icon {
+      font-size: 0.7rem;
+      display: inline-block;
+      font-weight: bold;
+    }
+    &:first-child, &:last-child {
+      a, span {
+        padding: 15px 15px;
+      }
+    }
+  }
+}
