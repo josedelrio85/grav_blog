@@ -64,6 +64,7 @@ RUN composer install \
     && php bin/gpm install admin \
     && php bin/gpm install tinyseo \
     && php bin/gpm install sitemap \
+    && php bin/gpm install pagination \
     && cd user/themes/mytheme && npm install -y \
     && npm run build
 
