@@ -41,7 +41,7 @@
   }
 
   .post-date-container {
-      font-size: .8rem;
+      font-size: .9rem;
   }
 
   .post-name-container h1 {
@@ -51,6 +51,23 @@
   .p-name a {
       color: $white!important;
       font-weight: bold;
+  }
+
+  .cat-container {
+    .single-cat {
+      background-color: $primary;
+      color: $secondary!important;
+      display: inline-block;
+      font-size: .9rem;
+    }
+  }
+  .tags-container {
+    .single-tag {
+      background-color: $secondary;
+      color: $primary;
+      display: inline-block;
+      font-size: .9rem;
+    }
   }
 
   .e-content {

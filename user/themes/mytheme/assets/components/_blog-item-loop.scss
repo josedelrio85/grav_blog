@@ -56,7 +56,7 @@
     }
 
     .post-date-container {
-        font-size: .8rem;
+        font-size: .9rem;
     }
     
     .plus-column .icon {
@@ -72,6 +72,23 @@
 
     .e-content {
         color: #919191;
+    }
+
+    .cat-container {
+        .single-cat {
+          background-color: $primary;
+          color: $secondary!important;
+          display: inline-block;
+          font-size: .9rem;
+        }
+    }
+    .tags-container {
+        .single-tag {
+          background-color: $secondary;
+          color: $primary;
+          display: inline-block;
+          font-size: .9rem;
+        }
     }
 
     .blog-item-right {

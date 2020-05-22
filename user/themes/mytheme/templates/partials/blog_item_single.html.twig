@@ -19,6 +19,18 @@
         <div class="post-name-container mb-4">
           <h1 class="p-name text-header font-weight-bold h1">{{ page.title }}</h1>
         </div>
+        {% if page.taxonomy.category %}
+          <div class="cat-container mb-3">
+            <a href="{{ blog.url|rtrim('/') }}/category{{ config.system.param_sep }}{{ page.taxonomy.category[0] }}" class="single-cat font-weight-bold px-2 py-1 mr-1">{{ page.taxonomy.category[0] }}</a>
+          </div>
+        {% endif %}
+        {% if page.taxonomy.tag %}
+          <div class="tags-container mb-3">
+            {% for tag in page.taxonomy.tag %}
+              <a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}" class="single-tag font-weight-bold px-2 py-1 mr-1">{{ tag }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -27,9 +39,9 @@
 <div class="container-fluid p-0 m-0 mt-2 mt-md-10">
   <div class="container single-post-content">
     <div class="row">
-      <div class="col-12 col-lg-1 text-left">
-        <a href="https://twitter.com/intent/tweet?url={{ page.url(true) }}&text={{ page.title }}" class="" data-show-count="false"><div class="icon icon-twitter mb-4"></div></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url(true) }}" target="_blank"><div class="icon icon-facebook mb-4"></div></a>
+      <div class="col-12 col-lg-1 text-left d-flex flex-lg-column p-3">
+        <a href="https://twitter.com/intent/tweet?url={{ page.url(true) }}&text={{ page.title }}" class="m-2" data-show-count="false"><div class="icon icon-twitter mb-4"></div></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url(true) }}" class="m-2" target="_blank"><div class="icon icon-facebook mb-4"></div></a>
       </div>
       <div class="col-12 col-lg-8 px-lg-6">
         {{ page.content }}
