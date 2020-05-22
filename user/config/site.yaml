@@ -38,7 +38,7 @@ header:
       self: false
     menu4:
       text: GRAV.HEADER.MENU.MENU4.TEXT
-      path: '/'
+      path: '/blog'
       active: true
       target: false
       self: true

@@ -1,0 +1,40 @@
+{# <div class="container pre-footer-article">
+  <div class="row">
+    <div class="col-12 col-lg-7">
+      <h4 class="mini-header">{{ 'GRAV.PREFOOTER.HEADER.MINIHEADER' | t | raw }}</h4>
+      <h2 class="text-header font-weight-bold text-white m-md-0">
+        {{ 'GRAV.PREFOOTER.HEADER.HEADER' | t | raw }}
+      </h2>
+      <div class="row mt-5 mt-lg-6">
+        <div class="col-12 col-lg-4">
+          <h6 class="mini-header text-white font-weight-bold">{{ 'GRAV.PREFOOTER.CONTENT.LEFT.MINIHEADER' | t | raw }}</h6>
+          <p>
+            {{ 'GRAV.PREFOOTER.CONTENT.LEFT.TEXT' | t | raw }}
+          </p>
+        </div>
+        <div class="col-1">&nbsp;</div>
+        <div class="col-12 col-lg-7">
+          {{ 'GRAV.PREFOOTER.CONTENT.RIGHT.TEXT' | t | raw }}
+        </div>
+      </div>
+    </div>
+    <div class="col-1">&nbsp;</div>
+    <div class="col-12 col-lg-4">
+      <div class="right-image-container">
+        <img class="right-image" srcset="{{ url('theme://img/' ~ 'GRAV.PREFOOTER.HEADER.IMAGE' | t) }}" />
+      </div>
+    </div>
+  </div>
+</div> #}
+
+<div class="container pre-footer-article">
+  <div class="row">
+    <div class="col-12 col-lg-7">
+      <h2 class="text-header font-weight-bold text-white m-md-0">
+      {{ page.header.title}}
+      {{ content}}
+      </h2>
+    </div>
+  </div>
+</div>
+  

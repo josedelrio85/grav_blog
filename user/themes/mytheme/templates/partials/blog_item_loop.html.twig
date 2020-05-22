@@ -33,14 +33,11 @@
           {% if page.header.link %}
             <h4 class="p-name text-header font-weight-bold h3">
               {% if page.header.continue_link is not sameas(false) %}
-                {# <a href="{{ page.url }}"><i class="fa fa-angle-double-right u-url"></i></a> #}
                 <a {{custom_routes(page.url)}}><i class="fa fa-angle-double-right u-url"></i></a>
               {% endif %}
-                {# <a href="{{ page.header.link }}" class="u-url">{{ page.title }}</a> #}
                 <a {{custom_routes(page.header.link)}} class="u-url">{{ page.title }}</a>
             </h4>
           {% else %}
-            {# <span class="p-name text-header font-weight-bold h3"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></span> #}
             <span class="p-name text-header font-weight-bold h3"><a {{custom_routes(page.url)}} class="u-url">{{ page.title }}</a></span>
           {% endif %}
         </div>

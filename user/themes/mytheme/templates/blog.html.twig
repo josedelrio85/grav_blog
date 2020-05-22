@@ -3,6 +3,11 @@
 	{% set collection = page.collection() %}
 
 	{% block content %}
+
+		{% for child in collection %}
+			{{dump(child)}}
+		{% endfor %}
+
 		{% set blog_image = page.media.images|first.contrast(20).brightness(-100).colorize(-35,81,122) %}
 
 		{# {% if blog_image %}
@@ -51,7 +56,10 @@
 			{% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
 		{% endif %}
     
-    {% include 'components/pre-footer-article/pre-footer-article.html.twig' %}
+    {# {% include 'components/pre-footer-article/pre-footer-article.html.twig' %} #}
+		{# https://github.com/getgrav/grav/issues/1974 #}
+		{# printing a modular page! #}
+		{{ page.find('/home/_test').content() }}
 
 	{% endblock %}
 
