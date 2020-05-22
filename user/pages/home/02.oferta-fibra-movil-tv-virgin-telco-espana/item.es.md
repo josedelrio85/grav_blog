@@ -22,6 +22,8 @@ content:
         dir: desc
     pagination: false
 has_related: true
+taxonomy:
+    tag: [animal, dog]
 ---
 
 <!-- # ¿Cuál será la oferta (fibra, móvil y TV) de Virgin Telco en España? -->
