@@ -101,6 +101,8 @@
         });
       </script>
       {{ assets.js('bottom')|raw }}
+
+      <input type="hidden" value="{{plugin_ip}}" id="hidden_ip"/>
     {% endblock %}
 
     {% block noscript %}    

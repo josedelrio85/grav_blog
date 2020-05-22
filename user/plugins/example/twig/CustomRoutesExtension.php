@@ -23,6 +23,6 @@ class CustomRoutesExtension extends \Twig_Extension {
       $newroute = $route;
     }
     // var_dump($newroute);
-    return "href=/".$newroute;
+    return "href=".$newroute;
   }
 }

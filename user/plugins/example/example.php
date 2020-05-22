@@ -36,6 +36,10 @@ class ExamplePlugin extends Plugin {
     $uri = new \Grav\Common\Uri();
 
     $ip = $uri->ip();
-    $this->grav['twig']->twig_vars['plugin_ip'] = $uri->ip();
+    $incorrect = ["UNKNOWN"];
+    if (in_array($ip, $incorrect)) {
+      $ip = "127.0.0.1";
+    }
+    $this->grav['twig']->twig_vars['plugin_ip'] = $ip;
   }
 }
