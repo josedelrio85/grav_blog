@@ -1,0 +1,60 @@
+{% if page.header.has_related == true %}
+  <div class="container related-posts-container mt-5">
+    <div class="row">
+      <div class="col-1 d-none d-lg-block">
+        <img class="img-fluid mt-5" srcset="{{ url('theme://img/relacionados.jpg') }}" />
+      </div>
+      <div class="col-12 col-lg-11 pl-lg-6">
+        <div class="row">
+          <div class="col-12 d-lg-none">
+            <h2 class="text-primary font-weight-bold">{{ 'SIDEBAR.RELATED_POSTS.HEADLINE'|t }}</h2>
+          </div>
+          {% for p in page.collection %}
+            {% if loop.index <= 2  %}
+              <div class="col-12 mb-6 col-md-6 col-lg-4 related-post-container">
+                <div class="col-12 mb-4 p-0">
+                  {% if p.media['featured.jpg'].url %}
+                    <div class="post-image-background" style="background-image:url('{{ p.media['featured-loop.jpg'].url }}');"></div>
+                  {% else %}
+                    <div class="post-image-background" style="background-image:url('{{ p.media['featured-loop.jpg'].url }}');"></div>
+                  {% endif %}
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="post-date-container text-primary">
+                      <time class="dt-published" datetime="{{ p.date|date("c") }}">
+                        <span>{{ p.date|date("Y") }}</span><br/>
+                        / <span>{{ p.date|date("d") }}</span>
+                        de <span>{{ p.date|date("F")|t }}</span>
+                      </time>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    {% if p.taxonomy.category %}
+                      <div class="cat-container">
+                        <a href="{{ blog.url|rtrim('/') }}/category{{ config.system.param_sep }}{{ p.taxonomy.category[0] }}" class="single-cat font-weight-bold px-2 py-1 mr-1">{{ p.taxonomy.category[0] }}</a>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="col-12 mt-4 mb-5 p-0">
+                  <a href="{{ p.url }}"><h2 class="h3 text-white font-weight-bold">{{ p.title }}</h2></a>
+                  {# <p><a href="{{ p.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p> #}
+                </div>
+                <div class="col-12 d-flex justify-content-start align-items-center plus-column">
+                  <a href="{{ p.url }}"><span class="icon icon-icon_close_thin"></span></a>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      
+    </div>
+
+      <div class="col-2 d-none d-lg-flex justify-content-end align-items-center plus-column">
+      </div>
+
+
+
+{% endif %}

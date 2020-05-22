@@ -1,0 +1,28 @@
+.related-posts-container {
+  // max-width:960px!important;margin:1rem auto!important
+  .post-image-background {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height:200px;
+  }
+  .post-date-container {
+    font-size: .9rem;
+  }
+  .plus-column .icon {
+    color: $primary;
+    font-size: 2.5rem;
+    transform: rotate(45deg);
+    display: block;
+  }
+  .cat-container {
+    .single-cat {
+      background-color: $primary;
+      color: $secondary!important;
+      display: inline-block;
+      font-size: .9rem;
+    }
+  }
+}

@@ -63,7 +63,7 @@ es:
     SIMPLE_SEARCH:
       HEADLINE: Buscar
     RELATED_POSTS:
-      HEADLINE: Entradas Relacionadas
+      HEADLINE: Relacionados
     RANDOM_ARTICLE:
       HEADLINE: Artículo Aleatorio
       FEELING_LUCKY: Voy a tener suerte!
