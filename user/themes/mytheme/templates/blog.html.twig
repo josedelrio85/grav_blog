@@ -17,7 +17,7 @@
 				<div class="row">
 					<div class="col-12">
 						<h4 class="mini-header">Virgin telco</h4>
-						<h1 class="h1 text-header text-white m-md-0">Noticias</h2>
+						<h2 class="h1 text-header text-white m-md-0">Noticias</h2>
 					</div>
 				</div>
 			</div>
@@ -50,6 +50,9 @@
 		{% if config.plugins.pagination.enabled and collection.params.pagination %}
 			{% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
 		{% endif %}
+    
+    {% include 'components/pre-footer-article/pre-footer-article.html.twig' %}
+
 	{% endblock %}
 
 {% endembed %}
