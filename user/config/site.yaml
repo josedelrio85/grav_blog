@@ -23,18 +23,22 @@ header:
       path: 'https://www.ofertasvirgin.es'
       active: true
       target: false
+      self: false
     menu2:
       text: GRAV.HEADER.MENU.MENU2.TEXT
       path: 'https://www.ofertasvirgin.es/movil'
       active: false
       target: false
+      self: false
     menu3:
       text: GRAV.HEADER.MENU.MENU3.TEXT
       path: 'https://www.ofertasvirgin.es/internet'
       active: false
       target: false
+      self: false
     menu4:
       text: GRAV.HEADER.MENU.MENU4.TEXT
       path: '/'
       active: true
       target: false
+      self: true

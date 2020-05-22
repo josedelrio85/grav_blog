@@ -73,7 +73,7 @@ export class c2c {
     const lead = {
       sou_id: null,
       lea_type: 1,
-      ip: null, // TODO use twig custom function
+      ip: document.getElementById('hidden_ip').value,
       url: window.location.href,
       utm_source: paramsUrl.utm_source,
       sub_source: paramsUrl.sub_source,
@@ -89,7 +89,7 @@ export class c2c {
     
     lead.sou_id = 15;
     lead.smartcenter = false;
-
+    console.log(lead);
     // TODO until smartcenter is not active
     // this.response.showPopup(false);
 

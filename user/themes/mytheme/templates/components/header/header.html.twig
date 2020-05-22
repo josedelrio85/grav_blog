@@ -15,7 +15,8 @@
                     <ul class="d-flex p-0 m-0 mr-4 align-items-center">
                       {% for menu in header.menu %}
                         {% if menu.active %}
-                          <li><a href="{{ menu.path }}" {% if menu.target %} target="_blank" {% endif %}>{{ menu.text|t|raw }}</a></li>
+                          <li><a {% if menu.self %} {{custom_routes(menu.path)}} {% else %} href="{{ menu.path }}" {% endif %}
+                          {% if menu.target %} target="_blank" {% endif %}>{{ menu.text|t|raw }}</a></li>
                         {% endif %}
                       {% endfor %}
                     </ul>

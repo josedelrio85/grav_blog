@@ -33,12 +33,15 @@
           {% if page.header.link %}
             <h4 class="p-name text-header font-weight-bold h3">
               {% if page.header.continue_link is not sameas(false) %}
-                <a href="{{ page.url }}"><i class="fa fa-angle-double-right u-url"></i></a>
+                {# <a href="{{ page.url }}"><i class="fa fa-angle-double-right u-url"></i></a> #}
+                <a {{custom_routes(page.url)}}><i class="fa fa-angle-double-right u-url"></i></a>
               {% endif %}
-                <a href="{{ page.header.link }}" class="u-url">{{ page.title }}</a>
+                {# <a href="{{ page.header.link }}" class="u-url">{{ page.title }}</a> #}
+                <a {{custom_routes(page.header.link)}} class="u-url">{{ page.title }}</a>
             </h4>
           {% else %}
-            <span class="p-name text-header font-weight-bold h3"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></span>
+            {# <span class="p-name text-header font-weight-bold h3"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></span> #}
+            <span class="p-name text-header font-weight-bold h3"><a {{custom_routes(page.url)}} class="u-url">{{ page.title }}</a></span>
           {% endif %}
         </div>
 
@@ -52,12 +55,14 @@
         {% elseif truncate and page.summary != page.content %}
           <div class="p-summary e-content">
             <span class="excerpt d-block mb-4">{{ page.header.excerpt }}</span>
-            <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
+            {# <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p> #}
+            <p><a {{custom_routes(page.url)}}>{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
           </div>
         {% elseif truncate %}
           <div class="p-summary e-content">
             {{ page.content }}
-            <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
+            {# <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p> #}
+            <p><a {{custom_routes(page.url)}}>{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
           </div>
         {% else %}
           <div class="e-content">
