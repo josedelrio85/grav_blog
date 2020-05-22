@@ -1,6 +1,6 @@
 ---
 title: 'Virgin Telco hace públicas sus primeras ofertas  | Fibra, móvil y TV'
-media_order: 'portada ofertas virgin.jpg,Virgin1.jpg'
+media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page
@@ -24,13 +24,13 @@ content:
 has_related: true
 ---
 
-# Virgin Telco: conoce los primeros detalles de sus ofertas
+<!-- # Virgin Telco: conoce los primeros detalles de sus ofertas -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 
-![](Virgin1.jpg)
+<!-- ![](Virgin1.jpg) -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 ### Tabla de Contenido
 <div class="mb-5"></div>
 

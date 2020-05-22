@@ -1,0 +1,87 @@
+{% set header_image = page.header.header_image|defined(true) %}
+{% set header_image_width  = page.header.header_image_width|defined(900) %}
+{% set header_image_height = page.header.header_image_height|defined(300) %}
+{% set header_image_file = page.header.header_image_file %}
+
+<div class="row blog-item">
+  <div class="col-2 d-none d-lg-flex justify-content-start align-items-center blog-item-left">
+    <div class="post-loop-number">{{ "%02d"|format(loop.index) }}</div>
+  </div>
+  <div class="col-12 col-lg-10 blog-item-right py-6 px-0">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        {% if header_image %}
+          {% if header_image_file %}
+            {% set header_image_media = page.media.images[header_image_file] %}
+          {% else %}
+            {% set header_image_media = page.media.images|first %}
+          {% endif %}
+          <div class="post-image-background" style="background-image:url('{{ page.media['featured-loop.jpg'].url }}');">
+          </div>
+        {% endif %}
+        
+      </div>
+      <div class="col-12 col-lg-6 p-5">
+        <div class="post-date-container text-primary mb-4">
+          <time class="dt-published" datetime="{{ page.date|date("c") }}">
+            <span>{{ page.date|date("Y") }}</span><br/>
+            / <span>{{ page.date|date("d") }}</span>
+            de <span>{{ page.date|date("F")|t }}</span>
+          </time>
+        </div>
+        <div class="post-name-container mb-4">
+          {% if page.header.link %}
+            <h4 class="p-name text-header font-weight-bold h3">
+              {% if page.header.continue_link is not sameas(false) %}
+                <a href="{{ page.url }}"><i class="fa fa-angle-double-right u-url"></i></a>
+              {% endif %}
+                <a href="{{ page.header.link }}" class="u-url">{{ page.title }}</a>
+            </h4>
+          {% else %}
+            <span class="p-name text-header font-weight-bold h3"><a href="{{ page.url }}" class="u-url">{{ page.title }}</a></span>
+          {% endif %}
+        </div>
+
+        {% if page.header.continue_link is sameas(false) %}
+          <div class="e-content">        
+            {{ page.content }}
+          </div>
+          {% if not truncate %}
+          {% set show_prev_next = true %}
+          {% endif %}
+        {% elseif truncate and page.summary != page.content %}
+          <div class="p-summary e-content">
+            <span class="excerpt d-block mb-4">{{ page.header.excerpt }}</span>
+            <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
+          </div>
+        {% elseif truncate %}
+          <div class="p-summary e-content">
+            {{ page.content }}
+            <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
+          </div>
+        {% else %}
+          <div class="e-content">
+            {{ page.content }}
+          </div>
+
+          {% if config.plugins.comments.enabled %}
+            {% include 'partials/comments.html.twig' %}
+          {% endif %}
+
+          {% set show_prev_next = true %}
+        {% endif %}
+
+        {% if page.taxonomy.tag %}
+          <span class="tags">
+            {% for tag in page.taxonomy.tag %}
+            <a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}" class="p-category">{{ tag }}</a>
+            {% endfor %}
+          </span>
+        {% endif %}
+      </div>
+      <div class="col-2 d-none d-lg-flex justify-content-end align-items-center plus-column">
+        <span class="icon icon-icon_close_thin"></span>
+      </div>
+    </div>
+  </div>
+</div>

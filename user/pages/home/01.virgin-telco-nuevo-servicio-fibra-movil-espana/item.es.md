@@ -1,6 +1,6 @@
 ---
 title: 'Virgin telco llega a España con su nuevo servicio de fibra y móvil'
-media_order: 'portada ofertas virgin.jpg,Virgin.jpg'
+media_order: 'portada ofertas virgin.jpg,Virgin.jpg,featured-loop.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page
@@ -24,13 +24,13 @@ content:
 has_related: true
 ---
 
-# Virgin telco llega a España con su nuevo servicio de fibra y móvil
+<!-- # Virgin telco llega a España con su nuevo servicio de fibra y móvil -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 
-![](Virgin.jpg)
+<!-- ![](Virgin.jpg) -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 #### Tabla de Contenidos
 <div class="links-list"></div>
 

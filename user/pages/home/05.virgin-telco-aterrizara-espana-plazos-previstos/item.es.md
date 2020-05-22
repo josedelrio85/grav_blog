@@ -1,6 +1,6 @@
 ---
 title: 'Virgin Telco aterrizará en España en los plazos previstos'
-media_order: 'portada ofertas virgin.jpg,plazos-previstos.jpg'
+media_order: 'portada ofertas virgin.jpg,plazos-previstos.jpg,featured-loop.jpg'
 metadata:
     - 'index, follow'
 body_classes: hero-page
@@ -9,13 +9,13 @@ override_default_desc: 'Pese a todas las adversidades, la llegada de Virgin a Es
 excerpt: 'Las últimas informaciones que llegan desde fuentes internas del operador Euskaltel confirman que la llegada de Virgin Telco a territorio nacional se producirá en las...'
 ---
 
-#  Virgin Telco aterrizará en España en los plazos previstos
+<!-- #  Virgin Telco aterrizará en España en los plazos previstos -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 
-![](plazos-previstos.jpg)
+<!-- ![](plazos-previstos.jpg) -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 ### Tabla de Contenido
 <div class="links-list"></div>
 

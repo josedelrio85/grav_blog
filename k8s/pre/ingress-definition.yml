@@ -18,6 +18,10 @@ spec:
         backend:
           serviceName: virgin-blog-pre
           servicePort: 80
+  tls:
+  - hosts:
+      - virgin-pre.bysidecar.me
+    secretName: tls-virgin-pre-bysidecar-me
     # - host: symfony.virgin-test.bysidecar.me
     #   http:
     #     paths:

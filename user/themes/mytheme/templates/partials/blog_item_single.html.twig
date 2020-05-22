@@ -1,0 +1,44 @@
+<div class="container-fluid p-0 m-0">
+  <div class="container single-post-content-top">
+    <div class="row">
+      <div class="col-12 col-md-5 single-post-image-container">
+        {% if page.media['featured.jpg'].url %}
+          <img class="single-post-image" src="{{ page.media['featured.jpg'].url }}" />
+        {% else %}
+          <img class="single-post-image" src="{{ page.media['featured-loop.jpg'].url }}" />
+        {% endif %}
+      </div>
+      <div class="col-12 col-md-7 pt-4 pt-md-0">
+        <div class="post-date-container text-primary mb-4">
+          <time class="dt-published" datetime="{{ page.date|date("c") }}">
+            <span>{{ page.date|date("Y") }}</span><br/>
+            / <span>{{ page.date|date("d") }}</span>
+            de <span>{{ page.date|date("F")|t }}</span>
+          </time>
+        </div>
+        <div class="post-name-container mb-4">
+          <h1 class="p-name text-header font-weight-bold h1">{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-0 m-0 mt-2 mt-md-10">
+  <div class="container single-post-content">
+    <div class="row">
+      <div class="col-12 col-lg-1 text-left">
+        <a href="https://twitter.com/intent/tweet?url={{ page.url(true) }}&text={{ page.title }}" class="" data-show-count="false"><div class="icon icon-twitter mb-4"></div></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url(true) }}" target="_blank"><div class="icon icon-facebook mb-4"></div></a>
+      </div>
+      <div class="col-12 col-lg-8 px-lg-6">
+        {{ page.content }}
+      </div>
+      <div class="col-12 col-lg-3 text-center d-none d-lg-block">
+        <div class="single-post-side-image-container">
+          <img class="single-post-side-image" src="{{ page.media['side-image.jpg'].url }}" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

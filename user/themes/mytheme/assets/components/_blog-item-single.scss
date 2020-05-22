@@ -1,0 +1,110 @@
+.single-post-content-top {
+  // display:none;
+  padding-top:150px;
+
+  // .post-loop-number {
+  //   font-family: $headers-font-family;
+  //   color: $primary;
+  //   font-size: 3.5rem;
+  //   font-weight: 700;
+  // }
+
+  // .post-image-background {
+  //     width: 100%;
+  //     height: 100%;
+  //     background-size: cover;
+  //     background-position: center center;
+  //     background-repeat: no-repeat;
+  //     min-height:200px;
+  // }
+
+  .single-post-image-container {
+    &:before {
+      content: "";
+      display: block;
+      background-color: $primary;
+      width: 100vw;
+      height: 150%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 50%;
+      z-index: 1;
+      @media (max-width:767px) {
+        display: none !important;
+      }
+    }
+    .single-post-image {
+      z-index: 2;
+      position: relative;
+    }
+  }
+
+  .post-date-container {
+      font-size: .8rem;
+  }
+
+  .post-name-container h1 {
+    color: $white;
+  }
+
+  .p-name a {
+      color: $white!important;
+      font-weight: bold;
+  }
+
+  .e-content {
+      color: #919191;
+  }
+
+}
+
+.single-post-content {
+  .icon {
+    color: $primary;
+    font-size: 2rem;
+  }
+  h2, h3, h4, h5, h6 {
+    color: $primary;
+  }
+  p, li {
+    color: #919191;
+  }
+
+  .links-list {
+    & + ul {
+      list-style-type: none;
+      padding-inline-start: 0;
+      padding-left: 0;
+
+      a {
+        display: inline-block;
+        background: transparent;
+        padding: .75rem;
+        color: $primary !important;
+        font-weight: 700;
+        box-shadow: none;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .single-post-side-image-container {
+    position: relative;
+    &:before {
+      content: "";
+      display: block;
+      background-color: $primary;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 20px;
+      left: -20px;
+      z-index: 1;
+    }
+    .single-post-side-image {
+      z-index: 2;
+      position: relative;
+    }
+  }
+}

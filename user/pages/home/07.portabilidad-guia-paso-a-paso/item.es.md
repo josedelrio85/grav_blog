@@ -1,6 +1,6 @@
 ---
 title: '¿Cómo se hace la portabilidad? Guía paso a paso'
-media_order: 'portada ofertas virgin.jpg,Virgin2.jpg'
+media_order: 'portada ofertas virgin.jpg,Virgin2.jpg,featured-loop.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page
@@ -24,13 +24,13 @@ content:
 has_related: true
 ---
 
-# ¿Qué es y cuánto tarda una portabilidad?
+<!-- # ¿Qué es y cuánto tarda una portabilidad? -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
     
-![](Virgin2.jpg)
+<!-- ![](Virgin2.jpg) -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 ### Tabla de Contenido
 
 <div class="mb-5"></div>

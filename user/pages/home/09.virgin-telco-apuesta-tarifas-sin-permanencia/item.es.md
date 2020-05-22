@@ -1,6 +1,6 @@
 ---
 title: 'Virgin telco apuesta por tarifas sin permanencia'
-media_order: 'portada ofertas virgin.jpg,VirginTelco.png'
+media_order: 'portada ofertas virgin.jpg,VirginTelco.png,featured-loop.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page
@@ -24,9 +24,9 @@ content:
 has_related: true
 ---
 
-# Virgin telco apuesta por tarifas sin permanencia en sus servicios
-![](VirginTelco.png)
-<div class="mb-5"></div>
+<!-- # Virgin telco apuesta por tarifas sin permanencia en sus servicios -->
+<!-- ![](VirginTelco.png) -->
+<!-- <div class="mb-5"></div> -->
 
 ### TABLA DE CONTENIDO
 

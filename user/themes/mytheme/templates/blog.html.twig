@@ -5,12 +5,22 @@
 	{% block content %}
 		{% set blog_image = page.media.images|first.contrast(20).brightness(-100).colorize(-35,81,122) %}
 
-		{% if blog_image %}
+		{# {% if blog_image %}
 		<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
 		{% else %}
 		<div class="blog-header">
 		{% endif %}
 			{{ page.content }}
+		</div> #}
+		<div class="container-fluid blog-main-header d-flex align-items-end">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h4 class="mini-header">Virgin telco</h4>
+						<h1 class="h1 text-header text-white m-md-0">Noticias</h2>
+					</div>
+				</div>
+			</div>
 		</div>
 		
 		{% if config.plugins.breadcrumbs.enabled %}
@@ -20,7 +30,7 @@
 		<div class="content-wrapper blog-content-list grid pure-g">
 			<div id="listing" class="block pure-u-2-3 h-feed">
 				{% for child in collection %}
-					{% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+					{# {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %} #}
 				{% endfor %}
 
 				{% if config.plugins.pagination.enabled and collection.params.pagination %}
@@ -31,8 +41,14 @@
 				{% include 'partials/sidebar.html.twig' with {'blog':page} %}
 			</div>
 		</div>
+
+		{% include 'components/tags-cloud/tags-cloud.html.twig' with {} %}
+
+		<div class="container blog-grid">
+			{% for child in collection %}
+				{% include 'partials/blog_item_loop.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+			{% endfor %}
+		</div>
 	{% endblock %}
 
 {% endembed %}
-
-

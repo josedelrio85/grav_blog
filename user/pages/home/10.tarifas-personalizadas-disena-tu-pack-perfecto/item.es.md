@@ -1,6 +1,6 @@
 ---
 title: 'Tarifas personalizadas: Diseña tu pack perfecto'
-media_order: 'portada ofertas virgin.jpg,Virgin1.jpg'
+media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg,featured.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page
@@ -24,10 +24,10 @@ content:
 has_related: true
 ---
 
-# Personaliza tu propia tarifa con Virgin telco
+<!-- # Personaliza tu propia tarifa con Virgin telco -->
 
-![](Virgin1.jpg)
-<div class="mb-5"></div>
+<!-- ![](Virgin1.jpg) -->
+<!-- <div class="mb-5"></div> -->
 
 <div class="links-list"></div>
 

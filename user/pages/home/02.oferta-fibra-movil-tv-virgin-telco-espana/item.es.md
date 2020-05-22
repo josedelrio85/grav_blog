@@ -1,6 +1,6 @@
 ---
 title: '¿Cuál será la oferta (fibra, móvil y TV) de Virgin Telco en España?'
-media_order: 'portada ofertas virgin.jpg,virgin-mobile-cual-será-la-oferta.jpg'
+media_order: 'portada ofertas virgin.jpg,virgin-mobile-cual-será-la-oferta.jpg,featured-loop.jpg'
 metadata:
     robots: 'index, follow'
 body_classes: hero-page
@@ -24,13 +24,13 @@ content:
 has_related: true
 ---
 
-# ¿Cuál será la oferta (fibra, móvil y TV) de Virgin Telco en España?
+<!-- # ¿Cuál será la oferta (fibra, móvil y TV) de Virgin Telco en España? -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 
-![](virgin-mobile-cual-será-la-oferta.jpg)
+<!-- ![](virgin-mobile-cual-será-la-oferta.jpg) -->
 
-<div class="mb-5"></div>
+<!-- <div class="mb-5"></div> -->
 
 #### Tabla de Contenidos
 <div class="links-list"></div>
