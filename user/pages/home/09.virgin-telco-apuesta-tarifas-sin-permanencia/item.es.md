@@ -27,6 +27,7 @@ related_pages:
 taxonomy:
     category: [categoria 1]
     tag: [animal, dog]
+most_visited: true
 ---
 
 <!-- # Virgin telco apuesta por tarifas sin permanencia en sus servicios -->
