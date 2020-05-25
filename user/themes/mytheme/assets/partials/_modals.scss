@@ -1,0 +1,23 @@
+// Modals
+
+.modal {
+    .modal-dialog {
+      .close {
+        text-shadow: unset;
+        opacity: 1;
+      }
+      .modal-header {
+        padding: 15px 25px 10px;
+        color: #ffffff;
+        background: $primary;
+
+        .text-header {
+            font-weight: bold;
+        }
+      }
+      .modal-content {
+        padding-bottom: 15px;
+        border: 0px;
+      }
+    }
+  }

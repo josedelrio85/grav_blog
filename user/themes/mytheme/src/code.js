@@ -20,6 +20,15 @@ $(document).ready(function () {
     });
 });
 
+document.addEventListener('DOMContentLoaded', (e) => {
+  $('.modal').on('show.bs.modal', function (e) {
+    $('html').addClass('html-no-scroll');
+  })
+  $('.modal').on('hide.bs.modal', function (e) {
+    $('html').removeClass('html-no-scroll');
+  })
+});
+
 // document.addEventListener('DOMContentLoaded', (e) => {
 //   const forms = document.forms;
 //   for(let i=0; i < forms.length; i++){
