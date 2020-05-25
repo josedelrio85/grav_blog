@@ -1,9 +1,11 @@
+
+import 'bootstrap';
 import styles from '../assets/styles.scss'
 import { c2c } from './c2c'
 
 /* Add smooth scroll */
 $(document).ready(function () {
-    $('a[href^="#"]').on('click', function (e) {
+    $('a[href="#"]').on('click', function (e) {
         // e.preventDefault();
 
         var target = this.hash,
