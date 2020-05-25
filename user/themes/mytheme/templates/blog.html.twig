@@ -2,12 +2,17 @@
 
 	{% set collection = page.collection() %}
 
+	{# TODO: find another way to get collection_mv array (array for most visited posts) #}
+	{% set collection_mv = page.collection() %}
+
+	{# {% set most_visited_collection = [] %}
+	{% for child in collection %}
+		{% if child.header.most_visited == true %}
+			{% set most_visited_collection = most_visited_collection|push(child) %}
+		{% endif %}
+	{% endfor %} #}
+
 	{% block content %}
-
-		{# {% for child in collection %}
-			{{dump(child)}}
-		{% endfor %} #}
-
 		{% set blog_image = page.media.images|first.contrast(20).brightness(-100).colorize(-35,81,122) %}
 
 		{# {% if blog_image %}
@@ -46,8 +51,47 @@
 
 		{% include 'components/tags-cloud/tags-cloud.html.twig' with {} %}
 
+
+		{# <div class="container most-visited my-5 my-md-8">
+			<div class="row">
+				<div class="col-1 d-none d-lg-flex justify-content-start align-items-center">
+					<img class="img-fluid mt-5" srcset="{{ url('theme://img/most-visited.jpg') }}" />
+				</div>
+				<div class="col-12 col-lg-11">
+					<h2 class="text-primary font-weight-bold mb-4 d-lg-none">{{ "GRAV.MOST_VISITED.HEADER" | t | raw }}</h2>
+					{% set customMostVisitedIndex = 0 %}
+					{% for child in collection %}
+						{% if child.header.most_visited == true %}
+							{% set customMostVisitedIndex = customMostVisitedIndex + 1 %}
+							{% include 'partials/most_visited.html.twig' with {'blog':page, 'page':child} %}
+						{% endif %}
+					{% endfor %}
+				</div>
+			</div>
+		</div> #}
+
 		<div class="container blog-grid mb-5 mb-md-8">
 			{% for child in collection %}
+				{% if loop.index == 3 %}
+					<div class="container most-visited mb-4">
+						<div class="row">
+							<div class="col-2 d-none d-lg-flex justify-content-start align-items-center">
+								<img class="img-fluid mt-5" srcset="{{ url('theme://img/most-visited.jpg') }}" />
+							</div>
+							<div class="col-12 col-lg-10 right-block py-4">
+								<h2 class="text-primary font-weight-bold mb-4 d-lg-none">{{ "GRAV.MOST_VISITED.HEADER" | t | raw }}</h2>
+								{% set customMostVisitedIndex = 0 %}
+								{% for child in collection_mv %}
+									{% if child.header.most_visited == true %}
+										{% set customMostVisitedIndex = customMostVisitedIndex + 1 %}
+										{% include 'partials/most_visited.html.twig' with {'blog':page, 'page':child} %}
+									{% endif %}
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				{% endif %}
+
 				{% include 'partials/blog_item_loop.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
 			{% endfor %}
 		</div>
