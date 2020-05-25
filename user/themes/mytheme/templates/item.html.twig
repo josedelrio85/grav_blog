@@ -14,25 +14,11 @@
 
 		{% include 'partials/blog_item_single.html.twig' with {'blog':page.parent, 'truncate':false} %}
 
-		{# {% if page.header.has_related == true %}
-			<div class="container related-posts-container pl-4 pr-4">
-				<div class="row">
-					<h2>{{ 'SIDEBAR.RELATED_POSTS.HEADLINE'|t }}</h2>
-					<div class="row w-100">
-						{% for p in page.collection %}
-							{% if loop.index <= 2  %}
-								<div class="col-12 col-md-6 related-post-container">
-									<div class="related-post-container-inner">
-										<h2>{{ p.title }}</h2>
-										<p><a href="{{ p.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
-									</div>
-								</div>
-							{% endif %}
-						{% endfor %}
-					</div>
-					</div>
-				</div>
-		{% endif %} #}
+		{% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+			{% include 'partials/relatedpages.html.twig' %}
+		{% endif %}
+
+		{# {% include 'partials/related_posts.html.twig' with {'blog':page.parent, 'truncate':false} %} #}
 
 	{% endblock %}
 

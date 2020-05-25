@@ -13,6 +13,12 @@ meta_robots:
 override_default_title: 'Virgin Telco: el plan de negocio 2020-2025 de Euskaltel'
 override_default_desc: 'Ya se conocen todos los detalles del nuevo plan de negocio de Euskaltel para el ejercicio 2020-2025. Como no podía ser de otra manera, el acuerdo con Virgin para su plan de expansión en España es uno de los grandes protagonistas.'
 excerpt: 'Después de la multitud de rumores que protagonizaron las noticias una vez sabido el acuerdo entre la multinacional Virgin y la operadora Euskaltel, por fin llegan noticias....'
+has_related: true
+related_pages:
+    - /home/que-cobertura-tiene-virgin-telco-espana
+taxonomy:
+    category: [categoria 1]
+    tag: [animal, dog]
 ---
 
 <!-- # Virgin Telco: el plan de negocio 2020-2025 de Euskaltel -->

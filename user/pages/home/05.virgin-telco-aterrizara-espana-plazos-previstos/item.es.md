@@ -7,6 +7,12 @@ body_classes: hero-page
 override_default_title: 'Virgin Telco aterrizará en España en los plazos previstos'
 override_default_desc: 'Pese a todas las adversidades, la llegada de Virgin a España ocurrirá durante la primera mitad de este año. El plan de expansión de Euskaltel sigue en pie y la nueva oferta de fibra, móvil y TV se conocerá en breve.'
 excerpt: 'Las últimas informaciones que llegan desde fuentes internas del operador Euskaltel confirman que la llegada de Virgin Telco a territorio nacional se producirá en las...'
+has_related: true
+related_pages:
+    - /home/que-cobertura-tiene-virgin-telco-espana
+taxonomy:
+    category: [categoria 1]
+    tag: [animal, dog]
 ---
 
 <!-- #  Virgin Telco aterrizará en España en los plazos previstos -->

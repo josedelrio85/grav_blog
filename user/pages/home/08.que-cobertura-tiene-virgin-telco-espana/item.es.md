@@ -22,6 +22,12 @@ content:
         dir: desc
     pagination: false
 has_related: true
+# related_pages:
+#     - /home/que-cobertura-tiene-virgin-telco-espana
+taxonomy:
+    category: [categoria 1]
+    tag: [animal, dog]
+
 ---
 
 <!-- # Cobertura de Virgin telco: toda la información que necesitas -->

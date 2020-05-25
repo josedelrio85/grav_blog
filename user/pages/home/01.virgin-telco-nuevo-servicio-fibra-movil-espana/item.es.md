@@ -22,9 +22,11 @@ content:
         dir: desc
     pagination: false
 has_related: true
+related_pages:
+    - /home/que-cobertura-tiene-virgin-telco-espana
 taxonomy:
-    tag: [animal, dog]
-    author: ksmith
+    category: [una categoría]
+    tag: [tag1, tag2]
 ---
 
 <!-- # Virgin telco llega a España con su nuevo servicio de fibra y móvil -->

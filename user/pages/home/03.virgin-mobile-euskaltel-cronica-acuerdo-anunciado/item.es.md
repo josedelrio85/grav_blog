@@ -21,9 +21,14 @@ content:
         by: date
         dir: desc
     pagination: false
-has_related: false
----
+has_related: true
+related_pages:
+    - /home/que-cobertura-tiene-virgin-telco-espana
+taxonomy:
+    category: [categoria 1]
+    tag: [animal, dog]
 
+---
 <!-- # Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado -->
 
 <!-- <div class="mb-5"></div> -->

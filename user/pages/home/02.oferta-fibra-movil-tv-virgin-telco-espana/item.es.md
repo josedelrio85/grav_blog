@@ -22,7 +22,10 @@ content:
         dir: desc
     pagination: false
 has_related: true
+related_pages:
+    - /home/que-cobertura-tiene-virgin-telco-espana
 taxonomy:
+    category: [categoria 1]
     tag: [animal, dog]
 ---
 
