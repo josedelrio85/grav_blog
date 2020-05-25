@@ -14,7 +14,11 @@
 
 		{% include 'partials/blog_item_single.html.twig' with {'blog':page.parent, 'truncate':false} %}
 
-		{% include 'partials/related_posts.html.twig' with {'blog':page.parent, 'truncate':false} %}
+		{% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+			{% include 'partials/relatedpages.html.twig' %}
+		{% endif %}
+
+		{# {% include 'partials/related_posts.html.twig' with {'blog':page.parent, 'truncate':false} %} #}
 
 	{% endblock %}
 

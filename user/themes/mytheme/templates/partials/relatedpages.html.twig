@@ -1,0 +1,57 @@
+<div class="container related-posts-container mt-8">
+   <div class="row">
+      <div class="col-1 d-none d-lg-block">
+         <img class="img-fluid mt-5" srcset="{{ url('theme://img/relacionados.jpg') }}" />
+      </div>
+      <div class="col-12 col-lg-11 pl-lg-6">
+         <div class="row">
+            <div class="col-12 d-lg-none">
+               <h2 class="text-primary font-weight-bold mb-4">{{ 'SIDEBAR.RELATED_POSTS.HEADLINE'|t }}</h2>
+            </div>
+            {% for related_path, score in related_pages %}
+            {% set related = grav['pages'].get(related_path) %}
+            {% if related %}
+            <div class="col-12 mb-6 col-md-6 col-lg-4 related-post-container">
+               <div class="col-12 mb-4 p-0">
+                  {% if related.media['featured.jpg'].url %}
+                  <div class="post-image-background" style="background-image:url('{{ related.media['featured-loop.jpg'].url }}');"></div>
+                  {% else %}
+                  <div class="post-image-background" style="background-image:url('{{ related.media['featured-loop.jpg'].url }}');"></div>
+                  {% endif %}
+               </div>
+               <div class="row">
+                  <div class="col-6">
+                     <div class="post-date-container text-primary">
+                        <time class="dt-published" datetime="{{ related.date|date("c") }}">
+                        <span>{{ related.date|date("Y") }}</span><br/>
+                        / <span>{{ related.date|date("d") }}</span>
+                        de <span>{{ related.date|date("F")|t }}</span>
+                        </time>
+                     </div>
+                  </div>
+                  <div class="col-6">
+                     {% if related.taxonomy.category %}
+                     <div class="cat-container">
+                        <a href="{{ blog.url|rtrim('/') }}/category{{ config.system.param_sep }}{{ related.taxonomy.category[0] }}" class="single-cat font-weight-bold px-2 py-1 mr-1">{{ related.taxonomy.category[0] }}</a>
+                     </div>
+                     {% endif %}
+                  </div>
+               </div>
+               <div class="col-12 mt-4 mb-5 p-0">
+                  <a href="{{ related.url }}">
+                     <h2 class="h3 text-white font-weight-bold">{{ related.title }}</h2>
+                  </a>
+                  {# 
+                  <p><a href="{{ related.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
+                  #}
+               </div>
+               <div class="col-12 d-flex justify-content-start align-items-center plus-column">
+                  <a href="{{ related.url }}"><span class="icon icon-icon_close_thin"></span></a>
+               </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+         </div>
+      </div>
+   </div>
+</div>
