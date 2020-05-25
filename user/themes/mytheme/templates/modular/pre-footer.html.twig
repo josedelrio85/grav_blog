@@ -1,0 +1,34 @@
+{% set columns = page.content|split('<hr />') %} #}
+{% set header = columns[0] %}
+{% set left = columns[1] %}
+{% set right = columns[2] %}
+<div class="container pre-footer-article">
+  <div class="row">
+    <div class="col-12 col-lg-7">
+      <h4 class="mini-header">{{ page.header.mini_header }}</h4>
+      <h2 class="text-header font-weight-bold text-white m-md-0">
+        {{ header | raw}}
+      </h2>
+      <div class="row mt-5 mt-lg-6">
+        <div class="col-12 col-lg-4">
+          <h6 class="mini-header text-white font-weight-bold">{{ page.header.mini_title }}</h6>
+          <p>
+            {{ left | raw}}
+          </p>
+        </div>
+        <div class="col-1">&nbsp;</div>
+        <div class="col-12 col-lg-7">
+          {{ right | raw}}
+        </div>
+      </div>
+    </div>
+    <div class="col-1">&nbsp;</div>
+    <div class="col-12 col-lg-4">
+      <div class="right-image-container">
+        {# <img class="right-image" srcset="{{ url('theme://img/' ~ 'GRAV.PREFOOTER.HEADER.IMAGE' | t) }}" /> #}
+        <img class="right-image" srcset="{{ page.media['girl.jpg'].url }}" />
+        
+      </div>
+    </div>
+  </div>
+</div>
