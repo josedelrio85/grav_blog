@@ -38,11 +38,11 @@
                   </div>
                 </div>
                 <div class="col-12 mt-4 mb-5 p-0">
-                  <a href="{{ p.url }}"><h2 class="h3 text-white font-weight-bold">{{ p.title }}</h2></a>
+                  <a {{custom_routes(p.url)}}><h2 class="h3 text-white font-weight-bold">{{ p.title }}</h2></a>
                   {# <p><a href="{{ p.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p> #}
                 </div>
                 <div class="col-12 d-flex justify-content-start align-items-center plus-column">
-                  <a href="{{ p.url }}"><span class="icon icon-icon_close_thin"></span></a>
+                  <a {{custom_routes(p.url)}}><span class="icon icon-icon_close_thin"></span></a>
                 </div>
               </div>
             {% endif %}

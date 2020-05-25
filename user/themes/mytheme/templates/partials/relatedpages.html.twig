@@ -38,7 +38,7 @@
                   </div>
                </div>
                <div class="col-12 mt-4 mb-5 p-0">
-                  <a href="{{ related.url }}">
+                  <a {{custom_routes(related.url)}}>
                      <h2 class="h3 text-white font-weight-bold">{{ related.title }}</h2>
                   </a>
                   {# 
@@ -46,7 +46,7 @@
                   #}
                </div>
                <div class="col-12 d-flex justify-content-start align-items-center plus-column">
-                  <a href="{{ related.url }}"><span class="icon icon-icon_close_thin"></span></a>
+                  <a {{custom_routes(related.url)}}><span class="icon icon-icon_close_thin"></span></a>
                </div>
             </div>
             {% endif %}
