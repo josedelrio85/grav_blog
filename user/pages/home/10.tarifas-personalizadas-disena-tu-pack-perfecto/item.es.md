@@ -28,6 +28,7 @@ taxonomy:
     category: [categoria 1]
     tag: [animal, dog]
 
+most_visited: true
 ---
 
 <!-- # Personaliza tu propia tarifa con Virgin telco -->

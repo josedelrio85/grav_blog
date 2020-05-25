@@ -1,0 +1,46 @@
+{% set header_image = page.header.header_image|defined(true) %}
+{% set header_image_file = page.header.header_image_file %}  
+<div class="row">
+  <div class="col-12 blog-item-right py-4 px-md-0">
+    <div class="row">
+      <div class="col-12 col-md-2 d-none d-md-flex justify-content-start justify-content-md-center align-items-center">
+        <div class="post-loop-number">{{ "%02d"|format(customMostVisitedIndex) }}</div>
+      </div>
+      <div class="col-4 col-md-2 d-flex justify-content-start align-items-center">
+        {% if header_image %}
+          {% if header_image_file %}
+            {% set header_image_media = page.media.images[header_image_file] %}
+          {% else %}
+            {% set header_image_media = page.media.images|first %}
+          {% endif %}
+          <div class="post-image-background" style="background-image:url('{{ page.media['featured-loop.jpg'].url }}');">
+          </div>
+        {% endif %}
+      </div>
+      <div class="col-8 col-md-7 px-4 py-1">
+        <div class="post-date-container text-primary mb-2">
+          <time class="dt-published" datetime="{{ page.date|date("c") }}">
+            <span>{{ page.date|date("Y") }}</span><br/>
+            / <span>{{ page.date|date("d") }}</span>
+            de <span>{{ page.date|date("F")|t }}</span>
+          </time>
+        </div>
+        <div class="post-name-container mb-4">
+          {% if page.header.link %}
+            <h4 class="p-name text-header font-weight-bold h3">
+              {% if page.header.continue_link is not sameas(false) %}
+                <a {{custom_routes(page.url)}}><i class="fa fa-angle-double-right u-url"></i></a>
+              {% endif %}
+                <a {{custom_routes(page.header.link)}} class="u-url">{{ page.title }}</a>
+            </h4>
+          {% else %}
+            <span class="p-name text-header font-weight-bold h3"><a {{custom_routes(page.url)}} class="u-url">{{ page.title }}</a></span>
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-1 d-none d-md-flex justify-content-end align-items-center plus-column">
+        <a {{custom_routes(page.url)}} class="u-url"><span class="icon icon-icon_close_thin"></span></a>
+      </div>
+    </div>
+  </div>
+</div>

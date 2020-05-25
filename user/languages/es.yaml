@@ -45,3 +45,5 @@ GRAV:
       PATH: 'https://www.ofertasvirgin.es/cookies'
     OTHER:
       FIELD1: '©2020 Todos los derechos reservados'
+  MOST_VISITED:
+    HEADER: Lo más leído

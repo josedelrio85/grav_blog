@@ -28,6 +28,7 @@ taxonomy:
     category: [categoria 1]
     tag: [animal, dog]
 
+most_visited: true
 ---
 
 <!-- # Cobertura de Virgin telco: toda la información que necesitas -->
