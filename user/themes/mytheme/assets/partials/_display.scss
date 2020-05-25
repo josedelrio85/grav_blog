@@ -1,7 +1,10 @@
 //
 // General
 //
-body {
+html {
+    &.html-no-scroll {
+        overflow-y: hidden;
+    }
 }
 
 html,
@@ -56,4 +59,8 @@ body {
 //
 .modal-backdrop {
     display: none;
+}
+
+.modal.fade.show {
+    background: rgba(0,0,0,.5);
 }
