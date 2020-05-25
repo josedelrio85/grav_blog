@@ -1,0 +1,40 @@
+//Forms
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+     color: transparent !important;
+}
+ :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+     color: transparent !important;
+}
+ ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+     color: transparent !important;
+}
+ :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+     color: transparent !important;
+}
+ input::placeholder {
+     color: transparent !important;
+}
+ textarea::-webkit-input-placeholder {
+    /* WebKit browsers */
+     color: transparent !important;
+}
+ textarea:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+     color: transparent !important;
+}
+ textarea::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+     color: transparent !important;
+}
+ textarea:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+     color: transparent !important;
+}
+ textarea::placeholder {
+     color: transparent !important;
+}
