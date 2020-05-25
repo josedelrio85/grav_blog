@@ -4,9 +4,9 @@
 
 	{% block content %}
 
-		{% for child in collection %}
+		{# {% for child in collection %}
 			{{dump(child)}}
-		{% endfor %}
+		{% endfor %} #}
 
 		{% set blog_image = page.media.images|first.contrast(20).brightness(-100).colorize(-35,81,122) %}
 
