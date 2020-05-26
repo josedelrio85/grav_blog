@@ -1,8 +1,11 @@
 ---
 title: 'Tarifas personalizadas: Diseña tu pack perfecto'
-media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg,featured.jpg'
+media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg,virgin_blog_img_10.jpg,virgin_blog_img_07.jpg'
 metadata:
     robots: 'index, follow'
+taxonomy:
+    category:
+        - Tarifas
 body_classes: hero-page
 meta_robots:
     index: true
@@ -24,10 +27,6 @@ content:
 has_related: true
 related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
-taxonomy:
-    category: [categoria 1]
-    tag: [animal, dog]
-
 most_visited: true
 ---
 
@@ -48,6 +47,10 @@ most_visited: true
 _La nueva oferta de fibra, móvil, fijo y TV de Virgin telco tiene un factor que la diferencia de cualquier otra existente en el mercado: con ella **puedes contratar únicamente los servicios que necesites**. Esto evita la necesidad de elegir un pack predefinido por la compañía, lo que provoca en muchas ocasiones un incremento de la factura del cliente al no poder diseñar de manera individual y libre una tarifa a tu medida._
 
 _Vamos a hacer un repaso de todos los **servicios que estarán disponibles en Virgin telco a partir del próximo mes de Junio**. Te servirá de ayuda para empezar a planificar tu nueva tarifa personalizada._
+
+<div class="mb-5"></div>
+
+![](virgin_blog_img_10.jpg)
 
 <div class="mb-5"></div>
 
@@ -75,6 +78,10 @@ Al igual que en el apartado de internet, cada nuevo cliente de Virgin telco podr
 * **Uso masivo:** 20 gigas
 
 Para acabar de personalizar tu tarifa, existen una serie de **servicios adicionales** (más megas de navegación, multisim, bono internacional, etc) que completarán tu oferta.
+
+<div class="mb-5"></div>
+
+![](virgin_blog_img_07.jpg)
 
 <div class="mb-5"></div>
 

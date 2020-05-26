@@ -1,8 +1,11 @@
 ---
 title: 'Virgin telco llega a España con su nuevo servicio de fibra y móvil'
-media_order: 'portada ofertas virgin.jpg,Virgin.jpg,featured-loop.jpg'
+media_order: 'portada ofertas virgin.jpg,plazos-previstos.jpg,ofertas-movil-virgin-telco.jpg,featured-loop.jpg,virgin_blog_img_01.jpg'
 metadata:
     robots: 'index, follow'
+taxonomy:
+    category:
+        - Noticias
 body_classes: hero-page
 meta_robots:
     index: true
@@ -24,16 +27,13 @@ content:
 has_related: true
 related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
-taxonomy:
-    category: [una categoría]
-    tag: [tag1, tag2]
 ---
 
 <!-- # Virgin telco llega a España con su nuevo servicio de fibra y móvil -->
 
 <!-- <div class="mb-5"></div> -->
 
-<!-- ![](Virgin.jpg) -->
+<!-- ![](plazos-previstos.jpg) -->
 
 <!-- <div class="mb-5"></div> -->
 #### Tabla de Contenidos
@@ -47,7 +47,11 @@ taxonomy:
 
 <div class="mb-5"></div>
 
-_La oferta de servicios de fibra óptica y móvil en España es amplia y variada. Pero las opciones se incrementarán próximamente con la llegada de Virgin telco España, una nueva ramificación del proveedor británico de telefonía, que a su vez pertenece al holding Virgin Group. Aterrizará en nuestro país con la intención de posicionarse como uno de los principales operadores del mercado._
+_La oferta de servicios de fibra óptica y móvil en España es amplia y variada. Pero las opciones se incrementarán próximamente con **la llegada de Virgin telco a España**, una nueva ramificación del proveedor británico de telefonía, que a su vez pertenece al holding Virgin Group. Aterrizará en nuestro país con la intención de posicionarse como uno de los principales operadores del mercado._
+
+<div class="mb-5"></div>
+
+![](virgin_blog_img_01.jpg)
 
 <div class="mb-5"></div>
 
@@ -81,6 +85,10 @@ Por un lado, la** cobertura de fibra óptica **mantendría en Euskadi, Galicia y
 
 En cuanto a la **cobertura de móvil**, Virgin colaborará con Orange en la totalidad del territorio español. En este campo se expande el acuerdo del que se benefician Euskaltel y R (Telecable utiliza actualmente cobertura Movistar) con el uso de sus infraestructuras, instaladas en el 100% de las regiones españolas.
 
+<div class="mb-5"></div>
+    
+![](ofertas-movil-virgin-telco.jpg)
+    
 <div class="mb-5"></div>
 
 ## <span id="territorios">¿En qué territorios estará disponible Virgin telco?</span>

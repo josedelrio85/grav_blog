@@ -1,8 +1,11 @@
 ---
 title: 'Virgin Telco hace públicas sus primeras ofertas  | Fibra, móvil y TV'
-media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg'
+media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg,virgin_blog_img_09.jpg,netflix.jpg'
 metadata:
     robots: 'index, follow'
+taxonomy:
+    category:
+        - Tarifas
 body_classes: hero-page
 meta_robots:
     index: true
@@ -24,9 +27,6 @@ content:
 has_related: true
 related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
-taxonomy:
-    category: [categoria 1]
-    tag: [animal, dog]
 ---
 
 <!-- # Virgin Telco: conoce los primeros detalles de sus ofertas -->
@@ -45,6 +45,10 @@ taxonomy:
 * ######  <span class="magnet-link">[Tarifa 1 Virgin Telco: fibra, móvil y TV](#tarifa1)</span>
 * ######  <span class="magnet-link">[Tarifa 2 Virgin Telco: fibra y TV](#tarifa2)</span>
 * ######  <span class="magnet-link">[¿Cuál será la oferta de TV de Virgin Telco en España?](#TV)</span>
+
+<div class="mb-5"></div>
+
+![](virgin_blog_img_09.jpg)
 
 <div class="mb-5"></div>
 
@@ -74,6 +78,10 @@ Las últimas novedades vienen de la mano de las **tarifas usadas durante el per�
 * ** Precio inicial**: 53€/mes. Precio orientativo máximo de la tarifa.
 
 <div class="mb-5"></div>
+    
+![](netflix.jpg)
+    
+<div class="mb-5"></div>    
 
 ## <span id="TV">¿Cuál será la oferta de TV de Virgin Telco en España?<span>
     

@@ -1,8 +1,11 @@
 ---
 title: 'Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado'
-media_order: 'portada ofertas virgin.jpg,virgin-euskaltel.jpg,featured-loop.jpg'
+media_order: 'portada ofertas virgin.jpg,virgin-euskaltel.jpg,featured-loop.jpg,avion-virgin.jpg,acuerdo-grupo-euskaltel-virgin.jpg'
 metadata:
     robots: 'index, follow'
+taxonomy:
+    category:
+        - Noticias
 body_classes: hero-page
 meta_robots:
     index: true
@@ -24,11 +27,8 @@ content:
 has_related: true
 related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
-taxonomy:
-    category: [categoria 1]
-    tag: [animal, dog]
-
 ---
+
 <!-- # Virgin Mobile - Euskaltel: crónica de un acuerdo anunciado -->
 
 <!-- <div class="mb-5"></div> -->
@@ -44,6 +44,10 @@ taxonomy:
 * ######  <span class="magnet-link">[¿Cuál es el plan de expansión de Euskaltel?](#plan)</span>
 * ######  <span class="magnet-link">[¿Cuándo se conocerán las tarifas de Virgin en España?](#tarifas)</span>
 * ######  <span class="magnet-link">[Virgin: la historia de un holding capitaneado por Richard Branson](#holding)</span>
+
+<div class="mb-5"></div>
+
+![](acuerdo-grupo-euskaltel-virgin.jpg)
 
 <div class="mb-5"></div>
 
@@ -66,6 +70,10 @@ La marca Virgin buscará llegar al 85% del mercado español que todavía no ten�
 El pasado 10 de Marzo fue la fecha elegida por los máximos responsables de las operadoras para hacer públicas [su nuevo plan de negocio](https://www.ofertasvirgin.es/home/plan-de-negocio-2020-2025-euskaltel) con vigencia hasta 2025. Las tarifas todavía no se han dado a conocer, pero sin duda se puede afirmar que, teniendo en cuenta las declaraciones Xabier Iturbe (presidente de Euskaltel) y José Miguel García, con ellas intentarán situarse como una alternativa de peso a las actuales ofertas disponibles propuestas por Vodafone o Movistar.
 
 La oferta de Virgin buscará, a priori, entrar al mercado de manera ágil y con precios accesibles, diferenciándose de esta manera de la línea seguida por la operadora en los últimos tiempos. 
+
+<div class="mb-5"></div>
+
+![](avion-virgin.jpg)
 
 <div class="mb-5"></div>
     

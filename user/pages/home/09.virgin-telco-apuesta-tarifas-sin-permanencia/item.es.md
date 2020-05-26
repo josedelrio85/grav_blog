@@ -1,8 +1,11 @@
 ---
 title: 'Virgin telco apuesta por tarifas sin permanencia'
-media_order: 'portada ofertas virgin.jpg,VirginTelco.png,featured-loop.jpg'
+media_order: 'portada ofertas virgin.jpg,VirginTelco.png,featured-loop.jpg,virgin_blog_img_11.jpg,virgin_blog_img_06.jpg'
 metadata:
     robots: 'index, follow'
+taxonomy:
+    category:
+        - Tarifas
 body_classes: hero-page
 meta_robots:
     index: true
@@ -24,9 +27,6 @@ content:
 has_related: true
 related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
-taxonomy:
-    category: [categoria 1]
-    tag: [animal, dog]
 most_visited: true
 ---
 
@@ -48,6 +48,10 @@ _Si buscas una **tarifa sin permanencia** para tu fibra o tu móvil, Virgin telc
 
 _**Tarifas de internet, móvil y tv**  para que navegues a máxima velocidad, disfrutes en todo momento de la mejor cobertura y siempre con los mejores canales sin compromisos. 
 En Virgin sabemos lo que es la permanencia, y no queremos que nuestros clientes se sienta atados._
+
+<div class="mb-5"></div>
+
+![](virgin_blog_img_11.jpg)
 
 <div class="mb-5"></div>
 
@@ -73,6 +77,10 @@ Si lo que necesitas es una tarifa de internet y móvil sin compromiso de permane
 
 <div class="mb-5"></div>
 
+![](virgin_blog_img_06.jpg)
+
+<div class="mb-5"></div>
+
 ## <span id="mejores">Mejores tarifas móviles sin permanencia </span>
 
 Para contratar las mejores tarifas móviles sin compromiso de permanencia has de tener en cuenta dos factores principales: 
@@ -84,7 +92,7 @@ Para contratar las mejores tarifas móviles sin compromiso de permanencia has de
 
 Si buscas contratar algún servicio de Internet, móvil o televisión sin permanencia; en Virgin telco disponemos de las ofertas del mercado sin compromiso. Para que consigas el mejor servicio siempre al mejor precio y sin ataduras.
 
-Descubre ahora nuestras ofertas, descubre Virgin telco. 
+Descubre ahora nuestras ofertas, **descubre Virgin telco**. 
 
 
 
