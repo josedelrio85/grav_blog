@@ -3,7 +3,11 @@
 	{% set collection = page.collection() %}
 
 	{# TODO: find another way to get collection_mv array (array for most visited posts) #}
-	{% set collection_mv = page.collection() %}
+	{% set collection_mv = page.collection({
+		'items': {
+			'@page.children.visible': page.route
+		}
+	}) %}
 
 	{# {% set most_visited_collection = [] %}
 	{% for child in collection %}
