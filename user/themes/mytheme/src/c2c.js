@@ -14,7 +14,7 @@ export class c2c {
     const locale = this.getLocale();
     this.landcom.setLanguage(locale);
     this.response = new responseC2C();
-    // this.getDDI();
+    this.getDDI();
   }
 
   getLocale = () => {
@@ -163,13 +163,19 @@ export class c2c {
       .then((response) => {
         // this.printOut(response);
 
-        document.querySelectorAll('.ddi').forEach((ddi) => {
-          //Insert 1 space every 3 characters
-          ddi.innerHTML = response.data.TELEFONO.match(/.{3}/g).join(' ');
-        });
+        if (!response.data.TELEFONO == '') {
+          document.querySelectorAll('.ddi').forEach((ddi) => {
+            //Insert 1 space every 3 characters
+            ddi.innerHTML = response.data.TELEFONO.match(/.{3}/g).join(' ');
+          });
+  
+          let hreftel = "tel:" + response.data.TELEFONO;
+          document.querySelector('.ddi-mobile').setAttribute('href', hreftel)
+        } else {
+          document.querySelector('.ddi-desktop').style.visibility = 'hidden';
+          document.querySelector('.ddi-mobile').style.visibility = 'hidden';
+        }
 
-        let hreftel = "tel:" + response.data.TELEFONO;
-        document.querySelector('.ddi-mobile').setAttribute('href', hreftel)
       })
       .catch(e => this.throwError(e));
   }
