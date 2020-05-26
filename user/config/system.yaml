@@ -10,21 +10,25 @@ custom_base_url: null
 username_regex: '^[a-z0-9_-]{3,16}$'
 pwd_regex: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
 intl_enabled: true
+http_x_forwarded:
+  protocol: true
+  host: false
+  port: true
+  ip: true
 languages:
-  supported: null
+  supported:
+    - es
   default_lang: null
   include_default_lang: false
   pages_fallback_only: false
   translations: true
-  supported:
-    - es
   translations_fallback: true
   session_store_active: false
   http_accept_language: false
   override_locale: false
 home:
   alias: /home
-  hide_in_urls: false
+  hide_in_urls: true
 pages:
   theme: mytheme
   order:
@@ -117,13 +121,13 @@ twig:
   undefined_filters: true
   umask_fix: false
 assets:
-  css_pipeline: false
+  css_pipeline: true
   css_pipeline_include_externals: true
   css_pipeline_before_excludes: true
   css_minify: true
   css_minify_windows: false
   css_rewrite: true
-  js_pipeline: false
+  js_pipeline: true
   js_pipeline_include_externals: true
   js_pipeline_before_excludes: true
   js_minify: true
@@ -131,7 +135,7 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
-  display: 1
+  display: 0
   log: true
 log:
   handler: file
@@ -154,7 +158,7 @@ media:
   unsupported_inline_types: null
   allowed_fallback_types: null
   auto_metadata_exif: false
-  upload_limit: 5242880
+  upload_limit: 2097152
 session:
   enabled: true
   initialize: true
