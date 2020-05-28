@@ -41,5 +41,13 @@ class ExamplePlugin extends Plugin {
       $ip = "127.0.0.1";
     }
     $this->grav['twig']->twig_vars['plugin_ip'] = $ip;
+
+    $path = $uri->path();
+    $canonical = null;
+    if(stripos($path, 'category:')){
+      $canonical = '<link rel="canonical" href="https://www.ofertasvirgin.es/blog/" />';
+    }
+    $this->grav['twig']->twig_vars['canonical'] = $canonical;
+
   }
 }
