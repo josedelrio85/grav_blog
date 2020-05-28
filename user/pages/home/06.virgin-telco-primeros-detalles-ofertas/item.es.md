@@ -54,9 +54,9 @@ related_pages:
 
 ## <span id="ofertas">¿Cuáles son las primeras ofertas de Virgin Telco?<span>
     
-Como ya avanzamos, el operador **Virgin Telco será una realidad en España** más pronto que tarde, manteniendo así los plazos previstos (pese al Covid-19) por Euskaltel, una vez cerrados los acuerdos con Virgin Mobile a principios de este año. La fecha marcada en rojo sigue siendo el próximo mes de Junio, fecha donde la marca espera estar ya en el mercado para ofrecer su nueva oferta de telefonía, que supondrá una nueva opción para la contratación de Internet, tarifas móviles y los mejores canales de televisión.
+Como ya avanzamos, el operador **Virgin Telco será una realidad en España** más pronto que tarde, manteniendo así los plazos previstos (pese al Covid-19) por Euskaltel, una vez cerrados los acuerdos con Virgin Mobile a principios de este año. La fecha marcada en rojo sigue siendo el próximo mes de Junio, fecha donde la marca espera estar ya en el mercado para ofrecer su [nueva oferta de telefonía](https://ofertasvirgin.es), que supondrá una nueva opción para la contratación de Internet, tarifas móviles y los mejores canales de televisión.
 
-Las últimas novedades vienen de la mano de las **tarifas usadas durante el período de pruebas**, que sirven de escaparate para conocer lo que deparará el futuro en relación a la oferta ofrecida por Virgin Telco. Muchos usuarios -no residentes en Galicia, Asturias o Euskadi- probarán de manera gratuita los dos paquetes inicialmente sacados por la compañía; 6 meses será la duración estimada de este proceso que tiene como objetivo verificar el correcto funcionamiento técnico.
+Las [últimas novedades](https://ofertasvirgin.es/blog/oferta-fibra-optica-y-movil-con-virgin-telco) vienen de la mano de las **tarifas usadas durante el período de pruebas**, que sirven de escaparate para conocer lo que deparará el futuro en relación a la oferta ofrecida por Virgin Telco. Muchos usuarios -no residentes en Galicia, Asturias o Euskadi- probarán de manera gratuita los dos paquetes inicialmente sacados por la compañía; 6 meses será la duración estimada de este proceso que tiene como objetivo verificar el correcto funcionamiento técnico.
     
 <div class="mb-5"></div>
     

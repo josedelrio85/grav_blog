@@ -32,7 +32,6 @@ most_visited: true
 
 <!-- # Personaliza tu propia tarifa con Virgin telco -->
 
-<!-- ![](Virgin1.jpg) -->
 <!-- <div class="mb-5"></div> -->
 
 <div class="links-list"></div>
@@ -56,7 +55,7 @@ _Vamos a hacer un repaso de todos los **servicios que estarán disponibles en Vi
 
 ## <span id="fibra">¿Qué tarifas de fibra tendrá disponibles Virgin telco?</span>
 
-En primer lugar, tendrás que elegir la velocidad de fibra que necesitas para tu domicilio. En caso de no tener disponible fibra óptica en tu localidad, existe la posibilidad de contratar internet mediante ADSL; con esto se garantiza que el 99% del territorio nacional podrá darse de alta para empezar a navegar de manera inmediata. Las oferta de internet se dividirá en 3 alternativas:
+En primer lugar, tendrás que elegir la velocidad de fibra que necesitas para tu domicilio. En caso de [no tener disponible fibra óptica](https://ofertasvirgin.es/blog/que-cobertura-tiene-virgin-telco-espana) en tu localidad, existe la posibilidad de contratar internet mediante ADSL; con esto se garantiza que el 99% del territorio nacional podrá darse de alta para empezar a navegar de manera inmediata. Las oferta de internet se dividirá en 3 alternativas:
 
 * **300 megas**
 * **600 megas**

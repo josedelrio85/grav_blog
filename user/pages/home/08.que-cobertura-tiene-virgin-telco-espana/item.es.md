@@ -51,7 +51,7 @@ most_visited: true
 <div class="mb-5"></div>
 ## <span id="red">¿Cuál es la red de cobertura de Virgin telco?</span>
 
-Virgin telco aterriza en España de la mano de Euskaltel. El nuevo operador será la gran novedad de este 2020 en cuanto a opciones de contratación de fibra, móvil y TV. A diferencia de la compañía vasca, su cobertura se expande más allá de Euskadi y alrededores; **Virgin será la encargada de dar cobertura de fibra y móvil a todo el territorio nacional**, excluyendo las regiones donde Euskaltel y sus filiales (R en Galicia y Telecable en Asturias) ya son las encargadas de proporcionar estos servicios.
+Virgin telco aterriza en España de la mano de Euskaltel. El nuevo operador será la gran novedad de este 2020 en cuanto a opciones de [contratación de fibra, móvil y TV.](https://ofertasvirgin.es) A diferencia de la compañía vasca, su cobertura se expande más allá de Euskadi y alrededores; **Virgin será la encargada de dar cobertura de fibra y móvil a todo el territorio nacional**, excluyendo las regiones donde Euskaltel y sus filiales (R en Galicia y Telecable en Asturias) ya son las encargadas de proporcionar estos servicios.
 
 La cobertura será una de las grandes fortalezas de la marca británica, con Orange y Movistar brindando apoyo de primera mano; el uso de sus redes de fibra óptica a lo largo y ancho del país dará oportunidad a Virgin telco de convertirse en una de las firmas punteras en el sector de las telecomunicaciones.
 
@@ -98,7 +98,7 @@ Virgin telco ofrecerá servicio de internet de alta velocidad en España gracias
 
 Como ya comentamos anteriormente, la cobertura fibra estará dividida en dos redes diferentes: Fibra Neba de Telefónica y Fibra FFTH de Orange, con la primera haciendo de soporte  en aquellos lugares donde  la red del operador francés no tenga alcance. Esto supondrá un auténtico baluarte para Virgin, que tendrá una gran ventaja con muchos de sus competidores.
 
-**Será posible contratar 300 megas, 600 megas y 1 giga**, dependiendo de las necesidades de navegación de cada usuario. Cualquiera de las tres opciones garantiza una conexión a internet de máxima calidad, que proporcionarán una magnífica experiencia de usuario a todos aquellos que deseen hacerse clientes de Virgin telco.
+**Será posible contratar 300 megas, 600 megas y 1 giga**, dependiendo de las [necesidades de navegación de cada usuario](https://ofertasvirgin.es/blog/tarifas-personalizadas-disena-tu-pack-perfecto). Cualquiera de las tres opciones garantiza una conexión a internet de máxima calidad, que proporcionarán una magnífica experiencia de usuario a todos aquellos que deseen hacerse clientes de Virgin telco.
 
 <div class="mb-5"></div>
 

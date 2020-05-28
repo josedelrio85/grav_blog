@@ -54,11 +54,11 @@ related_pages:
 
 ## <span id="internet">¿Qué tarifas de Internet tendrá disponibles Virgin Telco en España?<span>
 
-Por el momento, la compañía Virgin todavía no ha desvelado ninguna información concreta acerca de sus tarifas de fibra óptica. Habrá que esperar un tiempo para poder conocer qué ofertas de lanzamiento brinda el operador procedente de Reino Unido a los usuarios que estén interesados en contratar internet (fibra óptica o ADSL) con su firma.
+Por el momento, la compañía Virgin todavía no ha desvelado ninguna [información concreta acerca de sus tarifas](https://ofertasvirgin.es/blog/oferta-fibra-optica-y-movil-con-virgin-telco) [ACTUALIZADO] de fibra óptica. Habrá que esperar un tiempo para poder conocer qué ofertas de lanzamiento brinda el operador procedente de Reino Unido a los usuarios que estén interesados en contratar internet (fibra óptica o ADSL) con su firma.
 
 Pero si tenemos en cuenta los servicios que ofrece en el resto de los países donde opera (donde se incluyen potencias del calibre de Estados Unidos, México o Argentina) no cabe ninguna duda que** los servicios de fibra entrarán en las opciones de Virgin Telco España**, algo imprescindible en la actualidad para poder medirse a las compañías punteras del sector.
 
-[Al entrar de la mano del operador Euskaltel](https://www.ofertasvirgin.es/home/virgin-mobile-euskaltel-cronica-acuerdo-anunciado), se prevé el uso de la red propia de la empresa vasca -así como el de las filiales R y Telecable- en todo el noroeste peninsular. Por su parte, en el resto del territorio español se espera la utilización de las infraestructuras propiedad de la multinacional Orange.
+Al entrar de la mano del operador Euskaltel, se prevé el uso de la red propia de la empresa vasca -así como el de las filiales R y Telecable- en todo el noroeste peninsular. Por su parte, en el resto del territorio español se espera la utilización de las infraestructuras propiedad de la multinacional Orange.
 
 <div class="mb-5"></div>
 

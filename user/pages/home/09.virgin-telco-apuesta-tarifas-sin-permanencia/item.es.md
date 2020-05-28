@@ -61,9 +61,9 @@ Muchas compañías telefónicas ofrecer condiciones muy tentadoras en sus tarifa
 
 Lo cierto es que ciertas compañías de telecomunicaciones exigen a los usuarios una permanencia de hasta 12 meses, algo abusivo. Como cliente tienes la posibilidad de romper el contrato, eso sí, deberás abonar el importe de la penalización por cancelar tu contrato con la operadora antes de lo pactado. 
 
-Para evitarte este mal trago, la mejor opción es buscar una tarifa de internet que no tenga permanencia, evitando así pagos extra por penalizaciones. Virgin telco ofrecemos las mejores tarifas de internet sin permanencia, ideales para aquellos que no quieran complicarse. 
+Para evitarte este mal trago, la mejor opción es buscar una tarifa de internet que no tenga permanencia, evitando así pagos extra por penalizaciones. Virgin telco ofrecemos las [mejores tarifas de internet](https://ofertasvirgin.es) sin permanencia, ideales para aquellos que no quieran complicarse. 
  
-Tu mismo puedes elegir entre nuestras ofertas de fibra y adsl la que mejor se adapte a tus necesidades. Elige aumentar o disminuir tus megas con Virgin telco y olvídate de compromisos.
+Tu mismo puedes elegir entre nuestras ofertas de fibra la que mejor se adapte a tus necesidades. Elige aumentar o disminuir tus megas con Virgin telco y olvídate de compromisos.
 
 <div class="mb-5"></div>
 
