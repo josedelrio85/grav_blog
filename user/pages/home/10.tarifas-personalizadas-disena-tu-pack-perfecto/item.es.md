@@ -1,8 +1,11 @@
 ---
 title: 'Tarifas personalizadas: Diseña tu pack perfecto'
-media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg,featured.jpg'
+media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg,virgin_blog_img_10.jpg,virgin_blog_img_07.jpg'
 metadata:
     robots: 'index, follow'
+taxonomy:
+    category:
+        - Tarifas
 body_classes: hero-page
 meta_robots:
     index: true
@@ -24,16 +27,11 @@ content:
 has_related: true
 related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
-taxonomy:
-    category: [categoria 1]
-    tag: [animal, dog]
-
 most_visited: true
 ---
 
 <!-- # Personaliza tu propia tarifa con Virgin telco -->
 
-<!-- ![](Virgin1.jpg) -->
 <!-- <div class="mb-5"></div> -->
 
 <div class="links-list"></div>
@@ -51,9 +49,13 @@ _Vamos a hacer un repaso de todos los **servicios que estarán disponibles en Vi
 
 <div class="mb-5"></div>
 
+![](virgin_blog_img_10.jpg)
+
+<div class="mb-5"></div>
+
 ## <span id="fibra">¿Qué tarifas de fibra tendrá disponibles Virgin telco?</span>
 
-En primer lugar, tendrás que elegir la velocidad de fibra que necesitas para tu domicilio. En caso de no tener disponible fibra óptica en tu localidad, existe la posibilidad de contratar internet mediante ADSL; con esto se garantiza que el 99% del territorio nacional podrá darse de alta para empezar a navegar de manera inmediata. Las oferta de internet se dividirá en 3 alternativas:
+En primer lugar, tendrás que elegir la velocidad de fibra que necesitas para tu domicilio. En caso de [no tener disponible fibra óptica](https://ofertasvirgin.es/blog/que-cobertura-tiene-virgin-telco-espana) en tu localidad, existe la posibilidad de contratar internet mediante ADSL; con esto se garantiza que el 99% del territorio nacional podrá darse de alta para empezar a navegar de manera inmediata. Las oferta de internet se dividirá en 3 alternativas:
 
 * **300 megas**
 * **600 megas**
@@ -75,6 +77,10 @@ Al igual que en el apartado de internet, cada nuevo cliente de Virgin telco podr
 * **Uso masivo:** 20 gigas
 
 Para acabar de personalizar tu tarifa, existen una serie de **servicios adicionales** (más megas de navegación, multisim, bono internacional, etc) que completarán tu oferta.
+
+<div class="mb-5"></div>
+
+![](virgin_blog_img_07.jpg)
 
 <div class="mb-5"></div>
 

@@ -1,8 +1,11 @@
 ---
 title: '¿Cuál será la oferta (fibra, móvil y TV) de Virgin Telco en España?'
-media_order: 'portada ofertas virgin.jpg,virgin-mobile-cual-será-la-oferta.jpg,featured-loop.jpg'
+media_order: 'portada ofertas virgin.jpg,virgin-mobile-cual-será-la-oferta.jpg,featured-loop.jpg,virgin_blog_img_02.jpg,tv-1271650_640.png'
 metadata:
     robots: 'index, follow'
+taxonomy:
+    category:
+        - Noticias
 body_classes: hero-page
 meta_robots:
     index: true
@@ -12,6 +15,7 @@ meta_robots:
     noimageindex: false
 override_default_title: '¿Conoces toda la oferta (fibra, móvil y TV) de Virgin Telco en España?'
 override_default_desc: 'Entra y descubre todos los planes de Virgin Mobile en España acerca de sus nuevas tarifas y ofertas de fibra, móvil y TV. ¡No esperes más!'
+override_default_img: 'portada ofertas virgin.jpg'
 excerpt: 'Por el momento, la compañía Virgin todavía no ha desvelado ninguna información concreta acerca de sus tarifas de fibra óptica. Habrá que esperar un tiempo para poder...'
 content:
     items:
@@ -24,9 +28,6 @@ content:
 has_related: true
 related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
-taxonomy:
-    category: [categoria 1]
-    tag: [animal, dog]
 ---
 
 <!-- # ¿Cuál será la oferta (fibra, móvil y TV) de Virgin Telco en España? -->
@@ -47,13 +48,17 @@ taxonomy:
 
 <div class="mb-5"></div>
 
+![](virgin_blog_img_02.jpg)
+
+<div class="mb-5"></div>
+
 ## <span id="internet">¿Qué tarifas de Internet tendrá disponibles Virgin Telco en España?<span>
 
-Por el momento, la compañía Virgin todavía no ha desvelado ninguna información concreta acerca de sus tarifas de fibra óptica. Habrá que esperar un tiempo para poder conocer qué ofertas de lanzamiento brinda el operador procedente de Reino Unido a los usuarios que estén interesados en contratar internet (fibra óptica o ADSL) con su firma.
+Por el momento, la compañía Virgin todavía no ha desvelado ninguna [información concreta acerca de sus tarifas](https://ofertasvirgin.es/blog/oferta-fibra-optica-y-movil-con-virgin-telco) [ACTUALIZADO] de fibra óptica. Habrá que esperar un tiempo para poder conocer qué ofertas de lanzamiento brinda el operador procedente de Reino Unido a los usuarios que estén interesados en contratar internet (fibra óptica o ADSL) con su firma.
 
 Pero si tenemos en cuenta los servicios que ofrece en el resto de los países donde opera (donde se incluyen potencias del calibre de Estados Unidos, México o Argentina) no cabe ninguna duda que** los servicios de fibra entrarán en las opciones de Virgin Telco España**, algo imprescindible en la actualidad para poder medirse a las compañías punteras del sector.
 
-[Al entrar de la mano del operador Euskaltel](https://www.ofertasvirgin.es/home/virgin-mobile-euskaltel-cronica-acuerdo-anunciado), se prevé el uso de la red propia de la empresa vasca -así como el de las filiales R y Telecable- en todo el noroeste peninsular. Por su parte, en el resto del territorio español se espera la utilización de las infraestructuras propiedad de la multinacional Orange.
+Al entrar de la mano del operador Euskaltel, se prevé el uso de la red propia de la empresa vasca -así como el de las filiales R y Telecable- en todo el noroeste peninsular. Por su parte, en el resto del territorio español se espera la utilización de las infraestructuras propiedad de la multinacional Orange.
 
 <div class="mb-5"></div>
 
@@ -86,6 +91,8 @@ Para poder ofrecer un servicio más personalizado, el gasto de los megas (ese te
 Actualmente podemos ofrecer una comparativa de las tarifas móvil de Euskaltel, R y Telecable, que pueden servir como referencia a los usuarios que en un futuro estén pensando en cambiar su actual contrato de telefonía móvil por la nueva propuesta de Virgin Telco.
 
 <div class="mb-5"></div>
+    
+![](tv-1271650_640.png)
 
 ## <span id="tv">¿Qué opciones de TV online tendrá Virgin Telco?<span>
 
@@ -96,5 +103,3 @@ Virgin Telco posee un servicio de gran calidad de televisión en streaming en el
 ¿Y qué hay del fútbol? Pues si tenemos en cuenta que es sin ninguna duda el argumento estrella de los operadores para realizar portabilidades (con la consiguiente lucha por conseguir sus derechos), y que ni Euskaltel ni R ni Telecable se lo ofrecen a sus clientes, parece complicado que Virgin Telco lo contemple en su oferta inicial.
 
 Habrá que esperar hasta el mes de** Mayo de 2020 **para averiguar cual es la información exacta en relación a la oferta televisiva de Virgin Telco.
-
-<div class="mb-5"></div>

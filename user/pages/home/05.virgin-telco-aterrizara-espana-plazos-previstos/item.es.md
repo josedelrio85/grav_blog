@@ -1,8 +1,11 @@
 ---
 title: 'Virgin Telco aterrizará en España en los plazos previstos'
-media_order: 'portada ofertas virgin.jpg,plazos-previstos.jpg,featured-loop.jpg'
+media_order: 'portada ofertas virgin.jpg,featured-loop.jpg,calendario.jpg,trabajo-casa.jpg,home.jpg'
 metadata:
     - 'index, follow'
+taxonomy:
+    category:
+        - Noticias
 body_classes: hero-page
 override_default_title: 'Virgin Telco aterrizará en España en los plazos previstos'
 override_default_desc: 'Pese a todas las adversidades, la llegada de Virgin a España ocurrirá durante la primera mitad de este año. El plan de expansión de Euskaltel sigue en pie y la nueva oferta de fibra, móvil y TV se conocerá en breve.'
@@ -10,16 +13,13 @@ excerpt: 'Las últimas informaciones que llegan desde fuentes internas del opera
 has_related: true
 related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
-taxonomy:
-    category: [categoria 1]
-    tag: [animal, dog]
 ---
 
 <!-- #  Virgin Telco aterrizará en España en los plazos previstos -->
 
 <!-- <div class="mb-5"></div> -->
 
-<!-- ![](plazos-previstos.jpg) -->
+<!-- ![](calendario.jpg) -->
 
 <!-- <div class="mb-5"></div> -->
 ### Tabla de Contenido
@@ -28,6 +28,10 @@ taxonomy:
 * ######  <span class="magnet-link">[Euskaltel no cesa en sus intenciones pese a las adversidades](#euskaltel)</span>
 * ######  <span class="magnet-link">[Medidas técnicas para garantizar el servicio](#medidas)</span>
 * ######  <span class="magnet-link">[Nuevos patrones en el consumo de las telecomunicaciones](#patrones)</span>
+
+<div class="mb-5"></div>
+
+![](home.jpg)
 
 <div class="mb-5"></div>
 
@@ -44,6 +48,10 @@ Otro contratiempo viene de la mano de la **suspensión temporal de la portabilid
 La otra cara de la moneda tiene como protagonista el gran aumento de llamadas de voz y el crecimiento de casi un 80% de los servicios de banda ancha fija, que ha obligado a Euskaltel a incrementar sus labores técnicas para garantizar a sus clientes el perfecto funcionamiento de todos sus servicios contratados, sin por ello descuidar el resto de materias del nuevo plan estratégico.
 
 El casi millar de empleados pertenecientes al grupo vasco (incluidos los de las filiales R y Telecable) trabajan para que todo siga según lo previsto y que ningún cliente de Euskaltel pueda verse perjudicado, bien sea en temas laborales o de ocio. **La redimensión de la red es la mayor prioridad durante estas semanas**, ya que es necesaria para poder sostener un tráfico tan mayúsculo como el que se está produciendo actualmente, el cual podría aumentar según transcurran los días de confinamiento.
+    
+<div class="mb-5"></div>
+    
+![](trabajo-casa.jpg)
     
 <div class="mb-5"></div>
     

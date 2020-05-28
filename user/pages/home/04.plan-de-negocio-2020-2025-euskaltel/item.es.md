@@ -1,8 +1,11 @@
 ---
 title: 'Virgin Telco: el plan de negocio 2020-2025 de Euskaltel'
-media_order: 'portada ofertas virgin.jpg,euskaltel-plan-negocio.jpg,featured-loop.jpg'
+media_order: 'portada ofertas virgin.jpg,euskaltel-plan-negocio.jpg,featured-loop.jpg,oficina.jpg'
 metadata:
     - 'index, follow'
+taxonomy:
+    category:
+        - Noticias
 body_classes: hero-page
 meta_robots:
     index: true
@@ -16,9 +19,6 @@ excerpt: 'Después de la multitud de rumores que protagonizaron las noticias una
 has_related: true
 related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
-taxonomy:
-    category: [categoria 1]
-    tag: [animal, dog]
 ---
 
 <!-- # Virgin Telco: el plan de negocio 2020-2025 de Euskaltel -->
@@ -36,6 +36,10 @@ taxonomy:
 * ######  <span class="magnet-link">[La nueva estrategia de Euskaltel](#estrategia)</span>
 * ######  <span class="magnet-link">[La perspectiva de futuro de Euskaltel y Virgin en cifras](#futuro)</span>
 * ######  <span class="magnet-link">[¿Cuándo se conocerán las tarifas?](#tarifas)</span>
+
+<div class="mb-5"></div>
+
+![](oficina.jpg)
 
 <div class="mb-5"></div>
 
