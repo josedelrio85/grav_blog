@@ -1,5 +1,5 @@
 ---
-title: 'Virgin Telco aterrizará en España en los plazos previstos'
+title: 'Virgin telco aterrizará en España en los plazos previstos'
 media_order: 'portada ofertas virgin.jpg,featured-loop.jpg,calendario.jpg,trabajo-casa.jpg,home.jpg'
 metadata:
     - 'index, follow'
@@ -9,13 +9,13 @@ taxonomy:
 body_classes: hero-page
 override_default_title: 'Virgin Telco aterrizará en España en los plazos previstos'
 override_default_desc: 'Pese a todas las adversidades, la llegada de Virgin a España ocurrirá durante la primera mitad de este año. El plan de expansión de Euskaltel sigue en pie y la nueva oferta de fibra, móvil y TV se conocerá en breve.'
-excerpt: 'Las últimas informaciones que llegan desde fuentes internas del operador Euskaltel confirman que la llegada de Virgin Telco a territorio nacional se producirá en las...'
+excerpt: 'Las últimas informaciones que llegan desde fuentes internas del operador Euskaltel confirman que la llegada de Virgin telco a territorio nacional se producirá en las...'
 has_related: true
 related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
 ---
 
-<!-- #  Virgin Telco aterrizará en España en los plazos previstos -->
+<!-- #  Virgin telco aterrizará en España en los plazos previstos -->
 
 <!-- <div class="mb-5"></div> -->
 
@@ -37,7 +37,7 @@ related_pages:
 
 ## <span id="euskaltel">Euskaltel no cesa en sus intenciones pese a las adversidades<span>
     
-Las últimas informaciones que llegan desde fuentes internas del operador Euskaltel confirman que** la llegada de Virgin Telco a territorio nacional** se producirá en las fechas planeadas, conservando la hoja de ruta inicial. En uno de sus últimos actos públicos, el presidente Xabier Iturbe y el consejero delegado José Miguel García, dejaban claro que su idea era lanzar Virgin durante el segundo trimestre de este 2020, manteniendo el mes de Junio como fecha límite; y parece que la actual crisis sanitaria no va a influir en su [plan de expansión](https://www.ofertasvirgin.es/home/plan-de-negocio-2020-2025-euskaltel), evitando a toda costa una supuesta demora que muchos ya empezaban a vaticinar.    
+Las últimas informaciones que llegan desde fuentes internas del operador Euskaltel confirman que** la llegada de Virgin telco a territorio nacional** se producirá en las fechas planeadas, conservando la hoja de ruta inicial. En uno de sus últimos actos públicos, el presidente Xabier Iturbe y el consejero delegado José Miguel García, dejaban claro que su idea era lanzar Virgin durante el segundo trimestre de este 2020, manteniendo el mes de Junio como fecha límite; y parece que la actual crisis sanitaria no va a influir en su [plan de expansión](https://www.ofertasvirgin.es/home/plan-de-negocio-2020-2025-euskaltel), evitando a toda costa una supuesta demora que muchos ya empezaban a vaticinar.    
     
 Otro contratiempo viene de la mano de la **suspensión temporal de la portabilidad entre operadores durante el estado de alarma**. Esta es una de las medidas tomada por el Gobierno en su último decreto ley para evitar los desplazamientos a domicilios de los técnicos de las compañías telefónicas, aunque en los días posteriores las presiones de los consumidores han conseguido liberar aquellas que se realicen de manera 100% online. Sin embargo, tampoco esta noticia ha cambiado un ápice la opinión en el seno de Euskaltel con respecto a Virgin.
     

@@ -21,7 +21,7 @@ content:
         - '@self.siblings'
     limit: 5
     order:
-        by: date
+        by: default
         dir: desc
     pagination: false
 has_related: true
@@ -98,7 +98,7 @@ Virgin telco ofrecerá servicio de internet de alta velocidad en España gracias
 
 Como ya comentamos anteriormente, la cobertura fibra estará dividida en dos redes diferentes: Fibra Neba de Telefónica y Fibra FFTH de Orange, con la primera haciendo de soporte  en aquellos lugares donde  la red del operador francés no tenga alcance. Esto supondrá un auténtico baluarte para Virgin, que tendrá una gran ventaja con muchos de sus competidores.
 
-**Será posible contratar 300 megas, 600 megas y 1 giga**, dependiendo de las [necesidades de navegación de cada usuario](https://ofertasvirgin.es/blog/tarifas-personalizadas-disena-tu-pack-perfecto). Cualquiera de las tres opciones garantiza una conexión a internet de máxima calidad, que proporcionarán una magnífica experiencia de usuario a todos aquellos que deseen hacerse clientes de Virgin telco.
+**Será posible contratar 300 megas, 600 megas y 1 giga**, dependiendo de las [necesidades de navegación de cada usuario](https://www.ofertasvirgin.es/blog/tarifas-personalizadas-disena-tu-pack-perfecto). Cualquiera de las tres opciones garantiza una conexión a internet de máxima calidad, que proporcionarán una magnífica experiencia de usuario a todos aquellos que deseen hacerse clientes de Virgin telco.
 
 <div class="mb-5"></div>
 
