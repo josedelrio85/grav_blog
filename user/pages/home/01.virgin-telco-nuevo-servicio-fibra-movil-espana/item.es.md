@@ -21,7 +21,7 @@ content:
         - '@self.siblings'
     limit: 5
     order:
-        by: date
+        by: default
         dir: desc
     pagination: false
 has_related: true

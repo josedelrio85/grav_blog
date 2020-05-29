@@ -21,13 +21,13 @@ content:
         - '@self.siblings'
     limit: 5
     order:
-        by: date
+        by: default
         dir: desc
     pagination: false
 has_related: true
 related_pages:
     - /mejores-moviles-calidad-precio
-most_visited: false
+most_visited: true
 ---
 
 <!-- # ¿Cuál es el mejor móvil calidad precio del 2020? -->
@@ -229,6 +229,6 @@ Fotos, vídeos, archivos… admítelo, una buena memoria nos soluciona la vida.
 
 Ahora que ya has visto cuál es el **ranking de mejores 6 móviles hasta la fecha**, seguramente te interese conocer nuestras nuevas [tarifas móviles de Virgin telco](https://ofertasvirgin.es). Lo mejor de nuestras ofertas en telefonía es que no creemos en la permanencia, por lo que dispones de total libertad. 
 También dispones de la opción de contratar lo que tu realmente quieres, partes desde la opción de fibra y suma los servicios con las condiciones que más te beneficien. 
-¿Todavía no conoces Virgin telco? 
+¿Todavía no conoces Virgin telco?
 
 

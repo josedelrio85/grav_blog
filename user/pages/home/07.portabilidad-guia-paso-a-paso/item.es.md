@@ -21,7 +21,7 @@ content:
         - '@self.siblings'
     limit: 5
     order:
-        by: date
+        by: default
         dir: desc
     pagination: false
 has_related: true
@@ -104,7 +104,7 @@ Estos son los pasos que suceden durante un **proceso de portabilidad** para camb
 
 3. Si eres cliente de contrato, no hace falta que te des de baja en el operador actual, ya que es la compañía nueva quien se encargará de todos los trámites correspondientes a tu baja. 
 
-4. Si con tu compañía actual tienes un contrato en vigor, asegúrate de haber terminado el[ periodo de permanencia](https://ofertasvirgin.es/blog/https/virgin-telco-apuesta-tarifas-sin-permanencia). Si no ha finalizado, y quieres continuar con el cambio de compañía, deberás abonar el cargo por cancelación de contrato. Te recomendamos que contactes con tu compañía para informarte, antes de solicitar la portabilidad.
+4. Si con tu compañía actual tienes un contrato en vigor, asegúrate de haber terminado el[ periodo de permanencia](https://www.ofertasvirgin.es/blog/virgin-telco-apuesta-tarifas-sin-permanencia). Si no ha finalizado, y quieres continuar con el cambio de compañía, deberás abonar el cargo por cancelación de contrato. Te recomendamos que contactes con tu compañía para informarte, antes de solicitar la portabilidad.
  
 5. Para llevar a cabo la portabilidad de tu línea, debes formalizar un contrato con tu nueva operadora. Para ello la compañía necesita los siguientes datos: NIF/CIF/NIE/pasaporte, número de cuenta bancaria, la tarifa con los servicios que quieres contratar y si incluye la compra de un teléfono móvil. 
     
@@ -130,7 +130,7 @@ Si compraste en nuestra tienda o por teléfono, introduce la SIM que Virgin Telc
 
 Una vez activada tu nueva Sim Virgin Telco ya puedes utilizar todos los servicios de tu tarifa en tu móvil sin ningún problema y disfrutar de las ventajas de ser un cliente Virgin Telco. 
 
-Ahora que y sabes en qué consiste la portabilidad y cuánto tarda, no te olvides de elegir una de nuestras ofertas de fibra y móvil. Con Virgin Telco disfruta de ofertas exclusivas para nuevos clientes, siempre con [la mejor cobertura](https://ofertasvirgin.es/blog/que-cobertura-tiene-virgin-telco-espana), para que nunca te falte de nada. 
+Ahora que y sabes en qué consiste la portabilidad y cuánto tarda, no te olvides de elegir una de nuestras ofertas de fibra y móvil. Con Virgin Telco disfruta de ofertas exclusivas para nuevos clientes, siempre con [la mejor cobertura](https://www.ofertasvirgin.es/blog/que-cobertura-tiene-virgin-telco-espana), para que nunca te falte de nada. 
     
-¿Todavía no conoces nuestras tarifas de móvil y fibra? **Descubre ahora Virgin Telco.**  
+¿Todavía no conoces nuestras tarifas de móvil y fibra? **Descubre ahora Virgin Telco.**
     

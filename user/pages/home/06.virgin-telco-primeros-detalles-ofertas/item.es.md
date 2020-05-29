@@ -1,5 +1,5 @@
 ---
-title: 'Virgin Telco hace públicas sus primeras ofertas  | Fibra, móvil y TV'
+title: 'Virgin telco hace públicas sus primeras ofertas  | Fibra, móvil y TV'
 media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg,virgin_blog_img_09.jpg,netflix.jpg'
 metadata:
     robots: 'index, follow'
@@ -15,13 +15,13 @@ meta_robots:
     noimageindex: false
 override_default_title: '▷ Virgin Telco hace públicas sus primeras ofertas | Fibra, móvil y TV'
 override_default_desc: '¿Quieres descubrir los detalles de las primeras ofertas de Virgin Telco? Averigua los servicios disponibles y precio de la nueva oferta convergente de fibra, móvil y TV.'
-excerpt: 'Como ya avanzamos, el operador Virgin Telco será una realidad en España más pronto que tarde, manteniendo así los plazos previstos (pese al Covid-19) por Euskaltel, una vez cerrados...'
+excerpt: 'Como ya avanzamos, el operador Virgin telco será una realidad en España más pronto que tarde, manteniendo así los plazos previstos (pese al Covid-19) por Euskaltel, una vez cerrados...'
 content:
     items:
         - '@self.siblings'
     limit: 5
     order:
-        by: date
+        by: default
         dir: desc
     pagination: false
 has_related: true
@@ -29,7 +29,7 @@ related_pages:
     - /home/que-cobertura-tiene-virgin-telco-espana
 ---
 
-<!-- # Virgin Telco: conoce los primeros detalles de sus ofertas -->
+<!-- # Virgin telco: conoce los primeros detalles de sus ofertas -->
 
 <!-- <div class="mb-5"></div> -->
 
@@ -56,7 +56,7 @@ related_pages:
     
 Como ya avanzamos, el operador **Virgin Telco será una realidad en España** más pronto que tarde, manteniendo así los plazos previstos (pese al Covid-19) por Euskaltel, una vez cerrados los acuerdos con Virgin Mobile a principios de este año. La fecha marcada en rojo sigue siendo el próximo mes de Junio, fecha donde la marca espera estar ya en el mercado para ofrecer su [nueva oferta de telefonía](https://ofertasvirgin.es), que supondrá una nueva opción para la contratación de Internet, tarifas móviles y los mejores canales de televisión.
 
-Las [últimas novedades](https://ofertasvirgin.es/blog/oferta-fibra-optica-y-movil-con-virgin-telco) vienen de la mano de las **tarifas usadas durante el período de pruebas**, que sirven de escaparate para conocer lo que deparará el futuro en relación a la oferta ofrecida por Virgin Telco. Muchos usuarios -no residentes en Galicia, Asturias o Euskadi- probarán de manera gratuita los dos paquetes inicialmente sacados por la compañía; 6 meses será la duración estimada de este proceso que tiene como objetivo verificar el correcto funcionamiento técnico.
+Las [últimas novedades](https://www.ofertasvirgin.es/blog/oferta-fibra-optica-y-movil-con-virgin-telco) [ACTUALIZADO] vienen de la mano de las **tarifas usadas durante el período de pruebas**, que sirven de escaparate para conocer lo que deparará el futuro en relación a la oferta ofrecida por Virgin Telco. Muchos usuarios -no residentes en Galicia, Asturias o Euskadi- probarán de manera gratuita los dos paquetes inicialmente sacados por la compañía; 6 meses será la duración estimada de este proceso que tiene como objetivo verificar el correcto funcionamiento técnico.
     
 <div class="mb-5"></div>
     

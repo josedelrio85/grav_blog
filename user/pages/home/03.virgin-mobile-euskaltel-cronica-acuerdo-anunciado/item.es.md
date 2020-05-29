@@ -21,7 +21,7 @@ content:
         - '@self.siblings'
     limit: 5
     order:
-        by: date
+        by: default
         dir: desc
     pagination: false
 has_related: true
@@ -81,7 +81,7 @@ La oferta de Virgin buscará, a priori, entrar al mercado de manera ágil y con 
 
 El grupo Virgin ha sido una de las empresas más importantes en el panorama británico desde principios de la década de los 70’. Su nombre se relaciona inmediatamente con la celebérrima discográfica o la aerolínea. Pero su radio de acción se expande mucho más allá de eso: servicios de internet de banda ancha, distribuidora de videojuegos y hasta una cadena de gimnasios. 
 
-Y todo sin olvidarse de la gran importancia que alberga Virgin Mobile, un operador de telefonía que ya está disponible en numerosas localizaciones, tales como Estados Unidos, Australia o gran parte de Sudamérica. **En este 2020 llegará a España de la mano de Euskaltel**; una nueva aventura para seguir agrandando su leyenda en el mundo de los negocios en general y de las telecomunicaciones en particular.
+Y todo sin olvidarse de la gran importancia que alberga Virgin Mobile, un operador de telefonía que ya está disponible en numerosas localizaciones, tales como Estados Unidos, Australia o gran parte de Sudamérica. **En este 2020 llegará a España de la mano de Euskaltel**; una nueva aventura para seguir agrandando su leyenda en el mundo de los negocios en general y de las telecomunicaciones en particular. 
 
 
 

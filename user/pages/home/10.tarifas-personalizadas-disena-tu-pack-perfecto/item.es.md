@@ -1,5 +1,5 @@
 ---
-title: 'Tarifas personalizadas: Diseña tu pack perfecto'
+title: 'Tarifas personalizadas: diseña tu pack perfecto'
 media_order: 'portada ofertas virgin.jpg,Virgin1.jpg,featured-loop.jpg,virgin_blog_img_10.jpg,virgin_blog_img_07.jpg'
 metadata:
     robots: 'index, follow'
@@ -21,7 +21,7 @@ content:
         - '@self.siblings'
     limit: 5
     order:
-        by: date
+        by: default
         dir: desc
     pagination: false
 has_related: true
@@ -55,7 +55,7 @@ _Vamos a hacer un repaso de todos los **servicios que estarán disponibles en Vi
 
 ## <span id="fibra">¿Qué tarifas de fibra tendrá disponibles Virgin telco?</span>
 
-En primer lugar, tendrás que elegir la velocidad de fibra que necesitas para tu domicilio. En caso de [no tener disponible fibra óptica](https://ofertasvirgin.es/blog/que-cobertura-tiene-virgin-telco-espana) en tu localidad, existe la posibilidad de contratar internet mediante ADSL; con esto se garantiza que el 99% del territorio nacional podrá darse de alta para empezar a navegar de manera inmediata. Las oferta de internet se dividirá en 3 alternativas:
+En primer lugar, tendrás que elegir la velocidad de fibra que necesitas para tu domicilio. En caso de [no tener disponible fibra óptica](https://www.ofertasvirgin.es/blog/que-cobertura-tiene-virgin-telco-espana) en tu localidad, existe la posibilidad de contratar internet mediante ADSL; con esto se garantiza que el 99% del territorio nacional podrá darse de alta para empezar a navegar de manera inmediata. Las oferta de internet se dividirá en 3 alternativas:
 
 * **300 megas**
 * **600 megas**
@@ -90,7 +90,7 @@ La televisión a la carta se ha convertido en uno de los grandes alicientes a la
 
 * **Pack Premium:** 80 canales temáticos. Cine y series (TCM, TNT, Calle 13…), infantiles (Boing, Clan…), deportes (Gol, Real Madrid Televisión…) o noticias internacionales (CNN, BBC…) están incluidos en este paquete.
 * **Pack Premium Extra:** Hay que añadir 30 canales a los incluidos en el pack premium, entre los que destacan Movistar Series, Fox, AXN, National Geographic, Disney Junior o Eurosport.  
-* **Plataformas descargables:** Con el deco 4K se pueden descargar las apps de Netflix, Disney+, Filmin, Prime Video o DAZN; la mejor oferta televisiva disponible en la actualidad, a tu alcance.
+* **Plataformas descargables:** Con el deco 4K se pueden descargar las apps de Netflix, Disney+, Filmin, Prime Video o DAZN; la mejor oferta televisiva disponible en la actualidad, a tu alcance. 
 
 
 
