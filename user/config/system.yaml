@@ -121,13 +121,13 @@ twig:
   undefined_filters: true
   umask_fix: false
 assets:
-  css_pipeline: true
+  css_pipeline: false
   css_pipeline_include_externals: true
   css_pipeline_before_excludes: true
   css_minify: true
   css_minify_windows: false
   css_rewrite: true
-  js_pipeline: true
+  js_pipeline: false
   js_pipeline_include_externals: true
   js_pipeline_before_excludes: true
   js_minify: true
@@ -142,7 +142,7 @@ log:
   syslog:
     facility: local6
 debugger:
-  enabled: false
+  enabled: true
   shutdown:
     close_connection: true
   twig: true
@@ -166,7 +166,7 @@ session:
   name: grav-site
   uniqueness: path
   secure: false
-  httponly: true
+  httponly: false
   split: true
   path: null
 gpm:
