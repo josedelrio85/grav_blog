@@ -10,18 +10,14 @@ custom_base_url: null
 username_regex: '^[a-z0-9_-]{3,16}$'
 pwd_regex: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
 intl_enabled: true
-http_x_forwarded:
-  protocol: true
-  host: false
-  port: true
-  ip: true
 languages:
-  supported:
-    - es
+  supported: null
   default_lang: null
   include_default_lang: false
   pages_fallback_only: false
   translations: true
+  supported:
+    - es
   translations_fallback: true
   session_store_active: false
   http_accept_language: false
@@ -88,7 +84,7 @@ pages:
       - form
   markdown_extra: false
 cache:
-  enabled: true
+  enabled: false
   check:
     method: file
   driver: auto
@@ -135,7 +131,7 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
-  display: 0
+  display: 1
   log: true
 log:
   handler: file
@@ -158,7 +154,7 @@ media:
   unsupported_inline_types: null
   allowed_fallback_types: null
   auto_metadata_exif: false
-  upload_limit: 2097152
+  upload_limit: 5242880
 session:
   enabled: true
   initialize: true
@@ -166,7 +162,7 @@ session:
   name: grav-site
   uniqueness: path
   secure: false
-  httponly: false
+  httponly: true
   split: true
   path: null
 gpm:
