@@ -75,3 +75,18 @@ php -f bin/plugin login newuser
 There are some steps to consider after deploying the project in prod environment
   
 * In admin panel, go to `Configuration > Security` and add to `Whitelist Permissions` the value `admin.pages`
+
+* ADVISE: to allow correct function in `admin` plugin, do not change this entry in `system.yaml`:
+
+  ```yaml
+  session:
+    enabled: true
+    initialize: true
+    timeout: 1800
+    name: grav-site
+    uniqueness: path
+    secure: false
+    httponly: true
+    split: true
+    path: null
+  ```
