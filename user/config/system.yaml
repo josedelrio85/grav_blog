@@ -84,7 +84,7 @@ pages:
       - form
   markdown_extra: false
 cache:
-  enabled: false
+  enabled: true
   check:
     method: file
   driver: auto
@@ -131,14 +131,14 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
-  display: 1
+  display: 0
   log: true
 log:
   handler: file
   syslog:
     facility: local6
 debugger:
-  enabled: true
+  enabled: false
   shutdown:
     close_connection: true
   twig: true
@@ -162,7 +162,7 @@ session:
   name: grav-site
   uniqueness: path
   secure: false
-  httponly: true
+  httponly: false
   split: true
   path: null
 gpm:
