@@ -20,7 +20,7 @@ meta_robots:
     nofollow: false
     noimageindex: false
 override_default_title: '✅ Ofertas Virgin | Blog'
-override_default_desc: 'Entérate de todas las novedades relacionadas con la llegada de Virgin Mobile a España: ofertas, tarifas, comparativas, etc. Todo lo que necesitas saber sobre la nueva opción de fibra, móvil y TV.'
+override_default_desc: 'Entérate de todas las novedades relacionadas con la llegada de Virgin telco a España: ofertas, tarifas, comparativas, etc. Todo lo que necesitas saber sobre la nueva opción de fibra, móvil y TV.'
 has_background: true
 background: bg-main.png
 ---
