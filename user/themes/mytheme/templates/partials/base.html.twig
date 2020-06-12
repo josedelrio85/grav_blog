@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
   <head>
+    <meta name="robots" content="noindex">
+
     {% block head %}
       <meta charset="utf-8" />
       <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
