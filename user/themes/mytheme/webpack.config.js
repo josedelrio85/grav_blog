@@ -44,6 +44,7 @@ module.exports = (env, argv) => {
               loader: 'sass-loader',
               options: {
                 sourceMap: true,
+                prependData: isDevelopment ? `@import "${path.resolve(__dirname, 'assets/icomoon_dev.scss')}";` : ``,
               }
             },
             {

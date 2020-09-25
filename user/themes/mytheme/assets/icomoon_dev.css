@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/user/themes/mytheme/assets/fonts/icomoon/icomoon.eot?fspat8');
+  src:  url('/user/themes/mytheme/assets/fonts/icomoon/icomoon.eot?fspat8#iefix') format('embedded-opentype'),
+        url('/user/themes/mytheme/assets/fonts/icomoon/icomoon.ttf?fspat8') format('truetype'),
+        url('/user/themes/mytheme/assets/fonts/icomoon/icomoon.woff?fspat8') format('woff'),
+        url('/user/themes/mytheme/assets/fonts/icomoon/icomoon.svg?fspat8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}

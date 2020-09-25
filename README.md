@@ -70,6 +70,9 @@ php -f bin/plugin login newuser
 
 * Now there is a folder under `/user` called `/localhost`. Inside this folder there is configuration for development environment. You should use `http://localhost:port` as route to can use its parameters.
 
+* Manage icomoon `css` file. This path project changes between dev (/) and prod environment (/blog-euskaltel). Because of this reason, the references to icomoon files are different between environments. 
+  To handle this situation, in `webpack.config.js` use `prependData` property in `sass-loader` config array to join the file for dev environment needed to see the icons and the resources from icomoon in dev environment.
+  
 ## Steps after deploying in prod environment
 
 There are some steps to consider after deploying the project in prod environment
