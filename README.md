@@ -34,13 +34,13 @@ php -f bin/plugin login newuser
 
 ## Webpack instructions
 
-## Execute webpack
+### Execute webpack
 
   ```bash
   cd user/themes/mytheme && npm run dev | build
   ```
 
-## Add landing_commader
+### Add landing_commader
 
   ```bash
   npm install @bysidecar/landing_commander@x.x.x
@@ -73,6 +73,8 @@ php -f bin/plugin login newuser
 * Manage icomoon `css` file. This path project changes between dev (/) and prod environment (/blog-euskaltel). Because of this reason, the references to icomoon files are different between environments. 
   To handle this situation, in `webpack.config.js` use `prependData` property in `sass-loader` config array to join the file for dev environment needed to see the icons and the resources from icomoon in dev environment.
   
+  IMPORTANT! In `webpack.config.js` => `sass-loader` section, if you use Windows system, use the `prependData` commented line.
+
 ## Steps after deploying in prod environment
 
 There are some steps to consider after deploying the project in prod environment

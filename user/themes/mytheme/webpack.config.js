@@ -44,7 +44,8 @@ module.exports = (env, argv) => {
               loader: 'sass-loader',
               options: {
                 sourceMap: true,
-                prependData: isDevelopment ? `@import "${path.resolve(__dirname, 'assets/icomoon_dev.scss')}";` : ``,
+                prependData: isDevelopment ? `@import '"${path.resolve(__dirname, "assets/icomoon_dev.scss")}"';` : `@import '"${path.resolve(__dirname, "assets/icomoon.scss")}"';`,
+                // prependData: isDevelopment ? `@import 'icomoon_dev.scss';` : 'icomoon.scss', // use this for windows systems only
               }
             },
             {
