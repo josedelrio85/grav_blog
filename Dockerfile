@@ -67,6 +67,7 @@ RUN composer install \
     && php bin/gpm install pagination \
     && php bin/gpm install relatedpages \
     && cd user/themes/mytheme && npm install -y \
+    && npm rebuild node-sass \
     && npm run build
 
 RUN chown -R www-data:www-data /var/www/html/blog
