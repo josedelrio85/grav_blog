@@ -62,7 +62,7 @@ WORKDIR /var/www/html/blog
 RUN composer install \
     && php bin/grav install \
     && php bin/gpm install admin \
-    && php bin/gpm install tinyseo \
+    && php bin/gpm install seo \
     && php bin/gpm install sitemap \
     && php bin/gpm install pagination \
     && php bin/gpm install relatedpages \
