@@ -1,16 +1,6 @@
 /* change /blog/user for /user to view icons in dev mode */
 @font-face {
   font-family: 'icomoon';
-  /* src:  url('/assets/fonts/icomoon/icomoon.eot?fspat8');
-  src:  url('/assets/fonts/icomoon/icomoon.eot?fspat8#iefix') format('embedded-opentype'),
-    url('/assets/fonts/icomoon/icomoon.ttf?fspat8') format('truetype'),
-    url('/assets/fonts/icomoon/icomoon.woff?fspat8') format('woff'),
-    url('/assets/fonts/icomoon/icomoon.svg?fspat8#icomoon') format('svg'); */
-  /* src:  url('/blog/assets/fonts/icomoon/icomoon.eot?fspat8');
-  src:  url('/blog/assets/fonts/icomoon/icomoon.eot?fspat8#iefix') format('embedded-opentype'),
-    url('/blog/assets/fonts/icomoon/icomoon.ttf?fspat8') format('truetype'),
-    url('/blog/assets/fonts/icomoon/icomoon.woff?fspat8') format('woff'),
-    url('/blog/assets/fonts/icomoon/icomoon.svg?fspat8#icomoon') format('svg'); */
     src:  url('/blog/user/themes/mytheme/assets/fonts/icomoon/icomoon.eot?fspat8');
     src:  url('/blog/user/themes/mytheme/assets/fonts/icomoon/icomoon.eot?fspat8#iefix') format('embedded-opentype'),
       url('/blog/user/themes/mytheme/assets/fonts/icomoon/icomoon.ttf?fspat8') format('truetype'),
