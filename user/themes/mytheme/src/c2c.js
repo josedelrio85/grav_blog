@@ -86,14 +86,12 @@ export class c2c {
       virgin: null,
     };    
     this.compareObjects(obj, lead);
-    
-    // lead.sou_id = 79;
-    // lead.smartcenter = true;
+
     this.response.showPopup(false);
 
     landingCommander.makePostRequest(lead, urlEndPoint)
       .then((result) => {
-        this.response.showPopup(true);
+        // this.response.showPopup(true);
 
         this.landcom.isOnTime(lead.sou_id)
           .then((onTime) => {
