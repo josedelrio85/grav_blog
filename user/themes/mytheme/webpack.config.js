@@ -11,7 +11,7 @@ const path = require('path');
 module.exports = (env, argv) => {
 
   const isDevelopment = argv.mode === 'development';
-
+  
   return {
     entry: './src/code.js',
     output: {
@@ -109,7 +109,7 @@ module.exports = (env, argv) => {
         cleanOnceBeforeBuildPatterns: ['**/*', '!index*'],
       }),
       new webpack.DefinePlugin({
-        PRODUCTION: JSON.stringify(isDevelopment),
+        PRODUCTION: JSON.stringify(!isDevelopment),
         SOU_ID: 79,
         LEADS_URL: isDevelopment ? JSON.stringify('https://leads-pre.bysidecar.me/lead/store/') : JSON.stringify('https://leads.bysidecar.me/lead/store/'),
       }),
