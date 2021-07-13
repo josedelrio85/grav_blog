@@ -43,7 +43,7 @@ php -f bin/plugin login newuser
 ### Add landing_commader
 
   ```bash
-  npm install @bysidecar/landing_commander@x.x.x
+  npm install @josedelrio85/landing_commander@x.x.x
   ```
 
 ## Notes
@@ -53,7 +53,7 @@ php -f bin/plugin login newuser
 * Add these files as a resource is needed. In the head of the document, add with the correct paths and names.
 
   ```js
-  {% do assets.addJs('theme://js/bysidecar.js') %}
+  {% do assets.addJs('theme://js/josedelrio85.js') %}
 
   {% do assets.addCss('theme://assets/main.css') %}
   ```

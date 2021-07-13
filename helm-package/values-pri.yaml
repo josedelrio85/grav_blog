@@ -43,13 +43,13 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: virgin-test.bysidecar.me
+    - host: virgin-test.josedelrio85.me
       paths:
         - /blog
   tls:
-    - secretName: tls-virgin-test-bysidecar-me
+    - secretName: tls-virgin-test-josedelrio85-me
       hosts:
-        - virgin-test.bysidecar.me
+        - virgin-test.josedelrio85.me
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

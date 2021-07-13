@@ -16,8 +16,8 @@ module.exports = (env, argv) => {
     entry: './src/code.js',
     output: {
       path: path.resolve(__dirname, 'js'),
-      filename: 'bysidecar.js',
-      library: 'bysidecar',
+      filename: 'josedelrio85.js',
+      library: 'josedelrio85',
       libraryTarget: 'umd',
       umdNamedDefine: true,
       // eslint-disable-next-line quotes
@@ -111,7 +111,7 @@ module.exports = (env, argv) => {
       new webpack.DefinePlugin({
         PRODUCTION: JSON.stringify(!isDevelopment),
         SOU_ID: 79,
-        LEADS_URL: isDevelopment ? JSON.stringify('https://leads-pre.bysidecar.me/lead/store/') : JSON.stringify('https://leads.bysidecar.me/lead/store/'),
+        LEADS_URL: isDevelopment ? JSON.stringify('https://leads-pre.josedelrio85.me/lead/store/') : JSON.stringify('https://leads.josedelrio85.me/lead/store/'),
       }),
     ],
     optimization: {

@@ -7,7 +7,7 @@ metadata:
     ingress.kubernetes.io/enable-cors: "true"
 spec:
   rules:
-  - host: virgin-pre.bysidecar.me
+  - host: virgin-pre.josedelrio85.me
     http:
       paths:
       - path: /
@@ -20,15 +20,15 @@ spec:
           servicePort: 80
   tls:
   - hosts:
-      - virgin-pre.bysidecar.me
-    secretName: tls-virgin-pre-bysidecar-me
-    # - host: symfony.virgin-test.bysidecar.me
+      - virgin-pre.josedelrio85.me
+    secretName: tls-virgin-pre-josedelrio85-me
+    # - host: symfony.virgin-test.josedelrio85.me
     #   http:
     #     paths:
     #       - backend:
     #           serviceName: virgin-web-test
     #           servicePort: 80
-    # - host: grav.virgin-test.bysidecar.me
+    # - host: grav.virgin-test.josedelrio85.me
     #   http:
     #     paths:
     #       - backend:

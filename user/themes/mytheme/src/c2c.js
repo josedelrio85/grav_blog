@@ -4,7 +4,7 @@
 /* eslint no-prototype-builtins: "error" */
 /* eslint-disable import/prefer-default-export */
 
-import { landingCommander } from '@bysidecar/landing_commander/dist/main';
+import { landingCommander } from '@josedelrio85/landing_commander/dist/main';
 import { md5 } from './md5'
 import { responseC2C } from './response_c2c';
 

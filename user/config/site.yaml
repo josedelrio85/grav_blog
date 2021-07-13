@@ -1,8 +1,8 @@
 title: Virgin
 default_lang: es
 author:
-  name: Bysidecar
-  email: innovacion@bysidecar.com
+  name: josedelrio85
+  email: innovacion@josedelrio85.com
   logo: ../../img/logo.png
 taxonomies: [category, tag, author]
 metadata:
